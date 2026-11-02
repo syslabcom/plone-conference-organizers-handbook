@@ -1,0 +1,33 @@
+source: fixture
+as-of: 2026-11-02
+rows:
+- id: R-001
+  requirement: The Foundation approves the conference name.
+  sources: fixture
+  as-of: 2026-11-02
+  status: verified-current
+  status-note: Fixture row.
+  source-force: required
+  proposed-badge: MUST
+  target-chapter: Part 2 — Finance
+  source-ids:
+  - S001
+  unresolved-sources: []
+  target-chapter-ids:
+  - finance
+  unresolved-target-chapters: []
+- id: R-002
+  requirement: A hosting proposal includes a complete budget.
+  sources: fixture
+  as-of: 2026-11-02
+  status: unverifiable
+  status-note: Fixture row.
+  source-force: required
+  proposed-badge: MUST pending confirmation
+  target-chapter: Part 2 — Finance
+  source-ids:
+  - S002
+  unresolved-sources: []
+  target-chapter-ids:
+  - finance
+  unresolved-target-chapters: []

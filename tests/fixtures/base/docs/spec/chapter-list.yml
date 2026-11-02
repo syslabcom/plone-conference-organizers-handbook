@@ -1,0 +1,51 @@
+# Fixture chapter list: the smallest tree in which every gate passes.
+entries:
+  - id: finance
+    title: "Finance"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/finance.md
+    status: written
+  - id: sponsors
+    title: "Sponsors"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/sponsors.md
+    status: planned
+  - id: cross-cutting-risks
+    title: "Cross-cutting risks"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: page
+    path: docs/risk/cross-cutting-risks.md
+    status: written
+  - id: venue-loss
+    title: "Playbook: venue loss"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/venue-loss.md
+    status: written
+  - id: source-bibliography
+    title: "Source bibliography"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: generated
+    path: docs/evidence/source-bibliography.md
+    status: planned
+  - id: t-minus-checklist
+    title: "T-minus checklist"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/t-minus-checklist.md
+    status: planned
+  - id: annex-nl
+    title: "Annex: Netherlands"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/jurisdictions/nl.md
+    status: written

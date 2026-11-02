@@ -1,0 +1,36 @@
+- name: specific missing year
+  code: L01
+  line: "lesson | scope: specific | place: Arnhem | org: Example organization | source: S001 | ledger: L-0001 | confidence: observed | status: active"
+- name: duplicate key
+  code: B02
+  line: "thin | kind: gap | kind: stale | needs: Evidence | who-might-know: Venue teams"
+- name: unknown key
+  code: B02
+  line: "thin | kind: gap | needs: Evidence | who-might-know: Venue teams | private: forbidden"
+- name: empty value
+  code: B02
+  line: "thin | kind: gap | needs: | who-might-know: Venue teams"
+- name: empty list item
+  code: L01
+  line: "lesson | scope: general | source: S001, | ledger: L-0001 | confidence: observed | status: active | basis: structural | reason: Physical constraints apply."
+- name: general dated
+  code: L01
+  line: "lesson | scope: general | year: 2012 | source: S001 | ledger: L-0001 | confidence: observed | status: active | basis: structural | reason: Physical constraints apply."
+- name: future year
+  code: L02
+  line: "lesson | scope: specific | year: 2027 | place: Arnhem | org: Example organization | source: S001 | ledger: L-0001 | confidence: observed | status: active"
+- name: contested without issue
+  code: L07
+  line: "lesson | scope: specific | year: 2012 | place: Arnhem | org: Example organization | source: S001 | ledger: L-0001 | confidence: observed | status: contested"
+- name: risk invalid likelihood
+  code: R01
+  line: "risk | likelihood: probable | impact: high | mitigation: Plan a fallback."
+- name: thin invalid date
+  code: T01
+  line: "thin | kind: stale | needs: Evidence | who-might-know: Venue teams | since: 2026-02-30"
+- name: malformed separator
+  code: T01
+  line: "thin | kind: gap|needs: Evidence | who-might-know: Venue teams"
+- name: empty list between items
+  code: L01
+  line: "lesson | scope: general | source: S001,,S002 | ledger: L-0001 | confidence: observed | status: active | basis: structural | reason: Physical constraints apply."

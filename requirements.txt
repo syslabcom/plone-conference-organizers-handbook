@@ -1,0 +1,11 @@
+linkify-it-py
+myst-parser  # Explicit here; upstream gets it transitively through sphinx-examples
+plone-sphinx-theme<2
+sphinx<9  # See https://github.com/plone/documentation/issues/2037
+sphinx-autobuild
+sphinx-copybutton
+sphinx-design
+sphinx-reredirects
+sphinxext-opengraph
+sphinxcontrib.mermaid
+vale

@@ -1,0 +1,106 @@
+# Reader scenarios for the Plone Conference Organizers Handbook (gate G11).
+#
+# Written before any chapter exists. Each scenario is a question a real organizer asks,
+# plus the page where the answer must live, reachable from the home page in at most 3 clicks.
+# Specified in docs/spec/README.md and docs/spec/chapter-template.md.
+#
+# Keys (all required):
+#   id          unique, S01, S02, ...
+#   question    the reader's question, in the reader's words
+#   target      a chapter-list id, optionally followed by #anchor
+#               anchors are the fixed section slugs of a chapter or the fixed headings of a playbook
+#               (see docs/spec/chapter-template.md, "Anchors")
+#   max_clicks  3 for every scenario; the reachability script follows links from the home page
+#
+# Targets are checked against docs/spec/chapter-list.yml.
+# A human re-tests every scenario by reading before v1 (task T15).
+
+scenarios:
+  - id: S01
+    question: "Our venue cancels 10 weeks before the conference. What do we do now?"
+    target: venue-loss
+    max_clicks: 3
+  - id: S02
+    question: "Ticket sales are at 40% of target 8 weeks out. What are our options?"
+    target: low-ticket-sales
+    max_clicks: 3
+  - id: S03
+    question: "Our keynote speaker withdraws 2 weeks before the conference. What now?"
+    target: speaker-dropout
+    max_clicks: 3
+  - id: S04
+    question: "Which Foundation requirements are non-negotiable for a Plone Conference?"
+    target: requirements-register
+    max_clicks: 3
+  - id: S05
+    question: "Our country's tax rules differ from the examples. What do we adapt, and how do we record it?"
+    target: tailor
+    max_clicks: 3
+  - id: S06
+    question: "Someone files a Code of Conduct report during the conference. What happens in the first hour?"
+    target: coc-incident
+    max_clicks: 3
+  - id: S07
+    question: "The Wi-Fi fails during a keynote. What do we do?"
+    target: wifi-failure
+    max_clicks: 3
+  - id: S08
+    question: "Who pays for trainers' hotel rooms?"
+    target: community-and-speaker-expectations
+    max_clicks: 3
+  - id: S09
+    question: "How do I price tickets when VAT applies?"
+    target: finance#decisions-you-must-make
+    max_clicks: 3
+  - id: S10
+    question: "How do I get attendees from the global south funded?"
+    target: ticketing-and-registration#decisions-you-must-make
+    max_clicks: 3
+  - id: S11
+    question: "What do I owe the next organizing team at handover?"
+    target: handover-contract
+    max_clicks: 3
+  - id: S12
+    question: "The community buys tickets late. When should I panic?"
+    target: ticket-purchase-prediction-model
+    max_clicks: 3
+  - id: S13
+    question: "How do I record and publish the talks?"
+    target: av-recording-internet#how-to
+    max_clicks: 3
+  - id: S14
+    question: "What must the schedule reserve for the Foundation?"
+    target: scheduling#decisions-you-must-make
+    max_clicks: 3
+  - id: S15
+    question: "How much will a ticket platform cost me?"
+    target: ticketing-and-registration#decisions-you-must-make
+    max_clicks: 3
+  - id: S16
+    question: "I am a first-time organizer with 90 days to go. Where do I start?"
+    target: choose-your-path
+    max_clicks: 3
+  - id: S17
+    question: "We run out of cash two months before the event. What are the first moves?"
+    target: cash-flow-crunch
+    max_clicks: 3
+  - id: S18
+    question: "Do we need insurance, and who must sign what?"
+    target: contracts-legal-insurance#decisions-you-must-make
+    max_clicks: 3
+  - id: S19
+    question: "I learned something at my conference. How do I add it to the handbook?"
+    target: extend
+    max_clicks: 3
+  - id: S20
+    question: "How do I read a lesson that says it is 14 years old?"
+    target: how-to-read-lessons
+    max_clicks: 3
+  - id: S21
+    question: "Who keeps this handbook up to date, and when?"
+    target: annual-ritual
+    max_clicks: 3
+  - id: S22
+    question: "Our key organizer falls ill 6 weeks out. How do we cover the role?"
+    target: key-person-loss
+    max_clicks: 3

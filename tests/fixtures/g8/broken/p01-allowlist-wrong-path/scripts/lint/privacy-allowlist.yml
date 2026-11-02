@@ -1,0 +1,4 @@
+allow:
+  - match: conf@plone.org
+    paths: ["data/*.yml"]
+    reason: Public Conference Committee role address, allowed in data only.

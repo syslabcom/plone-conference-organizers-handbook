@@ -1,0 +1,62 @@
+# Fixture reader scenarios.
+scenarios:
+  - id: S01
+    question: "Fixture question 1?"
+    target: finance#decisions-you-must-make
+    max_clicks: 3
+  - id: S02
+    question: "Fixture question 2?"
+    target: venue-loss
+    max_clicks: 3
+  - id: S03
+    question: "Fixture question 3?"
+    target: cross-cutting-risks
+    max_clicks: 3
+  - id: S04
+    question: "Fixture question 4?"
+    target: annex-nl#triggers
+    max_clicks: 3
+  - id: S05
+    question: "Fixture question 5?"
+    target: finance#how-to
+    max_clicks: 3
+  - id: S06
+    question: "Fixture question 6?"
+    target: venue-loss#first-hour-actions
+    max_clicks: 3
+  - id: S07
+    question: "Fixture question 7?"
+    target: finance
+    max_clicks: 3
+  - id: S08
+    question: "Fixture question 8?"
+    target: finance#risks
+    max_clicks: 3
+  - id: S09
+    question: "Fixture question 9?"
+    target: venue-loss#owner-roles
+    max_clicks: 3
+  - id: S10
+    question: "Fixture question 10?"
+    target: annex-nl
+    max_clicks: 3
+  - id: S11
+    question: "Fixture question 11?"
+    target: finance#case-notes
+    max_clicks: 3
+  - id: S12
+    question: "Fixture question 12?"
+    target: cross-cutting-risks
+    max_clicks: 3
+  - id: S13
+    question: "Fixture question 13?"
+    target: finance#thin-content
+    max_clicks: 3
+  - id: S14
+    question: "Fixture question 14?"
+    target: venue-loss#related-chapters
+    max_clicks: 3
+  - id: S15
+    question: "Fixture question 15?"
+    target: finance#sources-and-further-reading
+    max_clicks: 3

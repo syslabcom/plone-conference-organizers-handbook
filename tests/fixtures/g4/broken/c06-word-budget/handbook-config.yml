@@ -1,0 +1,49 @@
+# Reference defaults for every tunable in the content contract.
+#
+# docs/spec/conventions.md, chapter-template.md and ledger-schema.md name these keys.
+# The lint scripts and the generator (tasks T5 and T6) read a copy of this file named
+# handbook-config.yml at the repository root. Keys not listed here are not tunable.
+# Vocabularies (allowed values for fields) are NOT tunable; they live in the spec tables.
+
+# The year all ages are computed against.
+# Pinned so builds are reproducible. Bump it by hand at each annual release (see governance-sketch.md).
+as-of-year: 2026
+
+# Age buckets for specific lessons, in whole years: age = as-of-year - year.
+# age <= recent-max-age        -> recent
+# recent-max-age < age <= mid-max-age -> mid
+# age > mid-max-age            -> old (stale-prone)
+age-thresholds:
+  recent-max-age: 3
+  mid-max-age: 8
+
+# Hard limit on words per chapter before it must split.
+# Counting rules: docs/spec/chapter-template.md, "Length budget".
+word-budget: 50
+
+# Maximum words in one ledger row whose text-kind is quote.
+max-quote-words: 40
+
+# Front matter: review-by may be at most this many months after the as-of date used by the lint.
+max-review-months: 24
+
+# Pages whose facts age fastest get a shorter review-by horizon.
+# The page's review-by may be at most max-months after the as-of date used by the lint.
+fast-aging:
+  max-months: 12
+  ids: [finance, ticketing-and-registration, contracts-legal-insurance, privacy-gdpr, visas-and-travel, requirements-register]
+  kinds: [annex]
+
+# ID patterns (Python regular expressions, matched against the whole value).
+source-id-pattern: '^S[0-9]{3}$'
+ledger-id-pattern: '^L-[0-9]{4}$'
+requirement-id-pattern: '^R-[0-9]{3}$'
+
+# Locations, relative to the repository root.
+# The first three are decided by this spec. The last two belong to tasks T3 and T4, which must keep this file in sync.
+paths:
+  chapter-list: docs/spec/chapter-list.yml
+  scenarios: tests/scenarios.yml
+  ledger-glob: data/ledger/*.yml
+  source-manifest: data/sources/manifest.csv
+  requirements-register: data/requirements-register.yml

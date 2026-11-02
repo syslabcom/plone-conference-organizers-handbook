@@ -1,0 +1,2141 @@
+# Lessons ledger, group 7a: Seattle 2006 (plan task T7a).
+# Schema: docs/spec/ledger-schema.md. Sources: S008, S009, S085-S090 (manifest.json seattle_2006 block).
+# org is ONE/Northwest, the host organization (renamed Groundwire), which ran the conference and published every source.
+# Confidence rule used here: organizer narrative and aggregated survey results are observed; a free-text point
+# made by several attendees is observed; a point made by one attendee only is hearsay; advice the organizers
+# passed on from earlier organizers is reported.
+# Companion: data/ledger/seattle-2006-digest.md.
+group: 7a
+rows:
+- ledger_id: L-1001
+  topic: conference-data-table
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Plone Conference 2006 ran three conference days in late October 2006 with about 350 attendees from 35 U.S. states and 20 countries, preceded by two days of training for over 110 students and followed by a two-day sprint with about 50 participants.
+  confidence: observed
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Overview
+- ledger_id: L-1002
+  topic: conference-data-table
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The 2006 evaluation (about 140 respondents) profiled the audience: business 41%, technology consulting 34%, nonprofit 31%, education 26%, government 16% and scientific research 11% (multiple answers allowed); about 22% had used Plone little or not at all before attending.'
+  confidence: observed
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Sector and prior-knowledge questions
+- ledger_id: L-1003
+  topic: handover-contract
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S008
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The 2006 organizers published their whole evaluation on one public page: the pre-conference survey, the aggregated post-conference survey, the open-ended attendee comments, the detailed budget and a narrative lessons document addressed to future organizers.'
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#case-notes'
+  locator: Evaluation index
+- ledger_id: L-1004
+  topic: handover-contract
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The lessons document was written by the lead organizer after the event, with input from the co-organizer, the host's finance staff and several community advisers, and states its purpose as passing the host organization's experience to future Plone event organizers.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#case-notes'
+  locator: Purpose of this document; Overview
+- ledger_id: L-1005
+  topic: handover-contract
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Per-session evaluation results were kept private but offered to future conference organizers on request; no public record shows whether that hand-over happened.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#case-notes'
+  locator: Things We Might Do Differently Next Time
+- ledger_id: L-1006
+  topic: team-and-governance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Two staff members of the host organization ran the conference as a project, backed by a colleague handling the money, another handling logistics, and staff of a partner nonprofit during conference week; organizing took over 350 staff hours.
+  confidence: observed
+  status: active
+  disposition: 'placed: team-and-governance#case-notes'
+  locator: Overview; Budget; Thanks
+- ledger_id: L-1007
+  topic: stakeholder-map
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers relied on a small circle of long-standing community leaders as advisers on strategic and tactical questions, and recommend that future organizers tap the same kind of experience.
+  confidence: observed
+  status: active
+  disposition: 'placed: stakeholder-map#principles-and-general-lessons'
+  locator: Thanks and Acknowledgements
+- ledger_id: L-1008
+  topic: volunteers-and-roles
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Members of the local user community lent projectors, extension cords and other equipment, and a professional designer from the community repeatedly rescued deadlines in the last days before the event.
+  confidence: observed
+  status: active
+  disposition: 'placed: volunteers-and-roles#case-notes'
+  locator: Thanks and Acknowledgements
+- ledger_id: L-1009
+  topic: master-timeline
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: quote
+  quote_or_paraphrase: We recommend starting the conference planning process six months in advance.
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#principles-and-general-lessons'
+  locator: Master Timeline
+- ledger_id: L-1010
+  topic: master-timeline
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers call an early start absolutely essential and name starting late as one of the biggest mistakes a conference organizer can make.
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#principles-and-general-lessons'
+  locator: Master Timeline
+- ledger_id: L-1011
+  topic: master-timeline
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Seattle ran from first idea to conference in about six months: venue reserved in mid-May, community survey in late May, bid and Foundation award in early June, program committee and first sponsors in June, registration open in mid-July, a three-week call for proposals, sessions selected in mid-August, catering and video arranged in early September, print in early October, and session videos delivered about seven weeks after the event.'
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#case-notes'
+  locator: Master Timeline
+- ledger_id: L-1012
+  topic: bid-and-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Seattle was not a strategic choice: the host organization was based there and lacked the resources to organize at a distance, and the Foundation received only one bid that year.'
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Why Seattle?
+- ledger_id: L-1013
+  topic: city-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Holding the first Plone conference in the western U.S. drew a strong regional user base, many from larger organizations, as first-time attendees, and the city was cheaper than major U.S. and European cities.
+  confidence: observed
+  status: active
+  disposition: 'placed: city-selection#case-notes'
+  locator: Good things about running Plone Conference 2006 in Seattle
+- ledger_id: L-1014
+  topic: city-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The location made the trip long and expensive for Europeans, and some people abroad hesitated to travel to the U.S., although nobody who applied reported visa problems.
+  confidence: observed
+  status: active
+  disposition: 'placed: city-selection#case-notes'
+  locator: Disadvantages to running Plone Conference 2006 in Seattle
+- ledger_id: L-1015
+  topic: city-selection
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Many attendees named a walkable neighborhood with varied food, shops and lodging close to the venue as a highlight, and asked future organizers to keep choosing locations like that; a pre-researched list of nearby hotels with walking distances was singled out as a time saver.
+  confidence: observed
+  status: active
+  disposition: 'placed: city-selection#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1016
+  topic: defining-success
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: An online community survey run before the bid collected the accumulated wisdom of past conferences and what people wanted from the next one; the organizers say it gave them a clear idea of what would make the conference a success.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#principles-and-general-lessons'
+  locator: Pre-Conference Survey
+- ledger_id: L-1017
+  topic: defining-success
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S085
+  text_kind: paraphrase
+  quote_or_paraphrase: In the May 2006 pre-conference survey (about 213 respondents), the highest-rated goal was creating connections among community members (average 4.41 of 5), ahead of teaching current infrastructure technology (4.23), being simple, informal and inexpensive (3.99) and teaching fundamentals (3.97).
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Question 8
+- ledger_id: L-1018
+  topic: defining-success
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Before building the program the organizers fixed four goals: a teaching event for beginning and intermediate users, a showcase of the sectors and regions using Plone, stronger person-to-person connections, and a relaxed, grassroots feel.'
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: 'Program: Starting assumptions'
+- ledger_id: L-1019
+  topic: defining-success
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The post-conference evaluation measured outcomes, not only satisfaction: 91% rated the conference very good or excellent, 98% agreed it made them feel more connected to the community, 83% felt more empowered to contribute, and 42% planned to start contributing code.'
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Overall Conference Evaluation
+- ledger_id: L-1020
+  topic: survey-template
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The 2006 evaluation questionnaire had eight blocks that remain a usable template: overall ratings, agreement with outcome statements, logistics ratings, more-or-fewer preferences per session format, prior experience, sector, factors in the decision to attend, and planned follow-up actions.'
+  confidence: observed
+  status: active
+  disposition: 'placed: survey-template'
+  locator: Overall Conference Evaluation
+- ledger_id: L-1021
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: Asked what drove their decision to attend, respondents rated the agenda highest (average 3.52 of 5), then location (3.06) and cost (3.01), with the trainings (2.34) and the sprint (1.86) decisive for smaller groups.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Factors that helped you decide to attend
+- ledger_id: L-1022
+  topic: venue
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The main conference used a small, affordable, city-owned conference facility in a walkable district with lodging and food nearby; a university was considered but had no space in the dates, and a large downtown hotel was ruled out.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Venue
+- ledger_id: L-1023
+  topic: venue
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Besides cost, the organizers avoided a hotel because they feared a posh setting would undermine the informal, grassroots, community-driven feel they wanted.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Venue
+- ledger_id: L-1024
+  topic: venue
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees rated the venue 3.94 of 5 and the food options in the neighborhood 4.29, the latter among the highest logistics ratings.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Logistics ratings
+- ledger_id: L-1025
+  topic: venue
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees found the venue adequate but dingy, with uneven room lighting, while praising the neighborhood; rows of chairs at the front instead of tables were seen as working well.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1026
+  topic: venue
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees asked for a separate room with tables and chairs where people can hang out, eat and use laptops without disturbing sessions, and for a physical message board near the main area.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1027
+  topic: catering
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Because cheap food was within walking distance, the organizers skipped full meals and served continental breakfast, a mid-afternoon snack and drinks all day, using a caterer chosen by bids from the venue's approved list.
+  confidence: observed
+  status: active
+  disposition: 'placed: catering#case-notes'
+  locator: Catering
+- ledger_id: L-1028
+  topic: catering
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees said serving food in a room where sessions ran was distracting and that catering belongs in a neutral space of its own.
+  confidence: observed
+  status: active
+  disposition: 'placed: catering#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1029
+  topic: catering
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Food queues made people miss food or the start of talks; attendees suggested setting up before the break, using several smaller stations, and serving coffee and tea apart from the food line. Pulling the table away from the wall on the last day visibly helped.
+  confidence: observed
+  status: active
+  disposition: 'placed: catering#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1030
+  topic: catering
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees asked for freely available water, fewer sugary and starchy items, and a label on each dish instead of one menu at the far end of the table.
+  confidence: observed
+  status: active
+  disposition: 'placed: catering#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1031
+  topic: finance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The host could not advance the costs due before sponsor and ticket income arrived; the Plone Foundation lent it USD 8,000 against a promissory note (as of 2006, S009), repaid in full shortly after the conference. The organizers say without this seed loan they would have declined.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Role of the Plone Foundation
+- ledger_id: L-1032
+  topic: finance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S090
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The public budget flags about USD 30,000 of the USD 39,000 minimal expenses as up-front (as of 2006, S090): room rental, internet, catering, supplies, screen and microphone rental, and logo design. The need for early cash was far larger than the seed loan alone.'
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Summary Budget, notes column
+- ledger_id: L-1033
+  topic: finance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2006 conference cost about USD 63,000 and earned about USD 99,000, a profit of about USD 36,000 (as of 2006, S009); the host treated it like a consulting project and felt fairly paid for its staff time without a windfall.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Budget
+- ledger_id: L-1034
+  topic: finance
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers judged the Plone conference financially sustainable and argued a host should be paid fairly for its time but should not seek a large profit from the user community.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#principles-and-general-lessons'
+  locator: Budget
+- ledger_id: L-1035
+  topic: finance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S090
+  text_kind: paraphrase
+  quote_or_paraphrase: The budget sheet separates unavoidable expenses (venue, internet, catering, supplies, name tags, cables, banners, screens, microphones, logo, registration fees, sprint, tutorial honoraria) from optional ones (video, t-shirts, brochure, press checks), so cuts can be made without touching the core event.
+  confidence: observed
+  status: active
+  disposition: 'placed: budget-sheet-template'
+  locator: Summary Budget
+- ledger_id: L-1036
+  topic: finance
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S090
+  text_kind: paraphrase
+  quote_or_paraphrase: In the 2006 budget, catering was the largest unavoidable line at about USD 16,900, about 43% of minimal expenses, and videography the largest optional line at about USD 16,000 (as of 2006, S090).
+  confidence: observed
+  status: active
+  disposition: 'placed: cost-benchmarks'
+  locator: Summary Budget
+- ledger_id: L-1037
+  topic: handover-contract
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Seattle published its detailed budget as a public spreadsheet linked from the lessons document, together with the total staff hours.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#case-notes'
+  locator: Budget
+- ledger_id: L-1038
+  topic: sponsors
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S090
+  text_kind: paraphrase
+  quote_or_paraphrase: Sponsorship in 2006 had four tiers, Platinum USD 4,000, Gold 2,500, Silver 1,000 and Bronze 500 (as of 2006, S090); 18 sponsors brought about USD 24,500, roughly a quarter of revenue and slightly above projection.
+  confidence: observed
+  status: active
+  disposition: 'placed: sponsors#case-notes'
+  locator: Summary Budget, revenue
+- ledger_id: L-1039
+  topic: sponsors
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Tiers were adapted incrementally from past conferences; most sponsors already believed in Plone, and because matching earlier sponsorship levels was enough, the organizers did little outreach to new sponsors.
+  confidence: observed
+  status: active
+  disposition: 'placed: sponsors#case-notes'
+  locator: Sponsorship
+- ledger_id: L-1040
+  topic: sponsors
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Sponsor feedback found the top package attractive but the differences between the middle and lower tiers unclear; the organizers concluded the value proposition of sponsorship needs more work.
+  confidence: reported
+  status: active
+  disposition: 'placed: sponsors#principles-and-general-lessons'
+  locator: Sponsorship
+- ledger_id: L-1041
+  topic: privacy-gdpr
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers wished they had offered registrant contact data to top sponsors, and did not only because no permission mechanism was in place in time.
+  confidence: observed
+  status: active
+  disposition: 'placed: privacy-gdpr#case-notes'
+  locator: Sponsorship; The Importance of Permission
+- ledger_id: L-1042
+  topic: privacy-gdpr
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: They recommend that registration state that contact details will be shared and with whom, with a checkbox to opt out. Under current EU data protection law, sharing with sponsors needs opt-in consent instead.
+  confidence: observed
+  status: active
+  disposition: 'placed: privacy-gdpr#case-notes'
+  locator: The Importance of Permission
+- ledger_id: L-1043
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S085
+  text_kind: paraphrase
+  quote_or_paraphrase: Asked in May 2006 for the most they would pay for three days excluding travel, 43% chose USD 300, 30% USD 200, 22% USD 400 and 8% USD 100 (as of 2006, S085); the organizers used this to set the price.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Question 9
+- ledger_id: L-1044
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Pricing had two tiers, USD 300 regular and USD 250 early bird closing eight weeks before the event (as of 2006, S009), with tutorials included, to keep the price low for first-time attendees.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Pricing
+- ledger_id: L-1045
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: No student or nonprofit discounts were offered, to keep registration simple, avoid checking eligibility, and make revenue easier to forecast for a first-time organizer.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Why no discounts?
+- ledger_id: L-1046
+  topic: ticketing-and-registration
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: After allowing a few informal one-day registrations, the organizers recommend publishing a one-day rate and marking one-day attendees clearly on their badges.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#principles-and-general-lessons'
+  locator: One-day registration
+- ledger_id: L-1047
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S090
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Of 337 attendees, 68 (about 20%) held complimentary registrations: 44 speakers, 9 sponsor passes and 15 at the organizers'' discretion.'
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Summary Budget, revenue rows
+- ledger_id: L-1048
+  topic: ticketing-and-registration
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Past organizers advised never to write custom registration software and to keep the registration process as simple as possible; the 2006 team confirms it as good advice.
+  confidence: reported
+  status: active
+  disposition: 'placed: ticketing-and-registration#principles-and-general-lessons'
+  locator: Registration
+- ledger_id: L-1049
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Instead of evaluating many vendors, the organizers chose a small local ticketing company for its low price and because it would be reachable and accountable when mistakes happened, accepting fewer features.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Registration
+- ledger_id: L-1050
+  topic: ticketing-and-registration
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Requirements for a ticketing system: one buyer can register several people with full details for each, people can register on behalf of others, international addresses work, prices can be tiered by date and unlocked by codes, and optional add-ons such as trainings can be sold.'
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#how-to'
+  locator: Registration, suggested requirements
+- ledger_id: L-1051
+  topic: ticketing-and-registration
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Large institutions need an invoice, a way to pay by card outside the web form, and payment by check or bank transfer.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#how-to'
+  locator: Registration, institutional requirements
+- ledger_id: L-1052
+  topic: ticketing-and-registration
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees asked for automatic receipts for everyone and acceptance of purchase orders, and one reported that when an administrator paid, the desk had the payer's name instead of the attendee's.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1053
+  topic: accessibility-and-inclusion
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The only financial support in 2006 was the speaker payment plan; the organizers recommend a scholarship fund, administered by the Foundation, because some key contributors cannot afford the travel, and it would also recognize contributions.
+  confidence: observed
+  status: active
+  disposition: 'placed: accessibility-and-inclusion#principles-and-general-lessons'
+  locator: Scholarships
+- ledger_id: L-1054
+  topic: accessibility-and-inclusion
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees could not read some projected slides and one left a session for that reason; they asked for a minimum on-screen letter size and larger screens.
+  confidence: observed
+  status: active
+  disposition: 'placed: accessibility-and-inclusion#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1055
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S089
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee welcomed chat nicknames on badges but found the light gray text unreadable.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: accessibility-and-inclusion#case-notes'
+  locator: General comments
+- ledger_id: L-1056
+  topic: programme-portfolio
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The program kept the established format of short talks, longer tutorials, keynotes, lightning talks and birds-of-a-feather sessions, and derived its session types from the goals: evergreen basics by the best teachers, new technology, non-technical implementation topics, community and roadmap sessions, and sector case-study panels.'
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Starting assumptions
+- ledger_id: L-1057
+  topic: programme-portfolio
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S085
+  text_kind: paraphrase
+  quote_or_paraphrase: Of the new program ideas tested in the 2006 survey, sessions aimed at beginning, intermediate and advanced users scored highest (4.26 of 5); a community strategy workshop (3.98), facilitated problem-solving groups (3.96) and a newcomer sprint (3.92) followed, with open space lowest (3.62).
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Question 7
+- ledger_id: L-1058
+  topic: programme-portfolio
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Focus strongly on sector-specific users; education and government attendees came in especially strong numbers.
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#principles-and-general-lessons'
+  locator: Good Things To Do Again
+- ledger_id: L-1059
+  topic: programme-portfolio
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers would add more facilitated workshop sessions on shared community problems; they need a strong facilitator but let a broader part of the community take part in planning.
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#principles-and-general-lessons'
+  locator: Things We Might Do Differently Next Time
+- ledger_id: L-1060
+  topic: programme-portfolio
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: Asked about formats for future conferences, 44% wanted more 90-minute tutorials and 40% more workshop sessions, while 25% wanted fewer three-hour tutorials and 23% fewer case-study panels.
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: More or fewer formats
+- ledger_id: L-1061
+  topic: cfp-and-selection
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Combine invited sessions with an open call for proposals; the 2006 team lists it among the good things to do again.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#principles-and-general-lessons'
+  locator: Good Things To Do Again
+- ledger_id: L-1062
+  topic: keynotes-and-invited-talks
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers brainstormed a wish list of sessions with preferred speakers and approached about a dozen people; almost all agreed, and within two weeks three tutorials, four talks and the case-study panels were invited.
+  confidence: observed
+  status: active
+  disposition: 'placed: keynotes-and-invited-talks#case-notes'
+  locator: 'Developing the Agenda: Invited Talks'
+- ledger_id: L-1063
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Confirming well-known invited sessions early allowed marketing with concrete headline sessions before the agenda was complete; the organizers believe this led directly to the sold-out conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Invited Talks
+- ledger_id: L-1064
+  topic: cfp-and-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The call for proposals had to be, and be seen as, open and fair while moving fast; it stated the evaluation criteria, suggested specific topics and announced the speaker compensation plan.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#case-notes'
+  locator: The Call For Proposals
+- ledger_id: L-1065
+  topic: cfp-and-selection
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Ask a well-connected core community member to recruit strong proposals personally and to remind people of the deadline.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#principles-and-general-lessons'
+  locator: The Call For Proposals
+- ledger_id: L-1066
+  topic: cfp-and-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A program committee of experienced community members and trusted local peers rated the proposals; the two organizers made the final decisions but mostly followed the committee's aggregated scores.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#case-notes'
+  locator: The Program Committee
+- ledger_id: L-1067
+  topic: cfp-and-selection
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Use a program committee to review proposals, but do not make it choose the sessions: listed under things not done that future organizers should not do either.'
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#principles-and-general-lessons'
+  locator: Good Things To Do Again; Things We Didn't Do
+- ledger_id: L-1068
+  topic: cfp-and-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A three-week window brought about 70 complete proposals; committee members rated proposal quality and presenter quality from 1 to 5 in a simple online survey tool, within about a week and after a few reminders.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#case-notes'
+  locator: Evaluating The Proposals
+- ledger_id: L-1069
+  topic: cfp-and-selection
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Four sessions were wait-listed in case a speaker canceled; none did. Rejected proposers were invited to give a lightning talk or convene a birds-of-a-feather session, and several did.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#case-notes'
+  locator: Constructing the Agenda
+- ledger_id: L-1070
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Past conferences gave speakers free admission only; 2006 also paid tutorial leaders and panel organizers, to subsidize volunteers from abroad, reward long-format preparation and promote the new panel format.
+  confidence: observed
+  status: active
+  disposition: 'placed: speakers-and-speaker-care#case-notes'
+  locator: Speaker Compensation
+- ledger_id: L-1071
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Payment was deliberately limited so the call for proposals would not feel high-stakes; with over 70 proposals and many worthy rejections, the organizers were glad of that choice.
+  confidence: observed
+  status: active
+  disposition: 'placed: speakers-and-speaker-care#case-notes'
+  locator: Speaker Compensation
+- ledger_id: L-1072
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Asking presenters to submit materials in advance mostly failed; the organizers suggest a small reward, about USD 100 (as of 2006, S009), for early materials.
+  confidence: observed
+  status: active
+  disposition: 'placed: speakers-and-speaker-care#case-notes'
+  locator: Random Program-Related Thoughts
+- ledger_id: L-1073
+  topic: speakers-and-speaker-care
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees asked that slides be online before or at the start of each talk, and that tutorial practice files be posted in advance.
+  confidence: observed
+  status: active
+  disposition: 'placed: speakers-and-speaker-care#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1074
+  topic: speakers-and-speaker-care
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees criticized weak or unprepared presentations and talks that spent too long on the presenting organization's history; they asked organizers to coach speakers to stay on topic.
+  confidence: observed
+  status: active
+  disposition: 'placed: speakers-and-speaker-care#principles-and-general-lessons'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1075
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S089
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee found the core group's open talk about drinking and about not preparing talks unprofessional for business attendees who had paid and travelled far, while acknowledging it reflected the community's warmth.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: General comments
+- ledger_id: L-1076
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The day-by-day agenda balanced ability levels, avoided putting the best-known presenters against each other, fitted sessions to room sizes and included as many top-ranked sessions as possible.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Constructing the Agenda
+- ledger_id: L-1077
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Building the agenda took several days of intense work by one organizer, and having a second person who knew every session and presenter at hand was extremely helpful for pacing and sequencing.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Constructing the Agenda
+- ledger_id: L-1078
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Given the community's growing size and diversity, the organizers advise 3 to 5 parallel sessions rather than 2.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Constructing the Agenda
+- ledger_id: L-1079
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The draft schedule was circulated to speakers for comment before publication; only minor changes followed.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Constructing the Agenda
+- ledger_id: L-1080
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Run at least three tracks loosely defined by skill level, from newcomers to core developers, with content relevant to all sectors in each.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Good Things To Do Again
+- ledger_id: L-1081
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: End each day with lightning talks and birds-of-a-feather sessions, and make it easy to organize lunch and dinner groups.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Good Things To Do Again
+- ledger_id: L-1082
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Leave 5 to 10 minutes between sessions, at least one 30-minute break mid-morning and mid-afternoon, and 90 minutes for lunch.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Good Things To Do Again
+- ledger_id: L-1083
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Many attendees objected to lightning talks and birds-of-a-feather sessions running at the same time, because both were valuable and the conflict cost both attendance.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1084
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees found five-minute breaks too short to change rooms or talk to people.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1085
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Put longer sessions in the morning and keep the afternoon fast-paced to counter post-lunch drowsiness.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Things We Might Do Differently Next Time
+- ledger_id: L-1086
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Do not require advance signup to attend sessions: listed under things the organizers did not do and advise others not to do.'
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Things We Didn't Do That You Probably Shouldn't Either
+- ledger_id: L-1087
+  topic: scheduling
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees asked for the full agenda months in advance so they could plan travel around the days that mattered to them.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#principles-and-general-lessons'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1088
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Placing most case-study panels on one day crowded that day with conflicts; several attendees asked to spread them over the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1089
+  topic: trainings
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers call pre-conference trainings by experienced, well-known trainers one of the biggest reasons for the conference's success and advise future organizers to include them.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#principles-and-general-lessons'
+  locator: Pre-Conference Training Sessions
+- ledger_id: L-1090
+  topic: trainings
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Three two-day classes for beginners, intermediate and advanced developers drew over 120 students; the idea came from a trainer, and the venue's classrooms happened to be free on the two days before the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Pre-Conference Training Sessions
+- ledger_id: L-1091
+  topic: trainings
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Trainings were financially separate: the organizers rented the rooms, the trainers paid for them, and each trainer registered students separately, which removed financial risk but confused some registrants.'
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Pre-Conference Training Sessions
+- ledger_id: L-1092
+  topic: trainings
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Classes cost USD 175 (as of 2006, S009), so about 15 students in total covered the room cost; with 120 students the trainers were paid fairly and students got good value.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Pre-Conference Training Sessions
+- ledger_id: L-1093
+  topic: trainings
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: In the evaluation, 6% said they came because of the trainings and 28% called them a strong influence; the trainings rated 4.39 of 5. The lessons document cites 8% and 26% for the same question.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Factors that helped you decide to attend
+- ledger_id: L-1094
+  topic: trainings
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers would consider dropping three-hour tutorials, which are long for students and hard to prepare, because 90 minutes is enough for a good workshop on most topics.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#principles-and-general-lessons'
+  locator: Things We Might Do Differently Next Time
+- ledger_id: L-1095
+  topic: trainings
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Next time the organizers might handle training registration themselves to reduce confusion; whether to pay trainers a flat rate remained undecided.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#principles-and-general-lessons'
+  locator: Things We Might Do Differently Next Time
+- ledger_id: L-1096
+  topic: trainings
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees said a session labeled tutorial should be hands-on with their own laptop, with prerequisites announced in advance; otherwise it should be called a talk or demo.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#principles-and-general-lessons'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1097
+  topic: trainings
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: One trainee received no pre-training emails and found no signs showing which room held which course on the first morning.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1098
+  topic: keynotes-and-invited-talks
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: With no budget for speaker fees and no strong connections, the organizers had planned only the usual community keynotes; an outside keynote came through a community member's contact, needed only an invitation letter from the Foundation, and became a highlight.
+  confidence: observed
+  status: active
+  disposition: 'placed: keynotes-and-invited-talks#case-notes'
+  locator: Keynote
+- ledger_id: L-1099
+  topic: keynotes-and-invited-talks
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees asked for a strong opening keynote to set the mood, and for community leaders to frame the larger vision at the start or close.
+  confidence: observed
+  status: active
+  disposition: 'placed: keynotes-and-invited-talks#principles-and-general-lessons'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1100
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Thorough outreach within the Plone community and the U.S. nonprofit technology sector sold out the conference at 350, but left much room to reach the wider technology, education and government sectors.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Marketing
+- ledger_id: L-1101
+  topic: marketing-and-outreach
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Future organizers should consider a PR committee with experience in technology-sector marketing.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#principles-and-general-lessons'
+  locator: Marketing
+- ledger_id: L-1102
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Because invited sessions and sector panels were confirmed early, the organizers could send sector-specific invitations that named the sessions most relevant to that sector.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Marketing
+- ledger_id: L-1103
+  topic: marketing-and-outreach
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Seek out channels that reach technologists in higher education and in city and state government.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#principles-and-general-lessons'
+  locator: Email Lists
+- ledger_id: L-1104
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The document reproduces the full sector invitation email, with dates, prices and a ticketing link.
+  confidence: observed
+  status: active
+  disposition: 'dropped: verbatim promotional email with dated prices and links; its transferable point is carried by L-1102'
+  locator: Marketing, sample email
+- ledger_id: L-1105
+  topic: visas-and-travel
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: For a U.S. conference in 2006, visitors from many non-EU countries needed a letter from the host; the organizers posted visa information on the logistics page and sent short letters on letterhead confirming the registration, by post, fax or PDF.
+  confidence: observed
+  status: active
+  disposition: 'placed: visas-and-travel#case-notes'
+  locator: Visa Letters
+- ledger_id: L-1106
+  topic: visas-and-travel
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S085
+  text_kind: paraphrase
+  quote_or_paraphrase: One pre-conference survey respondent asked organizers to give good information about visa requirements.
+  confidence: hearsay
+  status: active
+  disposition: 'dropped: single survey comment; the point is carried with organizer evidence by L-1105'
+  locator: Question 11 highlights
+- ledger_id: L-1107
+  topic: social-events-and-party
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: As novice organizers with an uncertain budget, the team did not organize a dinner for 350 people.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Why no dinner event?
+- ledger_id: L-1108
+  topic: social-events-and-party
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The social program was minimal: dinners on your own, a suggested neighborhood each night, no arranged transport, and impromptu events coordinated through the attendee mailing list and wiki.'
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Social Events
+- ledger_id: L-1109
+  topic: social-events-and-party
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers recommend at least one structured evening event, such as a low-key catered dinner at the venue, which is also the natural moment for community awards and recognition.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#principles-and-general-lessons'
+  locator: Social Events; Why no dinner event?
+- ledger_id: L-1110
+  topic: social-events-and-party
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: Social events rated 3.72 of 5, the second-lowest logistics rating after internet access.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Logistics ratings
+- ledger_id: L-1111
+  topic: social-events-and-party
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees said that without organized events the evenings became gatherings of insiders at bars, leaving newcomers on their own and favoring drinking over other options; they asked for one shared event open to all.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1112
+  topic: social-events-and-party
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees liked the daily neighborhood advice with lists of restaurants and bars, which mixed newcomers in, but called the least organized evening confusing because nobody knew where to go.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1113
+  topic: signage-and-showtime
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Reserve the first 45 minutes of the first day for an icebreaker: welcome people, thank those who made the event possible, then get attendees talking to each other.'
+  confidence: observed
+  status: active
+  disposition: 'placed: signage-and-showtime#principles-and-general-lessons'
+  locator: Facilitation
+- ledger_id: L-1114
+  topic: av-recording-internet
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The venue's sole internet vendor read install at 9 a.m. as the time to start work rather than the time to be live, so the network was down until after lunch on the first training day.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Internet Connectivity
+- ledger_id: L-1115
+  topic: av-recording-internet
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Despite instructions for 350 users, the router offered only about 254 addresses; the DHCP pool ran out on the first conference day and the fix came mid-morning of the second.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Internet Connectivity
+- ledger_id: L-1116
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Do not run the wireless network yourself; pay a provider who is accountable to you and has the resources to fix failures.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1117
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: 'One attendee argued the opposite: never trust anyone else with conference Wi-Fi, and if needed get a dedicated line and run your own routers.'
+  confidence: hearsay
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1118
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: quote
+  quote_or_paraphrase: Assume that every attendee will want to connect at once. The providers will not believe you. Insist.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1119
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Get as much bandwidth as you can; 3 Mbps congested quickly in 2006.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1120
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Run the wireless network wide open, without encryption or MAC address checks, to avoid support problems.
+  confidence: observed
+  status: active
+  disposition: 'dropped: superseded by current security practice; an unencrypted conference network is no longer advisable (see digest)'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1121
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Make sure no ports are blocked upstream, because technical attendees need more than web and mail, for example SSH and chat protocols.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1122
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Have a direct phone number for the upstream network administrators; you will need it.
+  confidence: observed
+  status: active
+  disposition: 'placed: wifi-failure#first-hour-actions'
+  locator: Lessons Learned About Internet Connectivity
+- ledger_id: L-1123
+  topic: av-recording-internet
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: Internet access rated 2.72 of 5, the lowest of all logistics items, with 44% rating it poor or fair.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Logistics ratings
+- ledger_id: L-1124
+  topic: av-recording-internet
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: '2006 was the first professionally recorded Plone conference: two rooms for three days, with post-production, cost USD 15,000 (as of 2006, S009), the most the budget allowed.'
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Videotaping
+- ledger_id: L-1125
+  topic: av-recording-internet
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Recording priorities were first the key tutorials with lasting teaching value, then sessions that help market Plone to new users; not recording everything also kept a reason to attend in person.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Videotaping
+- ledger_id: L-1126
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Several attendees asked for every talk to be recorded, even without post-production, because parallel tracks made them miss sessions.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1127
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: On distribution, the organizers advise not to climb the learning curve of video codecs and formats yourself, and warn that such advice ages fast.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: Any advice on distribution?
+- ledger_id: L-1128
+  topic: hybrid-online
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A community volunteer with his own equipment recorded sessions the professionals could not cover, such as lightning talks and interviews, and streamed some sessions live into a virtual world.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Videotaping
+- ledger_id: L-1129
+  topic: sustainability
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S089
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee raised the environmental cost of worldwide air travel and suggested more live broadcasting with remote questions, or separate European and American conferences.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: sustainability#case-notes'
+  locator: General comments
+- ledger_id: L-1130
+  topic: web-comms-brand
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The conference pages on plone.org were the definitive public source; emails pointed back to them, pages went up as early as possible and were revised constantly, and announcements were also posted as news items for feeds.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Plone.org Web Pages
+- ledger_id: L-1131
+  topic: web-comms-brand
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: An attendee mailing list, filled as people registered, was announce-only before the event, opened for discussion during it, and returned to announce-only afterwards for follow-up and surveys.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Email Lists
+- ledger_id: L-1132
+  topic: web-comms-brand
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees praised the attendee mailing list and wiki and asked that they become the standard; one asked that the wiki be frozen and archived afterwards.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#principles-and-general-lessons'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1133
+  topic: web-comms-brand
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A short-lived wiki held attendee bios and impromptu events, and offered space for session notes, which were little used. It was chosen over the CMS of the day because it allowed editing without an account and was much faster to edit.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Wiki
+- ledger_id: L-1134
+  topic: web-comms-brand
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A volunteer sent attendees shared tags for blog posts, photos and bookmarks and a map of where attendees came from, using the social web services of 2006.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Social Media
+- ledger_id: L-1135
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers paid extra for good, sweatshop-free shirts in men's and women's cuts, designed by a community designer and screen-printed rather than digitally printed.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#case-notes'
+  locator: T-Shirts
+- ledger_id: L-1136
+  topic: print-and-merch
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Print at least 10% more shirts than attendees, because demand for extra shirts was considerable.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#principles-and-general-lessons'
+  locator: T-Shirts
+- ledger_id: L-1137
+  topic: print-and-merch
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Collect shirt sizes during registration; a separate size survey with 150 answers worked, but registration data would make the order more exact.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#principles-and-general-lessons'
+  locator: T-Shirts
+- ledger_id: L-1138
+  topic: print-and-merch
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Find a local print shop; carrying the shirts in from another state was a burden.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#principles-and-general-lessons'
+  locator: T-Shirts
+- ledger_id: L-1139
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Shirts cost USD 1,800 for design and about USD 9.40 each to produce; the brochure cost USD 1,800 for design and USD 1,100 for 350 copies (as of 2006, S009).
+  confidence: observed
+  status: active
+  disposition: 'placed: cost-benchmarks'
+  locator: T-Shirts; Brochure
+- ledger_id: L-1140
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: A glossy full-color schedule brochure was judged worth the money, complemented by a cheap photocopied handout with full session descriptions, speaker bios and neighborhood maps.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#case-notes'
+  locator: Brochure
+- ledger_id: L-1141
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Color name tags showed name, organization, location and chat nickname, with stick-on ribbons for Foundation board members, speakers, volunteers and organizers.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#case-notes'
+  locator: Name tags
+- ledger_id: L-1142
+  topic: print-and-merch
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Print extra blank name tags; there were far more name tag mistakes than expected.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#principles-and-general-lessons'
+  locator: Name tags
+- ledger_id: L-1143
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Each room had vinyl banners with the conference and Plone logos, serving as video backdrop and branding, plus one from the top sponsor; afterwards the generic banners went to the Foundation for reuse and the conference banners to volunteers.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#case-notes'
+  locator: Banners
+- ledger_id: L-1144
+  topic: print-and-merch
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee asked for pre-shrunk shirts so sizes stay right after washing.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: print-and-merch#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1145
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Provide a bright projector in every room, at least 2,000 lumens and preferably 2,500 or more, plus at least one spare.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: AV and other Physical Requirements
+- ledger_id: L-1146
+  topic: av-recording-internet
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Use screens no smaller than about 3 by 3 meters (10 by 10 feet); smaller screens were too small in some rooms.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: AV and other Physical Requirements
+- ledger_id: L-1147
+  topic: venue
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Prefer a venue with many floor outlets; otherwise budget for extension cords, power strips and gaffer tape, and several hours of a volunteer crew to lay and tape them.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#principles-and-general-lessons'
+  locator: AV and other Physical Requirements
+- ledger_id: L-1148
+  topic: health-safety-emergencies
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S089
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee noted that the many power cords on the floor were a tripping hazard and suggested running them along the back edges of tables.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: health-safety-emergencies#case-notes'
+  locator: General comments
+- ledger_id: L-1149
+  topic: signage-and-showtime
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Staff the registration desk with about six trusted volunteers, keep the name tags alphabetized and at hand, and check everyone off against one master paper list with digital copies available.
+  confidence: observed
+  status: active
+  disposition: 'placed: signage-and-showtime#how-to'
+  locator: Registration Table
+- ledger_id: L-1150
+  topic: signage-and-showtime
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Check in training attendees at the end of the last training day, the evening before the conference; in 2006 this removed a third of the first-morning registration load.
+  confidence: observed
+  status: active
+  disposition: 'placed: signage-and-showtime#how-to'
+  locator: Registration Table
+- ledger_id: L-1151
+  topic: signage-and-showtime
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Do not hand out shirts on the first day, because it slows check-in; start on day two, but give volunteers theirs on day one so they stand out.
+  confidence: observed
+  status: active
+  disposition: 'placed: signage-and-showtime#principles-and-general-lessons'
+  locator: Registration Table
+- ledger_id: L-1152
+  topic: signage-and-showtime
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Post one sign per room per day listing that day's sessions; put them all up on the first day and remove one each night.
+  confidence: observed
+  status: active
+  disposition: 'placed: signage-and-showtime#how-to'
+  locator: Signage
+- ledger_id: L-1153
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint was not planned at first; a local research institute that used Plone hosted it, a regional user group's small sponsorship covered security and coffee, and a company sponsored pizza on the spot.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Post-Conference Sprint
+- ledger_id: L-1154
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The sprint followed open-space principles: everyone welcome, self-organizing teams, and a focus on teaching and learning rather than code output.'
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Post-Conference Sprint
+- ledger_id: L-1155
+  topic: sprints
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Fix the sprint dates and venue early so the sprint can be announced while people make travel plans.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#principles-and-general-lessons'
+  locator: Post-Conference Sprint
+- ledger_id: L-1156
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint was announced with the conference but organized on a separate community wiki, so community members could organize it themselves.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Post-Conference Sprint
+- ledger_id: L-1157
+  topic: sprints
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The strategic purpose of a post-conference sprint is to draw newcomers into the community and make them feel empowered as contributors.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#principles-and-general-lessons'
+  locator: Post-Conference Sprint
+- ledger_id: L-1158
+  topic: sprints
+  scope: general
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: Recruit experienced community members in advance to lead sprint teams.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#principles-and-general-lessons'
+  locator: Post-Conference Sprint
+- ledger_id: L-1159
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S086
+  text_kind: paraphrase
+  quote_or_paraphrase: About 28% of respondents attended the sprint and rated it 4.18 of 5; 8% said they came to Seattle because of it.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Overall ratings; decision factors
+- ledger_id: L-1160
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S087
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee argued that two sprint days are too few and three to four are needed to integrate newcomers.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Agenda suggestions, attendee comments
+- ledger_id: L-1161
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S088
+  text_kind: paraphrase
+  quote_or_paraphrase: A non-developer understood sprints as only for hard-core programmers and missed a documentation sprint; the purpose of sprints was not explained to everyone.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Logistics suggestions, attendee comments
+- ledger_id: L-1162
+  topic: sprints
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S089
+  text_kind: paraphrase
+  quote_or_paraphrase: One attendee noticed that the diversity of sector and gender seen at the conference was less visible at the sprint.
+  confidence: hearsay
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: General comments
+- ledger_id: L-1163
+  topic: scheduling
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S085
+  text_kind: paraphrase
+  quote_or_paraphrase: One pre-conference survey respondent complained about lack of discipline in ending sessions and breaks at past conferences.
+  confidence: hearsay
+  status: active
+  disposition: 'dropped: single survey comment made before the event; no 2006 evidence tests it, so it cannot support a lesson'
+  locator: Question 11 highlights
+- ledger_id: L-1164
+  topic: volunteers-and-roles
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S009
+  text_kind: paraphrase
+  quote_or_paraphrase: The thanks section credits named individuals, user groups and companies for their roles.
+  confidence: observed
+  status: active
+  disposition: 'dropped: names private persons; D7 forbids personal data and the roles are covered by L-1006 and L-1008'
+  locator: Thanks and Acknowledgements

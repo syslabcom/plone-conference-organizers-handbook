@@ -1,0 +1,3 @@
+# Test harness (gates G3-G11). Install into the same venv as requirements.txt.
+pytest>=8
+pyyaml>=6

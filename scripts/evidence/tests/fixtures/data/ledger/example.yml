@@ -1,0 +1,63 @@
+group: 7a
+rows:
+  - ledger_id: L-1001
+    topic: conference-data-table
+    scope: specific
+    year: 2006
+    place: Seattle
+    org: Example organization
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: The conference had about 350 attendees.
+    confidence: observed
+    status: active
+    disposition: 'placed: conference-data-table'
+  - ledger_id: L-1002
+    topic: conference-data-table
+    scope: specific
+    year: 2006
+    place: Seattle
+    org: Example organization
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: Another report counts 360 attendees, held together with a Python event.
+    confidence: reported
+    status: active
+    disposition: 'placed: conference-data-table'
+  - ledger_id: L-1003
+    topic: conference-data-table
+    scope: specific
+    year: 2006
+    place: Seattle
+    org: Example organization
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: The sprint had 50 sprinters.
+    confidence: observed
+    status: active
+    disposition: 'placed: conference-data-table'
+  - ledger_id: L-1004
+    topic: cost-benchmarks
+    scope: specific
+    year: 2006
+    place: Seattle
+    org: Example organization
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: Public catering cost USD 100 as of 2006.
+    confidence: observed
+    status: active
+    disposition: 'placed: cost-benchmarks'
+  - ledger_id: L-1005
+    topic: finance
+    scope: general
+    year: 2006
+    place: n/a
+    org: Example organization
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: A dropped observation stays traceable.
+    confidence: reported
+    status: superseded
+    by: L-1004
+    disposition: 'dropped: replaced by stronger evidence'

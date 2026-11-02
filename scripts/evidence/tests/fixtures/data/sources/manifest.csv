@@ -1,0 +1,4 @@
+source_id,section,title,url,file
+S002,2006-seattle,Held source,https://example.org/private,private.html
+S001,2006-seattle,Public record,https://example.org/public,public.html
+S098,internal-2026,Internal record,private/origin,internal-note.md

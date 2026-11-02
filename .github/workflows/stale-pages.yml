@@ -1,0 +1,65 @@
+# Scheduled freshness check (gate G10).
+#
+# Once a month this workflow runs the freshness gate and fails when a written page
+# is past its `review-by` date (see the gate's own report for the page list).
+#
+# Interface owned by the freshness script (task T5):
+#   command:      venv/bin/python scripts/lint/g10_freshness.py --fail-on-overdue
+#                 (other flags: --format json, --as-of DATE)
+#   behavior:     exit code 1 when a page is overdue, 0 otherwise.
+# Opening one issue per overdue page (naming the steward and the deputy, with no second
+# issue for a page that already has one) is future work owned by the freshness script;
+# the script has no --open-issue flag today, so this workflow opens no issues.
+# While the script is absent, the workflow reports that fact and succeeds.
+
+name: Stale pages
+
+on:
+  schedule:
+    - cron: "17 5 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stale-pages
+  cancel-in-progress: false
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: make deps
+
+      - name: Check whether the freshness script exists
+        id: script
+        run: |
+          if [ -f scripts/lint/g10_freshness.py ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run the freshness script
+        if: steps.script.outputs.present == 'true'
+        run: venv/bin/python scripts/lint/g10_freshness.py --fail-on-overdue
+
+      - name: Report that the freshness script is absent
+        if: steps.script.outputs.present != 'true'
+        run: |
+          echo "::notice title=Freshness script not found::scripts/lint/g10_freshness.py is absent, so the freshness check did not run. Task T5 owns this script."
+          {
+            echo "## Stale pages"
+            echo
+            echo "The freshness script \`scripts/lint/g10_freshness.py\` is absent, so the freshness check did not run."
+            echo "Task T5 owns the script interface."
+          } >> "$GITHUB_STEP_SUMMARY"

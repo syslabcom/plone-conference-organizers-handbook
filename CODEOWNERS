@@ -1,0 +1,24 @@
+# CODEOWNERS for the Plone Conference Organizers Handbook.
+#
+# STATUS: a proposal (decision D8), not a decision.
+# Nothing in this file binds anyone until the community accepts the stewardship
+# model described in docs/running/governance.md.
+#
+# INTENDED MODEL, after community buy-in:
+#   - At least three maintainers across at least two organizations are named here.
+#   - Each chapter names a steward and a deputy in its front matter, and the
+#     steward and the deputy come from different organizations.
+#   - Paths are mapped to GitHub teams, for example:
+#       /docs/workstreams/marketing/   @plone/conference-marketing
+#   - The Plone Foundation holds repository admin after the transfer to the
+#     plone organization.
+#   - A bus-factor figure (distinct people who can merge) is reported at each
+#     annual release.
+# The three-maintainer gate does not apply to version 1.
+#
+# INTERIM ENTRY, while the repository incubates under the syslabcom organization:
+# the incubation team is the only owner of every path. Replace the handle with
+# a dedicated handbook team when one exists. The team must have write access
+# to this repository, otherwise GitHub ignores the rule.
+
+* @syslabcom/syslab-com

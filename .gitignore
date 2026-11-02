@@ -1,0 +1,15 @@
+# Dependencies
+/.venv
+/venv
+
+# Generated files
+/_build
+/styles/Microsoft
+
+# Python and test caches
+__pycache__/
+/.pytest_cache
+
+# editor and OS files
+.vscode
+.DS_Store

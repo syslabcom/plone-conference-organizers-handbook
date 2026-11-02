@@ -1,0 +1,2 @@
+allow:
+  - match: conf@plone.org

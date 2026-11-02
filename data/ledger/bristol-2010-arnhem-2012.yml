@@ -1,0 +1,1655 @@
+# Lessons ledger, group 7b: Bristol 2010 and Arnhem 2012.
+# Schema: docs/spec/ledger-schema.md. Sources: S015-S021 (2010-bristol), S036-S037 (2012-arnhem).
+group: 7b
+rows:
+  - ledger_id: L-2001
+    topic: venue
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The organizers chose a city-center hotel over larger out-of-town conference facilities so that attendees were surrounded by accommodation for every budget, restaurants, pubs and bars."
+    confidence: observed
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Venue paragraphs"
+
+  - ledger_id: L-2002
+    topic: city-selection
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Only three venues in the host city had enough rooms for all parallel talks plus a main room seating up to 400 for keynotes, which narrowed the venue choice sharply."
+    confidence: observed
+    status: active
+    disposition: "placed: city-selection#case-notes"
+    locator: "Venue paragraphs"
+
+  - ledger_id: L-2003
+    topic: hotels-and-local-logistics
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Because the venue hotel gave attendees discounted room rates, the conference could use the venue late into the evening for e-mail, work and group discussions in bars and corridors."
+    confidence: observed
+    status: active
+    disposition: "placed: hotels-and-local-logistics#case-notes"
+    locator: "Venue paragraphs"
+
+  - ledger_id: L-2004
+    topic: catering
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Unlimited tea and coffee for all three conference days was part of the venue deal, and the organizer judged it essential to keep delegates content and functional."
+    confidence: observed
+    status: active
+    disposition: "placed: catering#case-notes"
+    locator: "Venue paragraphs"
+
+  - ledger_id: L-2005
+    topic: web-comms-brand
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The host company's designer insisted on a strong brand identity from the start; a local illustrator was commissioned, and the conference website, treated as the main advertising channel, received significant development time."
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#case-notes"
+    locator: "Promotion paragraphs"
+
+  - ledger_id: L-2006
+    topic: sponsors
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The website advertised the sponsorship packages; no top-tier sponsor was secured, but the number of lower-tier sponsors compensated for the missing main sponsor."
+    confidence: observed
+    status: active
+    disposition: "placed: sponsors#case-notes"
+    locator: "Promotion paragraphs"
+
+  - ledger_id: L-2007
+    topic: print-and-merch
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "T-shirts were ordered in two batches: the first once 250 attendees had registered, the second two weeks before the event, to bring the order close to the final attendee count."
+    confidence: observed
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "T-shirt paragraph"
+
+  - ledger_id: L-2008
+    topic: print-and-merch
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Although the merchandise supplier was briefed six months ahead, the final week brought wrong-size badge pouches, late pint glasses and too few bags, and the team had to recover through many phone calls."
+    confidence: observed
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Bags and glasses paragraph"
+
+  - ledger_id: L-2009
+    topic: print-and-merch
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The printer used the wrong color for the logo on the t-shirts, but attendees still asked for extra shirts as souvenirs."
+    confidence: observed
+    status: active
+    disposition: "dropped: too specific to transfer; the supplier-error point is covered by L-2008"
+    locator: "T-shirt paragraph"
+
+  - ledger_id: L-2010
+    topic: cfp-and-selection
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Letting attendees vote on talks looked successful at first, but it produced duplicated topics; the organizers concluded they should have balanced and screened the submissions before the public vote."
+    confidence: observed
+    status: active
+    disposition: "placed: cfp-and-selection#case-notes"
+    locator: "Speakers paragraph"
+
+  - ledger_id: L-2011
+    topic: speakers-and-speaker-care
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Several speakers withdrew as late as two weeks before the event, which narrowed the range of talks on offer."
+    confidence: observed
+    status: active
+    disposition: "placed: speakers-and-speaker-care#case-notes"
+    locator: "Speakers paragraph"
+
+  - ledger_id: L-2012
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Feedback gathered while promoting at EuroPython showed that registrations depend on announcing talks and speakers as early as possible; the organizers published them later than they wanted."
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: "Promotion at EuroPython paragraph"
+
+  - ledger_id: L-2013
+    topic: team-and-governance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Organizing as a company meant the conference competed with running the business itself, which is why publishing the program fell behind schedule."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Promotion at EuroPython paragraph"
+
+  - ledger_id: L-2014
+    topic: keynotes-and-invited-talks
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Instead of the usual software-freedom keynote, the organizers invited an engineering-project leader whose struggle with an established industry paralleled open source, chosen after watching earlier talks online; the audience responded strongly."
+    confidence: observed
+    status: active
+    disposition: "placed: keynotes-and-invited-talks#case-notes"
+    locator: "Keynote paragraphs"
+
+  - ledger_id: L-2015
+    topic: hybrid-online
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "Requests for live streaming were declined because the organizers feared streaming would deter in-person attendance; they committed to fast publication of recordings instead."
+    confidence: observed
+    status: active
+    disposition: "placed: hybrid-online#case-notes"
+    locator: "Recording paragraph"
+
+  - ledger_id: L-2016
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The AV company recorded every talk and built the main stage; most recordings were online with slides by the end of each day, far faster than the week the organizers had planned for."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Recording paragraph"
+
+  - ledger_id: L-2017
+    topic: social-events-and-party
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The party venue had to be close to the conference, hold 400 people, accept local caterers and the organizers' own ales, and stay open late; a local events company found a venue meeting all criteria."
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Party paragraphs"
+
+  - ledger_id: L-2018
+    topic: team-and-governance
+    scope: general
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: quote
+    quote_or_paraphrase: "The key to hosting a successful conference is most certainly in the planning and well co-ordinated team work."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#principles-and-general-lessons"
+    locator: "Closing paragraph"
+
+  - ledger_id: L-2019
+    topic: handover-contract
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S015
+    text_kind: paraphrase
+    quote_or_paraphrase: "The organizers attributed their success to adopting the best parts of previous conferences, including hiring the previous host's Wi-Fi specialist again."
+    confidence: observed
+    status: active
+    disposition: "placed: handover-contract#case-notes"
+    locator: "Opening paragraph"
+
+  - ledger_id: L-2020
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The budget was built on three attendance levels: a hoped-for 400, a break-even point at 300, and the capacity to cope with 500."
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: "The Initial Proposed Budget"
+
+  - ledger_id: L-2021
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "Estimating attendance from earlier years and informal conversations was the hardest part of budgeting and turned out wrong: 285 attended against a target of 400, with several regular attendees absent."
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: "The Final Count"
+
+  - ledger_id: L-2022
+    topic: contracts-legal-insurance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The venue contract guaranteed a minimum of 300 attendees, so the shortfall below that minimum cost the organizers money."
+    confidence: observed
+    status: active
+    disposition: "placed: contracts-legal-insurance#case-notes"
+    locator: "The Final Count"
+
+  - ledger_id: L-2023
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "As of 2010, a condition of hosting was that the Plone Foundation received 15 percent of ticket sales to fund its activities (source: S016)."
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: "The Initial Proposed Budget"
+
+  - ledger_id: L-2024
+    topic: handover-contract
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The lead organizer traveled to meet the previous year's organizers to learn what had and had not worked, and called the visit invaluable."
+    confidence: observed
+    status: active
+    disposition: "placed: handover-contract#case-notes"
+    locator: "The Reality"
+
+  - ledger_id: L-2025
+    topic: handover-contract
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The working budget lived in an online spreadsheet whose revision history anonymous readers could not see, so the evolution of the budget was lost to successors."
+    confidence: observed
+    status: active
+    disposition: "placed: handover-contract#case-notes"
+    locator: "The Reality"
+
+  - ledger_id: L-2026
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "Fixed costs grew by more than half against the bid budget because the team deliberately added an unbudgeted guest keynote and more AV and staging, spending the headroom the surplus projection allowed."
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: "The Reality"
+
+  - ledger_id: L-2027
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "AV rental for four rooms and videography together made up nearly half of the final fixed costs, the largest share of any cost group."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Fixed costs table"
+
+  - ledger_id: L-2028
+    topic: sprints
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "A plan to use donated external space for training and sprints was dropped; keeping them in the hotel cost more but reused the Wi-Fi already installed and let people sprint late into the evening."
+    confidence: observed
+    status: active
+    disposition: "placed: sprints#case-notes"
+    locator: "The Reality"
+
+  - ledger_id: L-2029
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The published final account showed a small surplus after the Foundation share: external costs were covered, the host company's staff time was not, and about 50 more attendees would have covered it."
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: "Final financial figures"
+
+  - ledger_id: L-2030
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "Payment-processor fees were budgeted as a per-person cost and made up about one sixth of all per-person costs."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Per person costs table"
+
+  - ledger_id: L-2031
+    topic: handover-contract
+    scope: general
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "The organizers published their budget model and final figures explicitly so that future hosts of this or any similar open-source conference would have the information they wished they had had when bidding."
+    confidence: observed
+    status: active
+    disposition: "placed: handover-contract#principles-and-general-lessons"
+    locator: "Introduction and author's comment reply"
+
+  - ledger_id: L-2032
+    topic: problem-history
+    scope: general
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: quote
+    quote_or_paraphrase: "It would be nice to collate all the various conference organizers experiences into a conference org guide."
+    confidence: reported
+    status: active
+    disposition: "placed: problem-history"
+    locator: "Reader comment by the Wi-Fi provider"
+
+  - ledger_id: L-2033
+    topic: defining-success
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "In reply to a reader, the organizer agreed that circumstances differ every year, such as the economy and competing regional events, so raw attendance comparisons between conferences are unfair."
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Comment thread"
+
+  - ledger_id: L-2034
+    topic: sustainability
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "After the event the organizers donated the wireless uplink used for the venue to a local non-profit that connects community centers."
+    confidence: observed
+    status: active
+    disposition: "placed: sustainability#case-notes"
+    locator: "Comment thread"
+
+  - ledger_id: L-2035
+    topic: conference-data-table
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S016
+    text_kind: paraphrase
+    quote_or_paraphrase: "Final count: 285 attendees from 33 countries; the host country supplied the largest group, roughly a fifth of attendees."
+    confidence: observed
+    status: active
+    disposition: "placed: conference-data-table"
+    locator: "The Final Count"
+
+  - ledger_id: L-2036
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "The Wi-Fi specialist from the previous conference was invited again; when his equipment was stolen beforehand, a last-minute order of ten access points from a local stockist saved the setup."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Wi-Fi paragraph"
+
+  - ledger_id: L-2037
+    topic: venue
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "Training, the main conference and the sprints all took place in the same central hotel."
+    confidence: observed
+    status: active
+    disposition: "dropped: duplicate of L-2003 and L-2028, which state the single-venue point with its consequences"
+    locator: "Venue paragraph"
+
+  - ledger_id: L-2038
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "A business day was added as a standalone mini-conference for a wider audience; its planned community-of-practice morning was canceled because of school holidays, attendees already being away for three days, and a late announcement."
+    confidence: observed
+    status: active
+    disposition: "placed: business-and-side-tracks#case-notes"
+    locator: "Plone in Business day"
+
+  - ledger_id: L-2039
+    topic: signage-and-showtime
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "Handing out badges separately from bags and t-shirts, an idea taken from EuroPython, plus funneling people through a corridor toward coffee, registered almost everyone before the opening keynote."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#case-notes"
+    locator: "Registration paragraph"
+
+  - ledger_id: L-2040
+    topic: catering
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "Lunch was a large buffet in the hotel ballroom with plenty of space around the food, a layout learned from earlier conferences to minimize queues."
+    confidence: observed
+    status: active
+    disposition: "placed: catering#case-notes"
+    locator: "Thursday paragraph"
+
+  - ledger_id: L-2041
+    topic: scheduling
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "About 48 talks ran in four parallel rooms over two days; the lightning-talk session was oversubscribed, so a second one was added on the open-space day."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Talks and lightning talks paragraphs"
+
+  - ledger_id: L-2042
+    topic: social-events-and-party
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "The party showcased local culture with regional ales and pies; the organizers were unsure how this would translate to an international audience, and it was well received."
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Party paragraphs"
+
+  - ledger_id: L-2043
+    topic: social-events-and-party
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "The live band was kept at moderate volume so conversation stayed possible, at the cost of some guests wanting to hear more of the music."
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Party paragraphs"
+
+  - ledger_id: L-2044
+    topic: scheduling
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "On the open-space day, held the morning after the party, the first slot attracted only one proposal; rooms were split into eight spaces, of which only a few had projectors and filming."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Open Spaces paragraph"
+
+  - ledger_id: L-2045
+    topic: sprints
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "About 80 people sprinted on Saturday and 40 on Sunday across 22 proposed topics, and the organizers negotiated a longer evening stay at the hotel for those still working."
+    confidence: observed
+    status: active
+    disposition: "placed: sprints#case-notes"
+    locator: "Sprints paragraph"
+
+  - ledger_id: L-2046
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "All four rooms were filmed with both a camera feed and the projector feed, recorded straight to disk and uploaded at the end of each day."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Video paragraph"
+
+  - ledger_id: L-2047
+    topic: team-and-governance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "Inside the host company, one colleague handled the hotel and all suppliers while another supported the Wi-Fi specialist, alongside the lead organizer."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Opening paragraph"
+
+  - ledger_id: L-2048
+    topic: social-events-and-party
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "An informal jetlag reception the evening before the main conference drew 40 to 50 people and was joined by members of a local Django user group."
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Jetlag reception paragraph"
+
+  - ledger_id: L-2049
+    topic: print-and-merch
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "Each goodie bag carried event and sponsor branding and held a pint glass, a sponsor-supplied book, the t-shirt and the Foundation annual report."
+    confidence: observed
+    status: active
+    disposition: "dropped: too specific to transfer; goodie-bag practice is covered by L-2007 and L-2085"
+    locator: "Goodie bag paragraph"
+
+  - ledger_id: L-2050
+    topic: community-and-speaker-expectations
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S018
+    text_kind: quote
+    quote_or_paraphrase: "Its always worth to travel around and meet in person."
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#case-notes"
+    locator: "Closing sentence"
+
+  - ledger_id: L-2051
+    topic: programme-portfolio
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S018
+    text_kind: paraphrase
+    quote_or_paraphrase: "From the attendee side, the mix of regular talks, lightning talks and open space was judged well selected because it ranged from technical to social topics and from beginners to developers."
+    confidence: observed
+    status: active
+    disposition: "placed: programme-portfolio#case-notes"
+    locator: "Program paragraph"
+
+  - ledger_id: L-2052
+    topic: sprints
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S018
+    text_kind: paraphrase
+    quote_or_paraphrase: "Open-space discussions produced concrete follow-ups, including an enhancement proposal and a new community area, and work on them started at the weekend sprint."
+    confidence: observed
+    status: active
+    disposition: "placed: sprints#case-notes"
+    locator: "Open space and sprint paragraphs"
+
+  - ledger_id: L-2053
+    topic: community-and-speaker-expectations
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S018
+    text_kind: paraphrase
+    quote_or_paraphrase: "The attendee summarized the event's success as four parallel tracks, reliable Wi-Fi, a big party and a sprint, but named meeting people as the most important part."
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#case-notes"
+    locator: "Thanks paragraph"
+
+  - ledger_id: L-2054
+    topic: bid-and-selection
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid covered vision and goals, dates, venue, training and sprints, an analyst day, fees, meals, network access, video, organizers, environmental protection, the party and travel."
+    confidence: observed
+    status: active
+    disposition: "placed: bid-and-selection#case-notes"
+    locator: "Proposal section headings"
+
+  - ledger_id: L-2055
+    topic: defining-success
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The host company's stated goals were to promote Plone, Python and open source in the host country and city, and to use the conference as a marketing opportunity toward organizations."
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Conference Vision and Goals"
+
+  - ledger_id: L-2056
+    topic: team-and-governance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid named four staff of the host company: a lead with Foundation board and program-committee experience, the operations director in charge of finances, a business developer and an administration manager, the last two devoting most of their time to the event."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Organisers"
+
+  - ledger_id: L-2057
+    topic: sprints
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid planned training and sprints at a separate local media venue for up to 200 people."
+    confidence: observed
+    status: active
+    disposition: "dropped: superseded in practice; L-2028 records that training and sprints moved into the hotel"
+    locator: "Pre-Conference Training and Post-Conference Sprint"
+
+  - ledger_id: L-2058
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid committed to a ceiling on the registration fee and an early-bird reduction for registrations before a fixed date about two months ahead."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Registration Fees"
+
+  - ledger_id: L-2059
+    topic: sustainability
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid pledged to recycle waste where possible and to promote environmentally friendly travel in and around the city."
+    confidence: observed
+    status: active
+    disposition: "placed: sustainability#case-notes"
+    locator: "Environmental Protection"
+
+  - ledger_id: L-2060
+    topic: social-events-and-party
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid included the party price in the registration fee."
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Plone Community Party"
+
+  - ledger_id: L-2061
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid planned local press outreach and promotion to local government, and asked other national Plone companies to bring clients and prospects."
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: "Conference Vision and Goals"
+
+  - ledger_id: L-2062
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S019
+    text_kind: paraphrase
+    quote_or_paraphrase: "The bid already named the previous year's Wi-Fi specialist, working with a community Wi-Fi provider and a city fiber network."
+    confidence: observed
+    status: active
+    disposition: "dropped: duplicate of L-2036, which records the same arrangement as carried out"
+    locator: "Network Access"
+
+  - ledger_id: L-2063
+    topic: team-and-governance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S020
+    text_kind: paraphrase
+    quote_or_paraphrase: "In the interview the lead organizer said preparation started about three months ahead with two people, and that about 13 company staff ran the event on site."
+    confidence: reported
+    status: active
+    disposition: "dropped: language; the Japanese interview is not machine-translated for the ledger and this point needs native-speaker verification before use"
+    locator: "Interview section"
+
+  - ledger_id: L-2064
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S020
+    text_kind: paraphrase
+    quote_or_paraphrase: "In the interview the lead organizer said the business day was hard to fill because the team had no channel to reach business people, and hosting them was more demanding than hosting community attendees."
+    confidence: reported
+    status: active
+    disposition: "dropped: language; the Japanese interview is not machine-translated for the ledger and this point needs native-speaker verification before use"
+    locator: "Interview section"
+
+  - ledger_id: L-2065
+    topic: bid-and-selection
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S020
+    text_kind: paraphrase
+    quote_or_paraphrase: "In the interview the lead organizer named hosting as a good way to contribute to the community and to bring more local users to the conference."
+    confidence: reported
+    status: active
+    disposition: "dropped: language; the Japanese interview is not machine-translated for the ledger and this point needs native-speaker verification before use"
+    locator: "Interview section"
+
+  - ledger_id: L-2066
+    topic: scheduling
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S020
+    text_kind: paraphrase
+    quote_or_paraphrase: "The report's section headings show the third day as open space, with a session list, a group photo after lunch and a closing lightning-talk block."
+    confidence: reported
+    status: active
+    disposition: "dropped: duplicate of L-2044 and L-2041; the page structure adds no new point"
+    locator: "Article table of contents"
+
+  - ledger_id: L-2067
+    topic: defining-success
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S021
+    text_kind: paraphrase
+    quote_or_paraphrase: "An outside observer placed the attendance in the middle of the 2006 to 2010 range and attributed the gap to the weak economy."
+    confidence: reported
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Person of the Year post"
+
+  - ledger_id: L-2068
+    topic: av-recording-internet
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S021
+    text_kind: paraphrase
+    quote_or_paraphrase: "A community member who could not afford to travel found the high-quality talk videos a substantial substitute and said they set a high bar for future conferences."
+    confidence: reported
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Person of the Year post"
+
+  - ledger_id: L-2069
+    topic: problem-history
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S021
+    text_kind: paraphrase
+    quote_or_paraphrase: "An outside observer singled out the organizers' published summaries, general and host-specific, as exceptionally valuable."
+    confidence: reported
+    status: active
+    disposition: "placed: problem-history"
+    locator: "Person of the Year post"
+
+  - ledger_id: L-2070
+    topic: master-timeline
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Preparation started about a year ahead with the venue search; the venue confirmed availability within ten days, the bid was won about nine months before the event, and the website went live about five weeks after that."
+    confidence: observed
+    status: active
+    disposition: "placed: master-timeline#case-notes"
+    locator: "Opening and timeline paragraphs"
+
+  - ledger_id: L-2071
+    topic: venue
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The venue brief was about four main rooms for talks and training, a hangout and a sprint location, all available for seven consecutive days."
+    confidence: observed
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Opening paragraph"
+
+  - ledger_id: L-2072
+    topic: bid-and-selection
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The team wrote the bid in about five weeks using earlier published proposals as examples, structured it around team, venue, city and marketing, and styled it for presentation."
+    confidence: observed
+    status: active
+    disposition: "placed: bid-and-selection#case-notes"
+    locator: "Proposal paragraph"
+
+  - ledger_id: L-2073
+    topic: team-and-governance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The host company estimated more than 1,750 hours of organizing work and had 12 of its staff working full time during the conference days."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Hours spent organizing"
+
+  - ledger_id: L-2074
+    topic: web-comms-brand
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Launching the website early, with hotels, venue information and registration, let the team update information quickly as questions came in."
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#case-notes"
+    locator: "Website paragraph"
+
+  - ledger_id: L-2075
+    topic: hotels-and-local-logistics
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The team called every hotel in the city for special rates; hotels were reluctant because they hoped to raise prices during large concerts at the local stadium."
+    confidence: observed
+    status: active
+    disposition: "placed: hotels-and-local-logistics#case-notes"
+    locator: "Website paragraph"
+
+  - ledger_id: L-2076
+    topic: av-recording-internet
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The venue, a government body, sat on a government network that blocked non-work use, so the organizers paid for a dedicated fiber connection, which was ready the month before the event."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Internet paragraph"
+
+  - ledger_id: L-2077
+    topic: av-recording-internet
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The returning Wi-Fi specialist covered the whole venue with 12 access points and no major problems."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Internet paragraph"
+
+  - ledger_id: L-2078
+    topic: av-recording-internet
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The video company streamed and recorded all talks, producing over 700 GB of raw footage that still had to be converted after the event."
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: "Video paragraph"
+
+  - ledger_id: L-2079
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Payment systems failed in several ways, especially at the switch from early-bird to normal price, forcing the team to take ticket requests by e-mail, which was hard to track and risked losing buyers."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Payment paragraph"
+
+  - ledger_id: L-2080
+    topic: ticketing-and-registration
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: quote
+    quote_or_paraphrase: "We advice the next conference organization to be sure to have a backup plan in case they run into these kinds of problems as well."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#principles-and-general-lessons"
+    locator: "Payment paragraph"
+
+  - ledger_id: L-2081
+    topic: web-comms-brand
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "A third-party mobile event app was chosen after comparing several; entering all talks and speakers was considerable work, but most attendees used it."
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#case-notes"
+    locator: "Mobile app paragraph"
+
+  - ledger_id: L-2082
+    topic: hotels-and-local-logistics
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "A floating hotel on the river was reserved for conference attendees only, a first for the series, and became a social hub."
+    confidence: observed
+    status: active
+    disposition: "placed: hotels-and-local-logistics#case-notes"
+    locator: "Floating hotel paragraph"
+
+  - ledger_id: L-2083
+    topic: sponsors
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The budget was met, including the Foundation fee; sponsors played the most important role in it, and extra sponsor income allowed improvements to the event."
+    confidence: observed
+    status: active
+    disposition: "placed: sponsors#case-notes"
+    locator: "Budget paragraph"
+
+  - ledger_id: L-2084
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Break-even was 220 tickets; four weeks before the event only 194 were sold, and a late rush brought the total to 250."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Budget paragraph"
+
+  - ledger_id: L-2085
+    topic: print-and-merch
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The goodie bag was only confirmed once 200 visitors had registered, so bags were ordered and filled at the last moment."
+    confidence: observed
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Goodie bag paragraph"
+
+  - ledger_id: L-2086
+    topic: print-and-merch
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Double-sided badges in several sponsor and role variants were printed in the office and needed hours to dry, and late registrations forced a second print run."
+    confidence: observed
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Preparations paragraph"
+
+  - ledger_id: L-2087
+    topic: signage-and-showtime
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Bags were sorted by last name across several entrance lines; about ten bags vanished overnight during a concert at the shared venue, and the information desk handled the affected attendees by reprinting badges."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#case-notes"
+    locator: "Opening day paragraph"
+
+  - ledger_id: L-2088
+    topic: signage-and-showtime
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The floor plan confused attendees, so the team printed more than 100 direction signs; one morning every sign had been removed overnight and had to be replaced before the program started."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#case-notes"
+    locator: "Training day and Thursday paragraphs"
+
+  - ledger_id: L-2089
+    topic: trainings
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Training ran both at the venue and at the host company's office, with more than 50 participants."
+    confidence: observed
+    status: active
+    disposition: "placed: trainings#case-notes"
+    locator: "Training day paragraph"
+
+  - ledger_id: L-2090
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "A national users day, organized by eight local Plone companies with 40 visitors, ran before the main conference and served as a live test of Wi-Fi, room equipment and wayfinding."
+    confidence: observed
+    status: active
+    disposition: "placed: business-and-side-tracks#case-notes"
+    locator: "Training day paragraph"
+
+  - ledger_id: L-2091
+    topic: volunteers-and-roles
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Every room had a floor manager from the organization with a walkie-talkie to call for help with projectors, streaming, Wi-Fi or water, and an information desk in the hangout handled questions and lost and found."
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#case-notes"
+    locator: "Floor managers paragraph"
+
+  - ledger_id: L-2092
+    topic: team-and-governance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "The organizing team held a stand-up after each conference day to review what to improve for the next day."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Team paragraph"
+
+  - ledger_id: L-2093
+    topic: catering
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "At the conference dinner the venue wrongly instructed waiters to charge attendees for drinks; the organizers had it corrected quickly."
+    confidence: observed
+    status: active
+    disposition: "placed: catering#case-notes"
+    locator: "Dinner and party paragraph"
+
+  - ledger_id: L-2094
+    topic: sprints
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "More than 150 people sprinted over two days on more than 20 topics in a packed room."
+    confidence: observed
+    status: active
+    disposition: "placed: sprints#case-notes"
+    locator: "Sprint paragraph"
+
+  - ledger_id: L-2095
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Local marketing used four large banners and 300 A0 posters."
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: "Preparations paragraph"
+
+  - ledger_id: L-2096
+    topic: scheduling
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Lightning-talk sessions grew each day, from 8 talks to 17 and then 14, and the room was full every day."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Lightning talks paragraph"
+
+  - ledger_id: L-2097
+    topic: scheduling
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Make breaks 30 minutes long rather than 15."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2098
+    topic: scheduling
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Separate talks by at least five minutes so people can change rooms without missing the start and speakers are not distracted by latecomers."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2099
+    topic: scheduling
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: quote
+    quote_or_paraphrase: "Lightning talks work better when given 3 to 4 minutes, not 7."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2100
+    topic: scheduling
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Allow one hour in the program for a lightning-talk session rather than 45 minutes."
+    confidence: observed
+    status: active
+    disposition: "placed: scheduling#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2101
+    topic: signage-and-showtime
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Make the floor plan available to everyone."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2102
+    topic: volunteers-and-roles
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Keep an organizer in every room at all times and coordinate by walkie-talkie."
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2103
+    topic: ticketing-and-registration
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Find a way to make people buy tickets earlier, because almost everyone waits until the last minute."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2104
+    topic: print-and-merch
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "A joke item in the lessons list warns against taking an oversized prize won at the closing junk bingo to the airport."
+    confidence: observed
+    status: active
+    disposition: "dropped: humorous aside without a transferable organizing lesson"
+    locator: "Lessons list"
+
+  - ledger_id: L-2105
+    topic: hotels-and-local-logistics
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Attendees rely on the hotel list on the conference website, so keep it updated for availability."
+    confidence: observed
+    status: active
+    disposition: "placed: hotels-and-local-logistics#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2106
+    topic: web-comms-brand
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Use a mobile event app, because it is easy to update and attendees like it."
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2107
+    topic: signage-and-showtime
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "When handing out goodie bags at first entry, run a separate line for questions."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2108
+    topic: signage-and-showtime
+    scope: general
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "Keep a printer connected to a computer full time during the event."
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#principles-and-general-lessons"
+    locator: "Lessons list"
+
+  - ledger_id: L-2109
+    topic: web-comms-brand
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S036
+    text_kind: paraphrase
+    quote_or_paraphrase: "One external designer produced the logo, badges, flyers, posters, award items and website design, giving the event a single visual identity."
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#case-notes"
+    locator: "Logo paragraph"
+
+  - ledger_id: L-2110
+    topic: team-and-governance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "The host company formed its organizing task force while writing the bid and kept the main tasks in-house, expecting additional helpers to join later."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Introduction"
+
+  - ledger_id: L-2111
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Attendee manager: wrote the bid and owned registration, the budget, the information desk and welcome, and all questions about accommodation, fees, money and sponsoring."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Attendee manager"
+
+  - ledger_id: L-2112
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Social activity manager: the contact for city information, recommended bars, restaurants and sights, and the companion program."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Social Activity manager"
+
+  - ledger_id: L-2113
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Venue and sprint manager: the venue contact, responsible for projectors, furniture, coffee and lunch, and coordinator of lightning talks, sprints and stand-ups."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Venue & Sprint manager"
+
+  - ledger_id: L-2114
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Program manager: built the day-by-day program of talks, sprints and open spaces across rooms, and looked after the keynote speaker and other invited speakers."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Program manager"
+
+  - ledger_id: L-2115
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Marketing manager: press contact, website, blog and social media before the event, and on-site reports and updates for remote followers during it."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Marketing manager"
+
+  - ledger_id: L-2116
+    topic: role-descriptions-template
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "Party manager: responsible for the conference party, including music, equipment and acts."
+    confidence: observed
+    status: active
+    disposition: "placed: role-descriptions-template"
+    locator: "Party manager"
+
+  - ledger_id: L-2117
+    topic: team-and-governance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S037
+    text_kind: paraphrase
+    quote_or_paraphrase: "The team published its role split, one owner per functional area, so attendees and sponsors knew whom to contact for which topic."
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Whole page"
+
+  - ledger_id: L-2118
+    topic: conference-data-table
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight Internet Solutions
+    source_id: S017
+    text_kind: paraphrase
+    quote_or_paraphrase: "The wrap-up post, written days after the event, gives 275 attendees from 33 countries."
+    confidence: observed
+    status: active
+    disposition: "dropped: superseded by the organizers' later final count recorded in L-2035"
+    locator: "Opening paragraph"

@@ -1,0 +1,46 @@
+name: Correction
+description: Report a wrong fact, a wrong date, an outdated figure or a broken link.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the correction.
+        For a typo or a broken link, a direct edit in the GitHub web interface is faster.
+        Do not paste personal data, private amounts or contact details.
+  - type: input
+    id: page
+    attributes:
+      label: Page id or URL
+      description: Where the error is.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: Quote the sentence or describe the claim.
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+      description: The corrected statement. Say whether it depends on size, jurisdiction or format.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link or document that supports the correction, with its date.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: How confident are you
+      options:
+        - label: I took part in the events described, or the source is a primary document.
+        - label: I can send a pull request with the fix if a maintainer agrees.

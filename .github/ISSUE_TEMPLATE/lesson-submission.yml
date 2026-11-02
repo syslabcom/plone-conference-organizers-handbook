@@ -1,0 +1,89 @@
+name: Lesson submission
+description: Add something you learned while organizing a Plone conference.
+title: "Lesson: "
+labels: ["lesson"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing what you learned.
+        The handbook takes only generalized information.
+        Do not enter personal data, private amounts, contact details or ticket-buyer data.
+        A steward replies, assigns a ledger ID and helps with the source.
+        The steps after this form are on the handbook page "Update".
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter id
+      description: The id of the chapter where the lesson belongs, for example finance or venue.
+      placeholder: finance
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Specific means one conference. General means it holds across conferences and years.
+      options:
+        - specific
+        - general
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: The conference year. Required for a specific lesson.
+      placeholder: "2024"
+  - type: input
+    id: place
+    attributes:
+      label: Place
+      description: The city of the conference. Required for a specific lesson.
+  - type: input
+    id: org
+    attributes:
+      label: Organizing body
+      description: The organization that ran the conference. An organization, never a person.
+  - type: textarea
+    id: lesson
+    attributes:
+      label: The lesson
+      description: State the transferable point first, then at most a short reason. Keep it under 80 words and to one point.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A published document, a conference record or a link where the claim can be checked. If there is none, say so.
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      description: Observed means you took part or the source is a primary document. Reported means you heard it from others. Hearsay means it cannot be checked.
+      options:
+        - observed
+        - reported
+        - hearsay
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Does the lesson depend on size, jurisdiction, organizer type, budget model, venue, format or language? Name the values.
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicts with existing advice
+      description: Does this contradict a lesson already in the handbook? Link the page or the lesson.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This text contains no personal data, no private amounts, no contact details and no ticket-buyer data.
+          required: true

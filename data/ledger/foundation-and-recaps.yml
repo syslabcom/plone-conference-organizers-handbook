@@ -1,0 +1,3086 @@
+# Lessons ledger, group 7d: Foundation calls and policies, Foundation-era and recent recaps, 2024 survey.
+# Schema: docs/spec/ledger-schema.md. ID range L-4000 to L-4999.
+group: 7d
+rows:
+- ledger_id: L-4001
+  topic: conference-data-table
+  scope: specific
+  year: 2006
+  place: Seattle
+  org: ONE/Northwest
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 350 attendees for the 2006 Seattle conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2006 entry
+- ledger_id: L-4002
+  topic: conference-data-table
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports more than 400 attendees for the 2007 Naples conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2007 entry
+- ledger_id: L-4003
+  topic: conference-data-table
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 350 attendees for the 2008 Washington, D.C. conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2008 entry
+- ledger_id: L-4004
+  topic: conference-data-table
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 420 attendees for the 2009 Budapest conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2009 entry
+- ledger_id: L-4005
+  topic: conference-data-table
+  scope: specific
+  year: 2010
+  place: Bristol
+  org: Netsight
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 275 attendees for the 2010 Bristol conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2010 entry
+- ledger_id: L-4006
+  topic: conference-data-table
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: San Francisco 2011 organizing team
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 265 attendees for the 2011 San Francisco conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2011 entry
+- ledger_id: L-4007
+  topic: conference-data-table
+  scope: specific
+  year: 2012
+  place: Arnhem
+  org: Four Digits
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 250 attendees for the 2012 Arnhem conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2012 entry
+- ledger_id: L-4008
+  topic: conference-data-table
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: Associação Python Brasil
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 584 attendees for the 2013 Brasília conference, which was hosted together with the Brazilian Python community.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2013 entry
+- ledger_id: L-4009
+  topic: conference-data-table
+  scope: specific
+  year: 2014
+  place: Bristol
+  org: Netsight
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 150 attendees for the 2014 Bristol conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2014 entry
+- ledger_id: L-4010
+  topic: conference-data-table
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 200 attendees for the 2015 Bucharest conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2015 entry
+- ledger_id: L-4011
+  topic: conference-data-table
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 150 attendees for the 2016 Boston conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2016 entry
+- ledger_id: L-4012
+  topic: conference-data-table
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 173 attendees for the 2017 Barcelona conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2017 entry
+- ledger_id: L-4013
+  topic: conference-data-table
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports around 150 attendees for the 2018 Tokyo conference, the first edition held in Asia.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2018 entry
+- ledger_id: L-4014
+  topic: conference-data-table
+  scope: specific
+  year: 2019
+  place: Ferrara
+  org: RedTurtle
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 173 attendees for the 2019 Ferrara conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2019 entry
+- ledger_id: L-4015
+  topic: conference-data-table
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 295 attendees for the 2020 online conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2020 entry
+- ledger_id: L-4016
+  topic: conference-data-table
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 268 attendees for the 2021 online conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2021 entry
+- ledger_id: L-4017
+  topic: conference-data-table
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 151 on-site attendees for the 2022 Namur conference, plus more than 1,400 unique viewers of the online stream.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2022 entry
+- ledger_id: L-4018
+  topic: conference-data-table
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 162 attendees for the 2023 Eibar conference, plus more than 1,000 unique viewers of the online stream.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2023 entry
+- ledger_id: L-4019
+  topic: conference-data-table
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's conference history page reports 291 attendees and 80 talks for the 2024 Brasília conference, held together with the regional Python Cerrado conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: 2024 entry
+- ledger_id: L-4020
+  topic: problem-history
+  scope: specific
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S001
+  text_kind: paraphrase
+  quote_or_paraphrase: As archived in 2026, the Foundation's official conference archive page lists editions only up to 2015. Later editions are documented only on separate yearly sites and scattered news items, so there is no single place to find them.
+  confidence: observed
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Conference list
+- ledger_id: L-4021
+  topic: defining-success
+  scope: general
+  year: 2025
+  place: n/a
+  org: Plone Foundation
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The history page counts online-stream viewers next to on-site attendees for 2022 and 2023, and the two largest in-person editions it lists (2013 and 2024) were both co-hosted with a regional Python conference. Attendance figures are therefore not comparable across years without knowing what was counted.
+  confidence: reported
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: 2013, 2022, 2023, 2024 entries
+- ledger_id: L-4022
+  topic: conference-data-table
+  scope: specific
+  year: 2025
+  place: n/a
+  org: Plone Foundation
+  source_id: S002
+  text_kind: paraphrase
+  quote_or_paraphrase: The history page dates the Tokyo conference to 2019 in its prose while its heading says 2018; the conference took place in November 2018.
+  confidence: reported
+  status: active
+  disposition: 'dropped: copy error in the source; the 2018 attendance row already records the correct year'
+  locator: 2018 entry
+- ledger_id: L-4023
+  topic: handover-contract
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S003
+  text_kind: paraphrase
+  quote_or_paraphrase: The Conference Committee consists of past organizers who keep the knowledge of what has to be done when, the processes, checklists, people and vendors, and so give each year's team continuity.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#principles-and-general-lessons'
+  locator: Responsibility
+- ledger_id: L-4024
+  topic: stakeholder-map
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S003
+  text_kind: paraphrase
+  quote_or_paraphrase: Traditionally a different group proposes and hosts the conference each year, usually led by a Plone service provider.
+  confidence: observed
+  status: active
+  disposition: 'placed: stakeholder-map#why-it-matters'
+  locator: Responsibility
+- ledger_id: L-4025
+  topic: team-and-governance
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S003
+  text_kind: paraphrase
+  quote_or_paraphrase: The committee page names the committee mailing list as the preferred contact channel.
+  confidence: observed
+  status: active
+  disposition: 'dropped: a contact detail with no transferable lesson; contact routes belong in the stakeholder map prose, not the ledger'
+  locator: Contact details
+- ledger_id: L-4026
+  topic: master-timeline
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The committee''s planning schedule starts with an initial meeting in November or December of the preceding year and sets a meeting cadence: monthly, then every two weeks from late spring, then weekly in the last month.'
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#how-to'
+  locator: Initial meeting
+- ledger_id: L-4027
+  topic: web-comms-brand
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule puts conference branding (logo, imagery, website theme, shirt, signage) in January and the website launch in February or earlier, with the code of conduct and a photo-consent notice included from the start.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#how-to'
+  locator: Branding; website launch
+- ledger_id: L-4028
+  topic: finance
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule's budget line lists sponsor and ticket income against expenses that include shirts, trainer housing, venue, services, catering, optional travel support and the Plone Foundation's share.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#how-to'
+  locator: Develop and track budget
+- ledger_id: L-4029
+  topic: venue
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule notes that training, talk and sprint venues are often a university or public institution, and lists food service, Wi-Fi and recording as venue concerns.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#how-to'
+  locator: Venues
+- ledger_id: L-4030
+  topic: hotels-and-local-logistics
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Housing for trainers and attendees is scheduled for March, together with travel information and local tourism suggestions.
+  confidence: observed
+  status: active
+  disposition: 'placed: hotels-and-local-logistics#how-to'
+  locator: Housing
+- ledger_id: L-4031
+  topic: visas-and-travel
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Invitation letters and visa-application support are an ongoing task across the whole planning year, not a one-off step.
+  confidence: observed
+  status: active
+  disposition: 'placed: visas-and-travel#how-to'
+  locator: Invitation letters
+- ledger_id: L-4032
+  topic: community-and-speaker-expectations
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule expects the team to coordinate with the Plone Google Summer of Code program to invite successful students to the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#how-to'
+  locator: GSoC
+- ledger_id: L-4033
+  topic: marketing-and-outreach
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule recommends reaching out to local Python groups to collaborate or hold a joint event.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#how-to'
+  locator: Local Python groups
+- ledger_id: L-4034
+  topic: cfp-and-selection
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: World Plone Day in April is suggested as the moment to ask people who submit World Plone Day talks to submit conference talks as well.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#how-to'
+  locator: World Plone Day
+- ledger_id: L-4035
+  topic: marketing-and-outreach
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The schedule suggests a promo video for World Plone Day in April; it can be a produced marketing piece or simply the organizers explaining why people should come.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#how-to'
+  locator: Promo video
+- ledger_id: L-4036
+  topic: keynotes-and-invited-talks
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Keynote speakers, the call for talks and the call for trainers are scheduled for April.
+  confidence: observed
+  status: active
+  disposition: 'placed: keynotes-and-invited-talks#how-to'
+  locator: April
+- ledger_id: L-4037
+  topic: ticketing-and-registration
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: The ticketing system should collect agreement to be photographed and to abide by the Plone Code of Conduct at purchase.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#how-to'
+  locator: Ticketing system
+- ledger_id: L-4038
+  topic: trainings
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: In May the schedule releases a preliminary program without talks and sends a survey for training registration, before early-bird and regular tickets.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#how-to'
+  locator: May
+- ledger_id: L-4039
+  topic: finance
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Applications for Python Software Foundation and EuroPython funding should be filed eight weeks before the event; the schedule recommends early June, which is far earlier than eight weeks for a September conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#how-to'
+  locator: PSF and EuroPython funding
+- ledger_id: L-4040
+  topic: cfp-and-selection
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Talk submissions need active chasing: the schedule aims for at least 75% of talks by June and still expects some last-minute submissions in September.'
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#principles-and-general-lessons'
+  locator: June
+- ledger_id: L-4041
+  topic: cfp-and-selection
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Reviewing proposals and sending acceptances is scheduled for August, followed by the full schedule including trainings, talks, the Foundation annual meeting, lightning talks, party and sprints.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#how-to'
+  locator: August
+- ledger_id: L-4042
+  topic: sprints
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Sprint organization is scheduled for September, the month of the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#how-to'
+  locator: September
+- ledger_id: L-4043
+  topic: print-and-merch
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Shirts are ordered after the August program work, and the attendee bag (shirt, gifts, handouts) is prepared in September.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#how-to'
+  locator: Order t-shirts; attendee bag
+- ledger_id: L-4044
+  topic: ticketing-and-registration
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: quote
+  quote_or_paraphrase: Ticket sales - people will buy tickets even very late.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#principles-and-general-lessons'
+  locator: Tip appended to the schedule
+- ledger_id: L-4045
+  topic: ticketing-and-registration
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: 'A past organizer''s tip: keep ticket sales open until very late, especially when the venue is easy to reach from Europe.'
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#how-to'
+  locator: Tip appended to the schedule
+- ledger_id: L-4046
+  topic: print-and-merch
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S004
+  text_kind: paraphrase
+  quote_or_paraphrase: Order extra shirts because late buyers will take them, and sell remaining shirts after the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: print-and-merch#principles-and-general-lessons'
+  locator: Tip appended to the schedule
+- ledger_id: L-4047
+  topic: contracts-legal-insurance
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: Organizers must work out locally which insurance types and limits the event needs; the Foundation states it cannot help because the rules differ widely between countries.
+  confidence: observed
+  status: active
+  disposition: 'placed: contracts-legal-insurance#why-it-matters'
+  locator: Insurance and legal matters; Funding request
+- ledger_id: L-4048
+  topic: social-events-and-party
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: Foundation funds may not buy alcohol for resale, because that is outside a charity's purpose; alcohol for consumption with meals at Plone events is acceptable.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#how-to'
+  locator: Specify for what funding shall be used
+- ledger_id: L-4049
+  topic: sprints
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: Be strategic and selective when offering to reimburse travel, because it is not financially possible to reimburse every participant; some Foundation roles already receive an annual travel stipend.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#how-to'
+  locator: Specify for what funding shall be used
+- ledger_id: L-4050
+  topic: sustainability
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation board has adopted two priorities, more diversity in the community and a lower carbon footprint, and asks organizers to say when meeting them needs extra funding.
+  confidence: observed
+  status: active
+  disposition: 'placed: sustainability#why-it-matters'
+  locator: Specify for what funding shall be used
+- ledger_id: L-4051
+  topic: master-timeline
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation board drafts its budget in December and publishes it in January, so funding requests made later in the year are less likely to find money left.
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#how-to'
+  locator: Apply before the deadline
+- ledger_id: L-4052
+  topic: web-comms-brand
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: Funded events report back with a news item on plone.org that lists participants, thanks sponsors and links a curated best-of photo folder; the Marketing Team helps authors who are not confident writing in English.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#how-to'
+  locator: Report on your event
+- ledger_id: L-4053
+  topic: finance
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S005
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation reimburses through Wise, which does not allow charities to send Indian rupees to residents of India, and bank wires have also failed; payments to India-resident recipients need another route.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#risks'
+  locator: India residents
+- ledger_id: L-4054
+  topic: bid-and-selection
+  scope: general
+  year: 2012
+  place: n/a
+  org: Plone Foundation
+  source_id: S006
+  text_kind: paraphrase
+  quote_or_paraphrase: The names "Plone Conference <year>" and "International Plone Conference" are reserved for the Foundation-approved annual event, whose location the Foundation selects.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#why-it-matters'
+  locator: International Plone Conference
+- ledger_id: L-4055
+  topic: glossary
+  scope: general
+  year: 2012
+  place: n/a
+  org: Plone Foundation
+  source_id: S006
+  text_kind: paraphrase
+  quote_or_paraphrase: Regional events are named after a country or US state; they used to be called symposia, a name dropped to avoid misunderstanding, and there is only one Plone Conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: glossary'
+  locator: Regional Plone Conferences; amendment of 2012
+- ledger_id: L-4056
+  topic: legal-entity-and-financial-agent
+  scope: general
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S091
+  text_kind: paraphrase
+  quote_or_paraphrase: Most past conferences were run on the organizers' own bank accounts, credit and accounting; the organizers carried the full risk of losses from missed attendance or cost overruns and kept any surplus.
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#why-it-matters'
+  locator: Preamble
+- ledger_id: L-4057
+  topic: problem-history
+  scope: general
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S091
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation acted as financial agent on a trial basis for San Francisco 2011, then for a 2014 regional symposium and for the Bucharest 2015 and Boston 2016 conferences, before making it a standing offer from 2018.
+  confidence: observed
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Recent years
+- ledger_id: L-4058
+  topic: legal-entity-and-financial-agent
+  scope: general
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S091
+  text_kind: paraphrase
+  quote_or_paraphrase: As financial agent the Foundation covers losses and lends its bank and PayPal accounts, accounting and Treasurer; in exchange it gets regular updates, board members in the planning, final authority on financial decisions and the surplus.
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#decisions-you-must-make'
+  locator: Conditions
+- ledger_id: L-4059
+  topic: legal-entity-and-financial-agent
+  scope: general
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S091
+  text_kind: quote
+  quote_or_paraphrase: the added work hours will NOT be covered by the Foundation
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#risks'
+  locator: Conditions, on access to the Treasurer
+- ledger_id: L-4060
+  topic: problem-history
+  scope: general
+  year: 2025
+  place: n/a
+  org: Plone Foundation
+  source_id: S092
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation board listed a written list of requirements for organizing conferences and sprints among its 2025 priorities, which confirms that no such list existed.
+  confidence: observed
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Strengthen the Plone Foundation
+- ledger_id: L-4061
+  topic: sponsors
+  scope: general
+  year: 2025
+  place: n/a
+  org: Plone Foundation
+  source_id: S092
+  text_kind: paraphrase
+  quote_or_paraphrase: The board's 2025 priorities ask for one straightforward sponsorship program, covering provider, Foundation, conference, individual and GitHub sponsors, managed by a team.
+  confidence: observed
+  status: active
+  disposition: 'placed: sponsors#why-it-matters'
+  locator: Strengthen the Plone Foundation
+- ledger_id: L-4062
+  topic: sustainability
+  scope: general
+  year: 2025
+  place: n/a
+  org: Plone Foundation
+  source_id: S092
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2025 priorities repeat the diversity and carbon-footprint goals.
+  confidence: observed
+  status: active
+  disposition: 'dropped: duplicate of the sponsorship-policy row on the same two board priorities, which carries the organizer-facing consequence'
+  locator: Strengthen the Plone Foundation
+- ledger_id: L-4063
+  topic: scheduling
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S007
+  text_kind: paraphrase
+  quote_or_paraphrase: Foundation member meetings are held once a year and coincide with the Plone Conference, so the program must reserve a slot for them.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#how-to'
+  locator: Member Meetings
+- ledger_id: L-4064
+  topic: finance
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: quote
+  quote_or_paraphrase: Be sure to consider and explain how you will manage cashflow; you will almost certainly need to put down money before sponsorship & registration dollars come in.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#principles-and-general-lessons'
+  locator: 'Required elements: budget'
+- ledger_id: L-4065
+  topic: handover-contract
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: The call asks bid teams to read past organizers' lessons-learned reports and earlier winning proposals before writing their own, making them the de facto handover material.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#why-it-matters'
+  locator: Introduction
+- ledger_id: L-4066
+  topic: team-and-governance
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Bid teams are asked whether they have enough people for the grunt work before and during the conference, not just named leads.
+  confidence: observed
+  status: active
+  disposition: 'placed: team-and-governance#principles-and-general-lessons'
+  locator: About your team
+- ledger_id: L-4067
+  topic: ticketing-and-registration
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Affordability is a key issue for many community members, especially students and self-employed people; the call suggested a target of US$250–450 per person (as of 2015-08).
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#principles-and-general-lessons'
+  locator: Estimated cost per person
+- ledger_id: L-4068
+  topic: trainings
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendee surveys showed that inexpensive or included pre-conference training classes are a major selling point, especially for newer community members, so the Foundation strongly encourages them.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#principles-and-general-lessons'
+  locator: 'Suggested conference design: rationale'
+- ledger_id: L-4069
+  topic: sprints
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Post-conference sprints have drawn 50 to 150 people; a separate, inexpensive venue nearby is fine, and an experienced community member should lead the sprint.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#how-to'
+  locator: Suggested conference design
+- ledger_id: L-4070
+  topic: av-recording-internet
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: quote
+  quote_or_paraphrase: Fast turnaround of the videos is preferable to longer, higher-quality post production.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#principles-and-general-lessons'
+  locator: 'Suggested conference design: recording'
+- ledger_id: L-4071
+  topic: sustainability
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Conferences consume much energy and create waste; the call suggests recycling, avoiding disposables, minimal paper handouts, no low-quality swag and locally produced food.
+  confidence: observed
+  status: active
+  disposition: 'placed: sustainability#how-to'
+  locator: Suggested conference design
+- ledger_id: L-4072
+  topic: marketing-and-outreach
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Proposals must explain how they will attract site builders new to Plone and reach both traditional user segments (nonprofits, education, government, intranets) and emerging corporate users.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#why-it-matters'
+  locator: Conference vision and goals
+- ledger_id: L-4073
+  topic: master-timeline
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Avoid major religious or national holidays when fixing dates; several religious feasts move each year and can fall in October.
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#how-to'
+  locator: Plone conference requirements
+- ledger_id: L-4074
+  topic: bid-and-selection
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Prospective bidders are invited to contact the board early so it can advise; the board pre-qualifies complete proposals and Foundation members then vote.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#how-to'
+  locator: How to submit; Decision process
+- ledger_id: L-4075
+  topic: bid-and-selection
+  scope: specific
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2016 call ran from announcement in late August to proposals due in late September and a location announcement in mid-October, about twelve months before the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Schedule
+- ledger_id: L-4076
+  topic: stakeholder-map
+  scope: general
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: Plone conferences are organized by a company, user group or other entity with ties to the community and are in essence not-for-profit events.
+  confidence: observed
+  status: active
+  disposition: 'placed: stakeholder-map#why-it-matters'
+  locator: Conference vision and goals
+- ledger_id: L-4077
+  topic: finance
+  scope: specific
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S049
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2016 call set the Foundation contribution at 15% of registration income only, not of sponsorship, collected after the conference, and asked bidders to build it into the budget.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Foundation contribution
+- ledger_id: L-4078
+  topic: handover-contract
+  scope: specific
+  year: 2016
+  place: n/a
+  org: Plone Foundation
+  source_id: S052
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2017 call removed the two 2010 organizer reports from its list of four recommended past-organizer accounts and instead offered to put bidders in personal contact with previous organizers.
+  confidence: observed
+  status: active
+  disposition: 'placed: handover-contract#case-notes'
+  locator: Introduction
+- ledger_id: L-4079
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S055
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2018 call was the first to carry the financial-agent conditions as formal requirements, flagged as new for that year.
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#case-notes'
+  locator: Changes for 2018
+- ledger_id: L-4080
+  topic: defining-success
+  scope: specific
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S055
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2018 call lowered the minimum venue capacity from 250 to 200 people, the first downward adjustment in the calls archived.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Plone conference requirements
+- ledger_id: L-4081
+  topic: trainings
+  scope: specific
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S055
+  text_kind: paraphrase
+  quote_or_paraphrase: From 2018 the call adds that teams may wish to recruit an experienced community member as training leader.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#how-to'
+  locator: Suggested conference design
+- ledger_id: L-4082
+  topic: finance
+  scope: specific
+  year: 2017
+  place: n/a
+  org: Plone Foundation
+  source_id: S055
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2018 call raised the Foundation contribution to 20% of registration income.
+  confidence: observed
+  status: superseded
+  disposition: 'dropped: superseded by the 2019 call, which returned the rate to 15%; kept for the rate history'
+  locator: Foundation contribution
+  by: L-4900
+- ledger_id: L-4083
+  topic: bid-and-selection
+  scope: general
+  year: 2018
+  place: n/a
+  org: Plone Foundation
+  source_id: S059
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The 2019 call presents the financial-agent option as a trade: organizers who ask for it hand over loss risk and receive banking and accounting, in return for board oversight, final financial authority and the surplus.'
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#how-to'
+  locator: Financial requirements (new since 2018)
+- ledger_id: L-4900
+  topic: finance
+  scope: specific
+  year: 2018
+  place: n/a
+  org: Plone Foundation
+  source_id: S059
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2019 call set the Foundation contribution back to 15% of registration income.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Foundation contribution
+- ledger_id: L-4084
+  topic: bid-and-selection
+  scope: specific
+  year: 2018
+  place: n/a
+  org: Plone Foundation
+  source_id: S059
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2019 call moved the proposal deadline to mid-October and the location announcement to early November, about eleven months before the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Schedule
+- ledger_id: L-4085
+  topic: contracts-legal-insurance
+  scope: specific
+  year: 2019
+  place: n/a
+  org: Plone Foundation
+  source_id: S096
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2020 call, the most recent hosting call located, added insurance due diligence to the required elements of a bid.
+  confidence: observed
+  status: active
+  disposition: 'placed: contracts-legal-insurance#case-notes'
+  locator: Required elements
+- ledger_id: L-4086
+  topic: programme-portfolio
+  scope: general
+  year: 2019
+  place: n/a
+  org: Plone Foundation
+  source_id: S096
+  text_kind: paraphrase
+  quote_or_paraphrase: Past conferences covered related technologies, accessibility, user experience, documentation and community organizing, and served as meeting places for special-interest groups such as universities and NGOs.
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#why-it-matters'
+  locator: Past conferences
+- ledger_id: L-4087
+  topic: city-selection
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The Naples bid argued from cheap access: an airport two kilometers from the center, many low-cost flights, high-speed rail to Rome and three-star hotels from 40 euros a day (as of the 2006 bid).'
+  confidence: observed
+  status: active
+  disposition: 'placed: city-selection#case-notes'
+  locator: Naples as the location; as a city
+- ledger_id: L-4088
+  topic: programme-portfolio
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2007 bid laid out two training days, three conference days and three sprint days, the week-long shape later conferences kept.
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Programme
+- ledger_id: L-4089
+  topic: defining-success
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The Naples bid planned for up to 700 participants; the history page later reports just over 400.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Capacity
+- ledger_id: L-4090
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid priced registration at 300–350 euros (as of the 2006 bid), including all sessions, a shuttle to the venue, two coffee breaks and lunch every day.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Capacity
+- ledger_id: L-4091
+  topic: av-recording-internet
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid sold the venue on 20-megabit internet connections in every hall.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: The City of Science
+- ledger_id: L-4092
+  topic: social-events-and-party
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid planned evening talks and concerts because the conference should continue into the evening in the spirit of local hospitality.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Programme
+- ledger_id: L-4093
+  topic: master-timeline
+  scope: specific
+  year: 2007
+  place: Naples
+  org: Abstract Open Solutions
+  source_id: S010
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid named late September to early November as the ideal period for climate and costs.
+  confidence: observed
+  status: active
+  disposition: 'dropped: duplicate of the autumn window the later Foundation calls set as a requirement'
+  locator: 'Naples: the perfect location'
+- ledger_id: L-4094
+  topic: av-recording-internet
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S011
+  text_kind: paraphrase
+  quote_or_paraphrase: The official record links video and slides for most sessions from the agenda, plus a conference brochure.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Info
+- ledger_id: L-4095
+  topic: programme-portfolio
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S011
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2008 conference ran training Monday–Tuesday, conference Wednesday–Friday and sprint Saturday–Sunday.
+  confidence: observed
+  status: active
+  disposition: 'dropped: duplicate of the week-long format already recorded for 2007; adds no new evidence'
+  locator: Info
+- ledger_id: L-4096
+  topic: av-recording-internet
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S012
+  text_kind: quote
+  quote_or_paraphrase: We swamped the network this morning, and it's been down ever since.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Live blog, opening day
+- ledger_id: L-4097
+  topic: wifi-failure
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S012
+  text_kind: paraphrase
+  quote_or_paraphrase: On the opening morning the attendees' devices saturated the venue network, which stayed down for most of the day; the live blogger observed that people at least paid attention to the talks.
+  confidence: observed
+  status: active
+  disposition: 'placed: wifi-failure#triggers'
+  locator: Live blog, opening day
+- ledger_id: L-4098
+  topic: web-comms-brand
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S012
+  text_kind: paraphrase
+  quote_or_paraphrase: Live coverage of the opening keynote could only start once the network was fixed.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Live blog, opening day
+- ledger_id: L-4099
+  topic: defining-success
+  scope: specific
+  year: 2008
+  place: Washington, D.C.
+  org: ZPUGDC
+  source_id: S012
+  text_kind: paraphrase
+  quote_or_paraphrase: Organizers had wondered how many people would travel from abroad to a US conference and saw a good turnout from Europe and some from Australia and Japan.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Live blog, opening day
+- ledger_id: L-4100
+  topic: city-selection
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: Budapest was the first conference held outside the United States and Western Europe and was chosen as reachable from both Western and Eastern Europe.
+  confidence: reported
+  status: active
+  disposition: 'placed: city-selection#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4101
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: A foundation grant program covered registration and part of travel for participants, especially from Eastern Europe.
+  confidence: reported
+  status: active
+  disposition: 'placed: accessibility-and-inclusion#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4102
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Because regional prices were below the European average, registration was cheaper than in earlier years: 150 euros early bird and 200 euros full price (as of 2009-10).'
+  confidence: reported
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4103
+  topic: programme-portfolio
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: Budapest added Open Space sessions alongside the talk tracks for the first time, to allow more interaction between presenters and listeners.
+  confidence: reported
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4104
+  topic: social-events-and-party
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: The party was free for registered attendees, with extra tickets on sale for guests.
+  confidence: reported
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4105
+  topic: sprints
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: The two sprint days were free and held at the conference venue.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Upcoming events
+- ledger_id: L-4106
+  topic: scheduling
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: Foundation board elections ran online and in person during the conference days.
+  confidence: reported
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Foundation news
+- ledger_id: L-4107
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S013
+  text_kind: paraphrase
+  quote_or_paraphrase: A community-support contest awarded conference travel and admission as its prize.
+  confidence: reported
+  status: active
+  disposition: 'dropped: too specific to transfer; a one-off prize arrangement'
+  locator: Top news
+- ledger_id: L-4108
+  topic: conference-data-table
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S014
+  text_kind: paraphrase
+  quote_or_paraphrase: A host-community mailing-list post reports more than 400 participants, more than 50 of them from Eastern Europe.
+  confidence: observed
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Post of December 2009 (Hungarian)
+- ledger_id: L-4109
+  topic: defining-success
+  scope: specific
+  year: 2009
+  place: Budapest
+  org: Greenfinity
+  source_id: S014
+  text_kind: paraphrase
+  quote_or_paraphrase: The host company noted afterwards that only a few users from the host country had attended the conference, and called a local meetup to turn the conference's momentum into local community activity.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Post of December 2009 (Hungarian)
+- ledger_id: L-4110
+  topic: web-comms-brand
+  scope: specific
+  year: 2014
+  place: Bristol
+  org: Netsight
+  source_id: S043
+  text_kind: paraphrase
+  quote_or_paraphrase: After the 2014 conference the communications team issued a special-edition newsletter collecting videos of all talks and keynotes, slides and notes.
+  confidence: reported
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Introduction
+- ledger_id: L-4111
+  topic: programme-portfolio
+  scope: specific
+  year: 2014
+  place: Bristol
+  org: Netsight
+  source_id: S044
+  text_kind: paraphrase
+  quote_or_paraphrase: A strategic open space at the 2014 conference used sticky-note brainstorming to gather a large crowd's ideas and produced a community roadmap with surprising consensus.
+  confidence: reported
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Plone 2020
+- ledger_id: L-4112
+  topic: sprints
+  scope: specific
+  year: 2014
+  place: Bristol
+  org: Netsight
+  source_id: S044
+  text_kind: paraphrase
+  quote_or_paraphrase: The roadmap from the conference open space directly drove the work at the conference sprint.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Summary
+- ledger_id: L-4113
+  topic: scheduling
+  scope: specific
+  year: 2014
+  place: Bristol
+  org: Netsight
+  source_id: S045
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's annual business meeting was held during the conference, on the Friday around midday.
+  confidence: observed
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: 2014 Membership Meeting
+- ledger_id: L-4114
+  topic: trainings
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: For Bucharest, training was included in the ticket price, with five courses of one or two days each.
+  confidence: reported
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Bucharest update
+- ledger_id: L-4115
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: Bucharest trainers received hotel reimbursement and a free conference ticket, possibly flights, but no fee.
+  confidence: reported
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: Bucharest update
+- ledger_id: L-4116
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: Board members questioned whether trainers kept any financial incentive; one experienced trainer said she at best broke even, others saw training as promotion or an investment, and the board worried about still attracting good trainers.
+  confidence: reported
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: Bucharest update
+- ledger_id: L-4117
+  topic: trainings
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: The board left open whether included training would become policy for future conferences.
+  confidence: reported
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Bucharest update
+- ledger_id: L-4118
+  topic: bid-and-selection
+  scope: specific
+  year: 2015
+  place: Tokyo
+  org: Plone Users Group Japan
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: A regional symposium in Tokyo with about 70 attendees, well organized and covered by local media, preceded the Tokyo bid for the 2018 conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Tokyo Symposium report
+- ledger_id: L-4119
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2015
+  place: Tokyo
+  org: Plone Users Group Japan
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: An accessibility talk at the Tokyo symposium led to GitHub issues and the idea of an accessibility track.
+  confidence: reported
+  status: active
+  disposition: 'dropped: too specific to transfer; no conference outcome recorded'
+  locator: Tokyo Symposium report
+- ledger_id: L-4120
+  topic: sponsors
+  scope: specific
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: The board agreed to create a sponsorship category for universities and local governments.
+  confidence: reported
+  status: active
+  disposition: 'placed: sponsors#case-notes'
+  locator: New Sponsorship Category
+- ledger_id: L-4121
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2015
+  place: State College
+  org: Plone Foundation
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: At a university web conference of about 500 people, almost all booth traffic for Plone providers came from people they already knew.
+  confidence: reported
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Review ongoing
+- ledger_id: L-4122
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2015
+  place: n/a
+  org: Plone Foundation
+  source_id: S046
+  text_kind: paraphrase
+  quote_or_paraphrase: Board members noted that submitting a talk or case study to another sector's conference costs far less than sponsoring it.
+  confidence: reported
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Review ongoing
+- ledger_id: L-4123
+  topic: venue
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S047
+  text_kind: paraphrase
+  quote_or_paraphrase: Bucharest ran training, conference and sprints in one hotel venue with dedicated venue staff, marketed as an all-in-one conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Schedule; Location
+- ledger_id: L-4124
+  topic: bid-and-selection
+  scope: specific
+  year: 2015
+  place: Bucharest
+  org: Eau de Web
+  source_id: S048
+  text_kind: paraphrase
+  quote_or_paraphrase: The next year's host team was announced at the closing session after the board received its nomination.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Closing session
+- ledger_id: L-4125
+  topic: venue
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S048
+  text_kind: paraphrase
+  quote_or_paraphrase: The Boston team pitched two venues, a business school and a corporate research center.
+  confidence: observed
+  status: active
+  disposition: 'dropped: duplicate of the Boston logistics rows from the attendee briefing, which record the consequences'
+  locator: Boston pitch
+- ledger_id: L-4126
+  topic: venue
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S050
+  text_kind: paraphrase
+  quote_or_paraphrase: A technology company donated the use of its research center's conference facilities for the talk and sprint days.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: A sensational venue
+- ledger_id: L-4127
+  topic: trainings
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S050
+  text_kind: paraphrase
+  quote_or_paraphrase: Two days of training were included in the ticket price.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Training
+- ledger_id: L-4128
+  topic: sponsors
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S050
+  text_kind: paraphrase
+  quote_or_paraphrase: Alongside company tiers, Boston listed individual contributors as a sponsor category.
+  confidence: observed
+  status: active
+  disposition: 'placed: sponsors#case-notes'
+  locator: Our supporters
+- ledger_id: L-4129
+  topic: conference-data-table
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers' attendee briefing reports participants from 21 countries.
+  confidence: observed
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Welcome
+- ledger_id: L-4130
+  topic: venue
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: The corporate venue admitted no one without government-issued photo ID, on every conference and sprint day.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Getting to registration
+- ledger_id: L-4131
+  topic: venue
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: Keynotes were in a theater in another building, with no food or drink allowed, leaving 20 minutes to walk back to the main venue each day.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Keynotes vs everything else
+- ledger_id: L-4132
+  topic: trainings
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: Training classes were spread across several locations, and attendees had to plan travel time between morning and afternoon sessions.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Getting to training classes
+- ledger_id: L-4133
+  topic: low-ticket-sales
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: Days before the start, attendees were asked to share their attendance on social media to encourage more last-minute registrations.
+  confidence: observed
+  status: active
+  disposition: 'placed: low-ticket-sales#first-hour-actions'
+  locator: Social media sharing
+- ledger_id: L-4134
+  topic: web-comms-brand
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: A mobile guide app carried the schedule, speaker information and FAQs, updated automatically.
+  confidence: observed
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Guidebook
+- ledger_id: L-4135
+  topic: code-of-conduct-operations
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: The pre-arrival briefing put the Code of Conduct response contact and the emergency number at the top.
+  confidence: observed
+  status: active
+  disposition: 'placed: code-of-conduct-operations#case-notes'
+  locator: Code of Conduct; Emergencies
+- ledger_id: L-4136
+  topic: catering
+  scope: specific
+  year: 2016
+  place: Boston
+  org: Plone Foundation
+  source_id: S051
+  text_kind: paraphrase
+  quote_or_paraphrase: Coffee was served only at registration on day one; on the other days it started after the keynote.
+  confidence: observed
+  status: active
+  disposition: 'placed: catering#case-notes'
+  locator: Getting to registration
+- ledger_id: L-4137
+  topic: venue
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S053
+  text_kind: paraphrase
+  quote_or_paraphrase: Barcelona was hosted at a technical university that ran hundreds of Plone sites, giving a venue partner with a direct stake in Plone.
+  confidence: reported
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: The venue
+- ledger_id: L-4138
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S053
+  text_kind: paraphrase
+  quote_or_paraphrase: A local software cooperative acted as the legal, financial and logistics supplier for the conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#case-notes'
+  locator: The organizers
+- ledger_id: L-4139
+  topic: programme-portfolio
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S054
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Barcelona offered three tracks: Plone, Python web technologies and modern JavaScript frontends.'
+  confidence: observed
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Talks
+- ledger_id: L-4140
+  topic: trainings
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S054
+  text_kind: paraphrase
+  quote_or_paraphrase: A wide range of training classes was included in the conference ticket price.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Training
+- ledger_id: L-4141
+  topic: sprints
+  scope: specific
+  year: 2017
+  place: Barcelona
+  org: Iskra SCCL
+  source_id: S054
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint invited work on Plone or on any favorite Python or JavaScript framework, with newcomers especially welcome.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Sprints
+- ledger_id: L-4142
+  topic: defining-success
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S057
+  text_kind: paraphrase
+  quote_or_paraphrase: The sponsor prospectus expected about 200 participants, roughly 90% from overseas; the history page later reports around 150.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Event outline
+- ledger_id: L-4143
+  topic: sponsors
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S057
+  text_kind: paraphrase
+  quote_or_paraphrase: The sponsor prospectus offered five tiers priced in local currency with a benefits matrix running from a name on the website to a booth, a company talk and party branding.
+  confidence: observed
+  status: active
+  disposition: 'placed: sponsors#case-notes'
+  locator: Sponsoring class
+- ledger_id: L-4144
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S057
+  text_kind: paraphrase
+  quote_or_paraphrase: Speakers could buy a ticket at the early-bird price; lightning-talk presenters did not qualify.
+  confidence: observed
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: Ticket information
+- ledger_id: L-4145
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S057
+  text_kind: paraphrase
+  quote_or_paraphrase: The ticket range included a one-day ticket for training and talk days without dinner, besides general, early-bird and speaker tickets.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Ticket information
+- ledger_id: L-4146
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S058
+  text_kind: paraphrase
+  quote_or_paraphrase: Four weeks before the conference, the organizers publicly asked everyone who already knew they were coming to buy tickets as soon as possible, because they needed the numbers to plan shirts and food.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Forum announcement, 2018-10-09
+- ledger_id: L-4147
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S058
+  text_kind: paraphrase
+  quote_or_paraphrase: Buying several tickets in one order, for example for colleagues, was added only late in the sales period.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Forum announcement, 2018-10-09
+- ledger_id: L-4148
+  topic: finance
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S058
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers asked international attendees to report accompanying family and friends, because the count helped secure more support from the city.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Forum announcement, 2018-10-09
+- ledger_id: L-4149
+  topic: finance
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The winning bid modeled income, fixed costs and per-person costs at three attendance levels (150, 200 and 250).
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Estimated budget
+- ledger_id: L-4150
+  topic: finance
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: City and convention-bureau funding was offered only if registered international participants reached a minimum number of visitor room nights, and would be withdrawn otherwise.
+  confidence: observed
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: 'Supporting organizations: funding support'
+- ledger_id: L-4151
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: To draw local participants, the bid planned day tickets, a Japanese-language track and simultaneous interpretation of keynotes.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Marketing plan; plan for the conference
+- ledger_id: L-4152
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: 'The bid asked the Foundation to act as financial agent and accepted its conditions: regular updates, board authority over financial decisions and the surplus to the Foundation.'
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#case-notes'
+  locator: Financial requirements
+- ledger_id: L-4153
+  topic: visas-and-travel
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid listed the countries covered by the host's visa-waiver program and offered invitation letters to registered participants who needed a visa.
+  confidence: observed
+  status: active
+  disposition: 'placed: visas-and-travel#case-notes'
+  locator: Entry requirements
+- ledger_id: L-4154
+  topic: av-recording-internet
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid planned to film and live-stream all keynotes and sessions using the AV company that already served the national Python conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Audio visual
+- ledger_id: L-4155
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The convention bureau offered to promote the event through brochures, its events calendar and visitor guides once the city won the bid.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Event marketing support
+- ledger_id: L-4156
+  topic: bid-and-selection
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid team cited its experience running the national and regional Python conferences as evidence it could deliver.
+  confidence: observed
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Past event organizing experience
+- ledger_id: L-4157
+  topic: sprints
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint was planned at a separate venue, open to people without a conference ticket, with no meals provided.
+  confidence: observed
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Sprint; meals and drinks
+- ledger_id: L-4158
+  topic: finance
+  scope: specific
+  year: 2018
+  place: Tokyo
+  org: Plone Conference 2018 Steering Committee
+  source_id: S095
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid promised to reinvest any profit in more keynotes or a better reception venue.
+  confidence: observed
+  status: active
+  disposition: 'dropped: an intention, not an outcome; superseded by the financial-agent terms under which surplus goes to the Foundation'
+  locator: Projections
+- ledger_id: L-4159
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2019
+  place: Ferrara
+  org: RedTurtle
+  source_id: S060
+  text_kind: paraphrase
+  quote_or_paraphrase: Ferrara sold one full pass covering training, conference, lunches, party and sprints for 380 euros plus fee and VAT, and a one-day pass for 150 euros (as of 2019).
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Get tickets now
+- ledger_id: L-4160
+  topic: social-events-and-party
+  scope: specific
+  year: 2019
+  place: Ferrara
+  org: RedTurtle
+  source_id: S060
+  text_kind: paraphrase
+  quote_or_paraphrase: A separate +1 party ticket let attendees bring a friend or partner to the party.
+  confidence: observed
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Get tickets now
+- ledger_id: L-4161
+  topic: venue
+  scope: specific
+  year: 2019
+  place: Ferrara
+  org: RedTurtle
+  source_id: S060
+  text_kind: paraphrase
+  quote_or_paraphrase: Talks ran in three halls of a historic city-center cinema.
+  confidence: observed
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Venue
+- ledger_id: L-4162
+  topic: problem-history
+  scope: specific
+  year: 2019
+  place: n/a
+  org: Plone Foundation
+  source_id: S061
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation's official 2019 record holds a one-line note and links, with no recap, figures or lessons.
+  confidence: observed
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Ferrara 2019 page
+- ledger_id: L-4163
+  topic: hybrid-online
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S062
+  text_kind: paraphrase
+  quote_or_paraphrase: Because of the pandemic, the Foundation board canceled the physical conference and ran it entirely online.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Announcement
+- ledger_id: L-4164
+  topic: hybrid-online
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S062
+  text_kind: paraphrase
+  quote_or_paraphrase: The online format kept the week but moved training to a weekend, ran four days of talks plus one day of open spaces, then a weekend sprint.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Preliminary information
+- ledger_id: L-4165
+  topic: hybrid-online
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S063
+  text_kind: paraphrase
+  quote_or_paraphrase: The online conference took place three weeks later than first announced.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Conference information
+- ledger_id: L-4166
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S063
+  text_kind: paraphrase
+  quote_or_paraphrase: The online edition's early-bird window lasted one week, and regular registration ran until the day before the start.
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Important dates
+- ledger_id: L-4167
+  topic: cfp-and-selection
+  scope: specific
+  year: 2020
+  place: Online
+  org: Plone Foundation
+  source_id: S063
+  text_kind: paraphrase
+  quote_or_paraphrase: The call for papers stayed open until about six weeks before the online conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: cfp-and-selection#case-notes'
+  locator: Important dates
+- ledger_id: L-4168
+  topic: hybrid-online
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S064
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2021 conference was again fully online, on an event platform provided by a sponsoring company.
+  confidence: reported
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Next time
+- ledger_id: L-4169
+  topic: av-recording-internet
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S064
+  text_kind: paraphrase
+  quote_or_paraphrase: Every training, talk, keynote and lightning talk was recorded and published online.
+  confidence: reported
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: All videos available
+- ledger_id: L-4170
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S097
+  text_kind: paraphrase
+  quote_or_paraphrase: The Foundation took over organizing the conference again and acted as its financial agent.
+  confidence: observed
+  status: active
+  disposition: 'placed: legal-entity-and-financial-agent#case-notes'
+  locator: Plone Conference 2021
+- ledger_id: L-4171
+  topic: sponsors
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S097
+  text_kind: paraphrase
+  quote_or_paraphrase: The report lists the Foundation's premium and standard sponsors for the year.
+  confidence: observed
+  status: active
+  disposition: 'dropped: Foundation-level sponsor roster, not conference sponsorship evidence; names organizations without a lesson'
+  locator: Sponsorships
+- ledger_id: L-4172
+  topic: conference-data-table
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S066
+  text_kind: paraphrase
+  quote_or_paraphrase: The recap reports more than 300 participants on site and online from 30 countries.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Recap introduction
+- ledger_id: L-4173
+  topic: programme-portfolio
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S066
+  text_kind: paraphrase
+  quote_or_paraphrase: Of 60 presentations, 45 were in English and 15 in French, the host region's language.
+  confidence: reported
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Recap introduction
+- ledger_id: L-4174
+  topic: av-recording-internet
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S066
+  text_kind: paraphrase
+  quote_or_paraphrase: All talks were streamed live and published quickly, drawing about 5,400 views a week.
+  confidence: reported
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Recap introduction
+- ledger_id: L-4175
+  topic: master-timeline
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S067
+  text_kind: paraphrase
+  quote_or_paraphrase: For an October conference, the website opened in May, the call for papers and ticket sales in June, venue information in August and the schedule in September.
+  confidence: observed
+  status: active
+  disposition: 'placed: master-timeline#case-notes'
+  locator: Timetables
+- ledger_id: L-4176
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S067
+  text_kind: paraphrase
+  quote_or_paraphrase: The congress-center venue was fully accessible for people with reduced mobility.
+  confidence: observed
+  status: active
+  disposition: 'placed: accessibility-and-inclusion#case-notes'
+  locator: Conference venue
+- ledger_id: L-4177
+  topic: hotels-and-local-logistics
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S067
+  text_kind: paraphrase
+  quote_or_paraphrase: Seven hotels lay within five minutes of the venue on foot or by bus.
+  confidence: observed
+  status: active
+  disposition: 'placed: hotels-and-local-logistics#case-notes'
+  locator: Accommodation
+- ledger_id: L-4178
+  topic: hybrid-online
+  scope: general
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S068
+  text_kind: paraphrase
+  quote_or_paraphrase: Community members who attended both formats say talks are much the same online, but remote attendees miss real-time questions in training, hallway conversations and the sprint.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#principles-and-general-lessons'
+  locator: Forum thread, September 2022
+- ledger_id: L-4179
+  topic: hybrid-online
+  scope: specific
+  year: 2022
+  place: Namur
+  org: iMio and Affinitic
+  source_id: S068
+  text_kind: paraphrase
+  quote_or_paraphrase: 'Namur focused on in-person attendees: talks were live-streamed, remote participants could ask questions in a chat channel, and recordings followed after a delay.'
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Forum thread, September 2022
+- ledger_id: L-4180
+  topic: hybrid-online
+  scope: specific
+  year: 2021
+  place: Online
+  org: Plone Foundation
+  source_id: S068
+  text_kind: paraphrase
+  quote_or_paraphrase: An organizer of the 2020 and 2021 online editions reflected that, despite efforts, the event platform could not recreate chance encounters in the hallway.
+  confidence: observed
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: Forum thread, September 2022
+- ledger_id: L-4181
+  topic: conference-data-table
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S069
+  text_kind: paraphrase
+  quote_or_paraphrase: The year review reports more than 160 participants from 20 countries.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Plone Conference 2023
+- ledger_id: L-4182
+  topic: av-recording-internet
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S069
+  text_kind: paraphrase
+  quote_or_paraphrase: During the conference days the video channel recorded more than 3,500 views and 400 hours of watch time.
+  confidence: reported
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Plone Conference 2023
+- ledger_id: L-4183
+  topic: defining-success
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S069
+  text_kind: paraphrase
+  quote_or_paraphrase: The attendee feedback survey gave the conference an overall score of 4.6 out of 5.
+  confidence: reported
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Plone Conference 2023
+- ledger_id: L-4184
+  topic: visas-and-travel
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: Getting visas for Google Summer of Code students in time was difficult; whether a student will finish is known around June, but some countries need visa applications by early June.
+  confidence: reported
+  status: active
+  disposition: 'placed: visas-and-travel#case-notes'
+  locator: Request for reimbursement
+- ledger_id: L-4185
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: The board considered letting students attend the same year or the next year if still engaged, rather than approving travel before results are known, because visa applications are costly.
+  confidence: reported
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: Request for reimbursement
+- ledger_id: L-4186
+  topic: trainings
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: Trainings went well except for one missing presenter, whose session experienced community members covered.
+  confidence: reported
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Plone Conference 2023 report
+- ledger_id: L-4187
+  topic: web-comms-brand
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: Publishing and announcing the videos on social media was well received.
+  confidence: reported
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Plone Conference 2023 report
+- ledger_id: L-4188
+  topic: finance
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizing company planned a 10% donation to the Foundation, below the 15% of registration income set in the hosting calls.
+  confidence: reported
+  status: active
+  disposition: 'placed: finance#case-notes'
+  locator: Plone Conference 2023 report
+- ledger_id: L-4189
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizer asked the Foundation for guidelines on organizing trainings and on trainer accommodation, to settle who pays for what.
+  confidence: reported
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: Plone Conference 2023 report
+- ledger_id: L-4190
+  topic: problem-history
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2023 organizer recommended that the Foundation provide written guidelines for future conferences.
+  confidence: reported
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Plone Conference 2023 report
+- ledger_id: L-4191
+  topic: finance
+  scope: specific
+  year: 2023
+  place: n/a
+  org: Plone Foundation
+  source_id: S070
+  text_kind: paraphrase
+  quote_or_paraphrase: The board began preparing the following year's budget in November.
+  confidence: reported
+  status: active
+  disposition: 'dropped: Foundation-internal budgeting, out of scope for conference organizers'
+  locator: Budget for 2024
+- ledger_id: L-4192
+  topic: conference-data-table
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S071
+  text_kind: paraphrase
+  quote_or_paraphrase: The recap reports more than 150 participants.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Introduction
+- ledger_id: L-4193
+  topic: stakeholder-map
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S071
+  text_kind: paraphrase
+  quote_or_paraphrase: The mayor and regional commerce and innovation representatives opened the talks, stressing open source's contribution to local jobs and growth.
+  confidence: reported
+  status: active
+  disposition: 'placed: stakeholder-map#case-notes'
+  locator: Conference highlights
+- ledger_id: L-4194
+  topic: venue
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S071
+  text_kind: paraphrase
+  quote_or_paraphrase: A summer-university body provided the training space in a historic house, separate from the main theater venue.
+  confidence: reported
+  status: active
+  disposition: 'placed: venue#case-notes'
+  locator: Training
+- ledger_id: L-4195
+  topic: social-events-and-party
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S071
+  text_kind: paraphrase
+  quote_or_paraphrase: The party was held outdoors in front of the theater venue.
+  confidence: reported
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Conference highlights
+- ledger_id: L-4196
+  topic: bid-and-selection
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S071
+  text_kind: paraphrase
+  quote_or_paraphrase: The next host city was revealed in the last presentation on the final talk day, with dates that were later moved.
+  confidence: reported
+  status: active
+  disposition: 'placed: bid-and-selection#case-notes'
+  locator: Thank you, and see you next year
+- ledger_id: L-4197
+  topic: conference-data-table
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S072
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint report counts 47 sprinters.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Introduction
+- ledger_id: L-4198
+  topic: sprints
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S072
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint opened with everyone pitching the topic they wanted to work on, ran stand-ups at 10:00 and 17:00 and encouraged working with at least one other person.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Sprint report
+- ledger_id: L-4199
+  topic: sprints
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S072
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint reused the training venue, with a large room for teams and a smaller quiet room, and the hosts provided refreshments and lunch.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Sprint report
+- ledger_id: L-4200
+  topic: trainings
+  scope: specific
+  year: 2023
+  place: Eibar
+  org: CodeSyntax
+  source_id: S073
+  text_kind: paraphrase
+  quote_or_paraphrase: Training classes were included in the conference ticket price.
+  confidence: observed
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Training
+- ledger_id: L-4201
+  topic: trainings
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: In-person training sessions averaged 4.5 out of 5 in the feedback survey.
+  confidence: reported
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: The results
+- ledger_id: L-4202
+  topic: hybrid-online
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Online training was logistically challenging, and respondents asked for better integration of online and in-person participants.
+  confidence: reported
+  status: active
+  disposition: 'placed: hybrid-online#case-notes'
+  locator: The results; suggestions
+- ledger_id: L-4203
+  topic: keynotes-and-invited-talks
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Keynotes and talks averaged 4.4 out of 5, and some respondents valued slightly off-topic keynotes.
+  confidence: reported
+  status: active
+  disposition: 'placed: keynotes-and-invited-talks#case-notes'
+  locator: The results; what did you say
+- ledger_id: L-4204
+  topic: defining-success
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Comments emphasized the in-person sense of community and the networking opportunities more than any single session.
+  confidence: reported
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: The results
+- ledger_id: L-4205
+  topic: scheduling
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Several respondents asked for punctual sessions and enough breaks between them.
+  confidence: reported
+  status: active
+  disposition: 'placed: scheduling#case-notes'
+  locator: Suggestions
+- ledger_id: L-4206
+  topic: catering
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Catering feedback was mixed; one suggestion was unlimited coffee in large jugs throughout the day.
+  confidence: reported
+  status: active
+  disposition: 'placed: catering#case-notes'
+  locator: Suggestions
+- ledger_id: L-4207
+  topic: social-events-and-party
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: Respondents asked to reinstate the traditional conference party as a key networking opportunity, implying there was none in 2024.
+  confidence: reported
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Suggestions
+- ledger_id: L-4208
+  topic: av-recording-internet
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S074
+  text_kind: paraphrase
+  quote_or_paraphrase: The survey summary recommends exploring recording of training sessions.
+  confidence: reported
+  status: active
+  disposition: 'placed: av-recording-internet#case-notes'
+  locator: Suggestions
+- ledger_id: L-4209
+  topic: survey-template
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S075
+  text_kind: paraphrase
+  quote_or_paraphrase: The feedback form asked for 1-to-5 ratings of sessions plus free-text suggestions, and made the email address optional so people could answer anonymously.
+  confidence: observed
+  status: active
+  disposition: 'placed: survey-template'
+  locator: Feedback form
+- ledger_id: L-4210
+  topic: defining-success
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S078
+  text_kind: paraphrase
+  quote_or_paraphrase: The survey results were announced about ten weeks after the conference ended.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Forum announcement, 2025-02-07
+- ledger_id: L-4211
+  topic: conference-data-table
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S076
+  text_kind: paraphrase
+  quote_or_paraphrase: The recap reports 291 participants from 13 Brazilian states and 19 countries.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: A truly global community
+- ledger_id: L-4212
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S076
+  text_kind: paraphrase
+  quote_or_paraphrase: Hosting Google Summer of Code students, who presented their projects, is described as a tradition.
+  confidence: reported
+  status: active
+  disposition: 'placed: community-and-speaker-expectations#case-notes'
+  locator: A truly global community
+- ledger_id: L-4213
+  topic: programme-portfolio
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S076
+  text_kind: paraphrase
+  quote_or_paraphrase: The program had 12 trainings, 80 talks, 3 keynotes, 30 lightning talks, open spaces and a yoga session, delivered by more than 80 speakers.
+  confidence: reported
+  status: active
+  disposition: 'placed: programme-portfolio#case-notes'
+  locator: Content is king
+- ledger_id: L-4214
+  topic: defining-success
+  scope: specific
+  year: 2024
+  place: Brasília
+  org: Plone Conference 2024 organizing team
+  source_id: S077
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2024 conference was held together with a regional Python conference, following the 2013 Brasília model.
+  confidence: observed
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Plone Conference + Python Cerrado
+- ledger_id: L-4215
+  topic: defining-success
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2025 conference was co-located with a revived national Python conference at the host university, with one day dedicated to Python talks; an attendee reported hearing core Python talks and meeting new people, some of whom became interested in Plone.
+  confidence: reported
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: 'Videos to watch: Python and software development'
+- ledger_id: L-4216
+  topic: business-and-side-tracks
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: The co-located Python conference took one full day of the talk program.
+  confidence: reported
+  status: active
+  disposition: 'placed: business-and-side-tracks#case-notes'
+  locator: Python and software development
+- ledger_id: L-4217
+  topic: conference-data-table
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: The feedback summary reports participants from 30 countries and more than 70 talks, but no attendee count.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Introduction
+- ledger_id: L-4218
+  topic: defining-success
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: The overall feedback score was 4.87 out of 5.
+  confidence: reported
+  status: active
+  disposition: 'placed: defining-success#case-notes'
+  locator: Feedback notes
+- ledger_id: L-4219
+  topic: trainings
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendees praised training rooms with plenty of power outlets and a very large screen that made code examples easy to follow.
+  confidence: reported
+  status: active
+  disposition: 'placed: trainings#case-notes'
+  locator: Feedback notes
+- ledger_id: L-4220
+  topic: social-events-and-party
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: A first-time attendee described the party as where people really get to know each other and even move issues forward.
+  confidence: reported
+  status: active
+  disposition: 'placed: social-events-and-party#case-notes'
+  locator: Feedback notes
+- ledger_id: L-4221
+  topic: web-comms-brand
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S079
+  text_kind: paraphrase
+  quote_or_paraphrase: A photo competition during the event produced a shared set of conference pictures.
+  confidence: reported
+  status: active
+  disposition: 'placed: web-comms-brand#case-notes'
+  locator: Lovely photos
+- ledger_id: L-4222
+  topic: conference-data-table
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S080
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint report counts more than 40 sprinters in person, plus online participants.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Introduction
+- ledger_id: L-4223
+  topic: sprints
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S080
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers provided sprint rooms, drinks, snacks and power cords, and daily sprint coordinators ran the event.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Introduction
+- ledger_id: L-4224
+  topic: sprints
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S080
+  text_kind: paraphrase
+  quote_or_paraphrase: A team at the sprint contributed to CPython documentation and code, a spillover from the co-located Python conference.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Plone and the Python ecosystem
+- ledger_id: L-4225
+  topic: stakeholder-map
+  scope: specific
+  year: 2025
+  place: Jyväskylä
+  org: University of Jyväskylä
+  source_id: S081
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2025 conference was organized by a university rather than a Plone service company.
+  confidence: observed
+  status: active
+  disposition: 'placed: stakeholder-map#case-notes'
+  locator: Plone Conference 2025 page
+- ledger_id: L-4226
+  topic: business-and-side-tracks
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: A full-day Business Track for decision-makers, requiring no prior Plone knowledge, ran in parallel with the Friday talks.
+  confidence: observed
+  status: active
+  disposition: 'placed: business-and-side-tracks#case-notes'
+  locator: Business Track
+- ledger_id: L-4227
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: The Business Track ticket cost 180 euros including 21% Dutch VAT, and a Friday one-day ticket at the same price also included it (as of 2026-09).
+  confidence: observed
+  status: active
+  disposition: 'placed: ticketing-and-registration#case-notes'
+  locator: Business Track
+- ledger_id: L-4228
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: The site offered a "convince your boss" letter template for attendees seeking employer approval.
+  confidence: observed
+  status: active
+  disposition: 'placed: marketing-and-outreach#case-notes'
+  locator: Resources
+- ledger_id: L-4229
+  topic: visas-and-travel
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: A downloadable invitation letter supported visa applications.
+  confidence: observed
+  status: active
+  disposition: 'placed: visas-and-travel#case-notes'
+  locator: Resources
+- ledger_id: L-4230
+  topic: hotels-and-local-logistics
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: The venue was a hotel with integrated accommodation, promoted as the place to stay, plus an airline-group discount valid one week either side of the conference.
+  confidence: observed
+  status: active
+  disposition: 'placed: hotels-and-local-logistics#case-notes'
+  locator: The location; travel
+- ledger_id: L-4231
+  topic: sponsors
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S082
+  text_kind: paraphrase
+  quote_or_paraphrase: The archived post-conference page shows a placeholder saying sponsor logos will appear later.
+  confidence: observed
+  status: active
+  disposition: 'dropped: artifact of client-side rendering in the archived HTML, not evidence about sponsor display'
+  locator: Partners and organizers
+- ledger_id: L-4232
+  topic: problem-history
+  scope: specific
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S083
+  text_kind: paraphrase
+  quote_or_paraphrase: Weeks after the 2026 conference, the Foundation's official record still describes it as upcoming and says ticket and paper details will be announced.
+  confidence: observed
+  status: active
+  disposition: 'placed: problem-history'
+  locator: Plone Conference 2026 page
+- ledger_id: L-4233
+  topic: conference-data-table
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S084
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint report counts around 35 sprinters.
+  confidence: reported
+  status: active
+  disposition: 'placed: conference-data-table'
+  locator: Introduction
+- ledger_id: L-4234
+  topic: sprints
+  scope: general
+  year: 2026
+  place: n/a
+  org: Plone Foundation
+  source_id: S084
+  text_kind: paraphrase
+  quote_or_paraphrase: Conference sprints are as much about discussing what was learned, unblocking pull requests, meeting online collaborators and onboarding newcomers as about writing code.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#why-it-matters'
+  locator: Introduction
+- ledger_id: L-4235
+  topic: sprints
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S084
+  text_kind: paraphrase
+  quote_or_paraphrase: The sprint used a café with a coworking space within walking distance of the city center.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Introduction
+- ledger_id: L-4236
+  topic: sprints
+  scope: specific
+  year: 2026
+  place: Maastricht
+  org: Plone Conference 2026 organizing team
+  source_id: S084
+  text_kind: paraphrase
+  quote_or_paraphrase: New Foundation membership applications were prepared at the sprint, as also happened in 2025.
+  confidence: reported
+  status: active
+  disposition: 'placed: sprints#case-notes'
+  locator: Plone Foundation membership applications

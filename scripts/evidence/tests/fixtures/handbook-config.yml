@@ -1,0 +1,4 @@
+as-of-year: 2026
+age-thresholds:
+  recent-max-age: 3
+  mid-max-age: 8

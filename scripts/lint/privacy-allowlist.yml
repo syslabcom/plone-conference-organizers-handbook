@@ -1,0 +1,13 @@
+# Privacy lint (gate G8) allowlist.
+# Each entry names one exact hit, optional path globs (default: everywhere) and a reason.
+# Only public role addresses of organizations belong here, never a private person (D7).
+allow:
+  - match: board@plone.org
+    paths: ["data/requirements-register.yml"]
+    reason: Public Plone Foundation Board role address, quoted as part of requirement R-003.
+  - match: conf@plone.org
+    paths: ["data/requirements-register.yml"]
+    reason: Public Conference Committee role address, quoted as part of requirement R-029.
+  - match: treasurer@plone.org
+    paths: ["data/requirements-register.yml"]
+    reason: Public Plone Foundation treasurer role address, quoted in the status note of R-032.

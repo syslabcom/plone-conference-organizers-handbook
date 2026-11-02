@@ -1,0 +1,7 @@
+entries:
+  - {id: conference-index, title: Conference index, kind: generated, path: docs/evidence/conference-index.md}
+  - {id: conference-data-table, title: Conference data table, kind: page, path: docs/evidence/conference-data-table.md}
+  - {id: cost-benchmarks, title: Dated cost benchmarks, kind: page, path: docs/evidence/cost-benchmarks.md}
+  - {id: source-bibliography, title: Source bibliography, kind: generated, path: docs/evidence/source-bibliography.md}
+  - {id: lessons-ledger, title: Lessons ledger, kind: generated, path: docs/evidence/lessons-ledger.md}
+  - {id: how-to-read-lessons, title: How to read lessons, kind: page, path: docs/start/how-to-read-lessons.md}

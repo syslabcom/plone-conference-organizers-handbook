@@ -1,0 +1,63 @@
+group: 7b
+rows:
+  - ledger_id: L-2001
+    topic: finance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: The organizers kept a reserve line in the budget and used it for late venue costs.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+  - ledger_id: L-2002
+    topic: finance
+    scope: specific
+    year: 2010
+    place: Bristol
+    org: Netsight
+    source_id: S002
+    text_kind: paraphrase
+    quote_or_paraphrase: The selling entity was settled only after prices were published.
+    confidence: reported
+    status: active
+    disposition: "placed: finance#case-notes"
+  - ledger_id: L-2003
+    topic: finance
+    scope: general
+    year: 2011
+    place: San Francisco
+    org: Six Feet Up
+    source_id: S003
+    text_kind: paraphrase
+    quote_or_paraphrase: The entity that sells the ticket decides which tax rules apply.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#principles-and-general-lessons"
+  - ledger_id: L-2004
+    topic: finance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S001
+    text_kind: quote
+    quote_or_paraphrase: Decide who sells the tickets before you set any price.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#decisions-you-must-make"
+    locator: Budget section
+  - ledger_id: L-2005
+    topic: finance
+    scope: specific
+    year: 2012
+    place: Arnhem
+    org: Four Digits
+    source_id: S001
+    text_kind: paraphrase
+    quote_or_paraphrase: Ask jane.doe@example.org about the reserve line.
+    confidence: observed
+    status: active
+    disposition: "dropped: duplicate of L-2001, which states the same point"

@@ -1,0 +1,1752 @@
+# Lessons ledger, group 7c: San Francisco 2011 organizers' wiki and interview,
+# Plone Metrics 2011, and Brasília 2013 (PythonBrasil[9] / Plone Conference 2013).
+# Schema: docs/spec/ledger-schema.md. ID range L-3000 to L-3999.
+# Portuguese sources (S093, S039) are recorded as English paraphrases only.
+group: 7c
+rows:
+- ledger_id: L-3001
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S022
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 organizers left a thirteen-page wiki guide for their successors, covering budget, tickets, volunteers, talks and scheduling, physical and virtual resources, print, nonprofit status, the domain handover, community expectations and a supplies list. It is one of the few written handovers in the conference series.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Wiki page index
+- ledger_id: L-3002
+  topic: problem-history
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S022
+  text_kind: paraphrase
+  quote_or_paraphrase: The wiki index shows no page edited after January 2012, and two of its thirteen pages (Introduction, Attendee Stats) were not captured in the archive. Nobody maintained it after the first handover.
+  confidence: observed
+  status: active
+  disposition: "placed: problem-history"
+  locator: Wiki page index, last-updated dates
+- ledger_id: L-3003
+  topic: conference-data-table
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: "Per the 2011 organizers' wiki (as of 2011): about USD 18K in sponsorship and USD 79K in ticket income against about USD 95K in costs, leaving roughly USD 8K for the Plone Foundation plus USD 690 raised for next year's scholarships."
+  confidence: observed
+  status: active
+  disposition: "placed: conference-data-table"
+  locator: Budget, summary
+- ledger_id: L-3004
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: quote
+  quote_or_paraphrase: "The moral of the story: if in doubt, raise the ticket price a bit. A little will go a long way!"
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#principles-and-general-lessons"
+  locator: Budget, summary
+- ledger_id: L-3005
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: "The conference ran its money through the Plone Foundation by reimbursement: the lead organizer paid everything personally and claimed it back in batches, and each claim needed scans of all receipts plus a list of what was bought and why."
+  confidence: observed
+  status: active
+  disposition: "placed: legal-entity-and-financial-agent#case-notes"
+  locator: Budget, Reimbursement
+- ledger_id: L-3006
+  topic: finance
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: Save or scan every receipt from the first day, choose one method and keep to it, and reconcile receipts against card and bank statements on a fixed rhythm (the 2011 team did it every two weeks). Even so, the organizer suspected something was missed.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#how-to"
+  locator: Budget, Reimbursement
+- ledger_id: L-3007
+  topic: finance
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: "The biggest bills arrive at the end: catering is charged on the day of service, and last-minute equipment and network rentals pile up. Plan for a large block of payments and ample credit or cash in the final week and the conference week."
+  confidence: observed
+  status: active
+  disposition: "placed: finance#principles-and-general-lessons"
+  locator: Budget, How much credit do I need?
+- ledger_id: L-3008
+  topic: finance
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: Fronting costs for later reimbursement left the 2011 lead organizer carrying a very large personal credit-card balance and depleted savings; the event was rescued only because the card issuer raised the limit.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#case-notes"
+  locator: Budget, How much credit do I need?
+- ledger_id: L-3009
+  topic: annex-us
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: In the United States, the organizers needed a W-9 tax form from everyone who performed a paid service before they could pay them. Collecting the forms was slow, partly because some providers had no computer or printer; schedule time for it.
+  confidence: observed
+  status: active
+  disposition: "placed: annex-us"
+  locator: Budget, Paying for Services
+- ledger_id: L-3010
+  topic: finance
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S023
+  text_kind: paraphrase
+  quote_or_paraphrase: Demand invoices from vendors up front. One month after the 2011 conference a venue invoice was still missing, and without it the organizer could not be reimbursed by the Foundation.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#how-to"
+  locator: Budget, Invoices
+- ledger_id: L-3011
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: quote
+  quote_or_paraphrase: As far as I can tell, guessing ticket prices is 100% voodoo.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#principles-and-general-lessons"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3012
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 team set the budget first and worked backward to a ticket price, and grossly underestimated how many free tickets they would give away (high-level sponsors, volunteers, contest winners). Budget for complimentary tickets explicitly.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3013
+  topic: conference-data-table
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: "Per the 2011 wiki (as of 2011): 16 free tickets (8 to volunteers), 103 early-bird, 30 speaker, 7 student, 104 full-price and 5 other tickets, for USD 76,050 in ticket income. The Budget page rounds ticket income to USD 79K, so the two pages disagree slightly."
+  confidence: observed
+  status: active
+  disposition: "placed: conference-data-table"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3014
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: "Setting the speaker ticket rate equal to the early-bird rate worked well in 2011: speakers paid the same as early buyers, so there were no refunds to manage when talks were accepted."
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3015
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: Offer a group discount and advertise it. The 2011 conference had none and attendees asked for one often.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#how-to"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3016
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: Publish no refunds and no transfers, but allow a few transfers for extreme cases at the organizers' discretion. The 2011 organizer recommended keeping this policy because an open policy could get out of control.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#decisions-you-must-make"
+  locator: Tickets, Pricepoints
+- ledger_id: L-3017
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 the team compared three ticketing services and chose the cheapest one with a usable API, connected to a merchant account; it saved building a front end. Trainers used a different service for their training fees.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Software
+- ledger_id: L-3018
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: Collect an email address for every attendee, not only for the person placing the order. In 2011 the ticket system did not require it, and when the mailing list broke some attendees missed announcements.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#how-to"
+  locator: Tickets, Software
+- ledger_id: L-3019
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 a group order asked questions such as t-shirt size only once per order, not once per attendee, so per-person data was lost. Check that the ticketing tool collects per-attendee answers in multi-ticket orders.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Software
+- ledger_id: L-3020
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 ticketing service did not let organizers process transfers or refunds themselves; each one required a phone call to the vendor. Its reporting was adequate and its interface weak, and the organizer suggested trying another service for better data collection.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Software
+- ledger_id: L-3021
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 team built a chat bot on the conference IRC channel that reported live ticket sales through the ticketing API, giving the community immediate stats.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Tickets, Software
+- ledger_id: L-3022
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S024
+  text_kind: paraphrase
+  quote_or_paraphrase: Scholarship money raised in 2011 was earmarked for the 2012 conference and had to be carried into the next budget and paid out through the Foundation. Earmarked funds are a handover item.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Tickets, 2012
+- ledger_id: L-3023
+  topic: volunteers-and-roles
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 the team spent twice as much on volunteers as planned, on food, t-shirts and similar items, and judged every bit of it worth the money.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#case-notes"
+  locator: Managing Volunteers
+- ledger_id: L-3024
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: Give volunteers breakfast and lunch every day and plan at least one special dinner for them. Not all will come to each meal, but it is appreciated.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3025
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: "Make volunteers instantly recognizable so attendees know whom to ask for help: distinctive shirts or a playful visual marker (in 2011, bunny ears) that volunteers are happy to wear."
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3026
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: Walkie-talkies were essential to a smooth event. Buy or rent good ones, hands-free where possible.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3027
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: Offer volunteers free conference tickets and accommodation. Volunteering eats into their own conference experience, so make sure they are not losing out, even if some decline the accommodation.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#principles-and-general-lessons"
+  locator: Managing Volunteers
+- ledger_id: L-3028
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: Set aside a small thank-you reserve for helpers who go far beyond their role (the 2011 guide suggested USD 1,500, as of 2011). In 2011 it went to designers who had worked without expecting payment.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3029
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: Staff at least two volunteers per room or track and two at the registration desk all day, dedicated for the whole conference, with half of them also available beforehand for loading and setup. There is no such thing as too many volunteers.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3030
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: A fixed list assigning specific tasks to specific volunteers did not work in 2011. The organizers recommended good communication and flexible teamwork over rigid task ownership.
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#principles-and-general-lessons"
+  locator: Managing Volunteers
+- ledger_id: L-3031
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: "Provide a volunteer office: a room for supplies and for volunteers to retreat to, stocked with refreshments, a printer and reliable internet. In 2011 it was the team's lifeline and the place volunteers gathered."
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3032
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 volunteer list was kept in the mailing-list service and a shared spreadsheet, and the guide told successors to ask previous volunteers for help. Contact lists like this are personal data and need a lawful basis before they pass to a new team.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Managing Volunteers
+- ledger_id: L-3033
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: paraphrase
+  quote_or_paraphrase: "Over-staff opening day: things will go wrong. Bring in extra helpers beyond the regular volunteers to run registration; people looking to build business contacts are good candidates."
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#how-to"
+  locator: Managing Volunteers
+- ledger_id: L-3034
+  topic: volunteers-and-roles
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S025
+  text_kind: quote
+  quote_or_paraphrase: "Remember: If they aren't having fun, you are doing it wrong!"
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#principles-and-general-lessons"
+  locator: Managing Volunteers
+- ledger_id: L-3035
+  topic: scheduling
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: Use a paid, hosted scheduling service rather than building your own. The 2011 tool had real shortcomings, but rolling your own will not be better; look around, then pay and be done with it.
+  confidence: observed
+  status: active
+  disposition: "placed: scheduling#principles-and-general-lessons"
+  locator: Talks & Scheduling
+- ledger_id: L-3036
+  topic: scheduling
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: "Shortcomings of the 2011 schedule service: talks could not be edited after submission, the mobile version was not worth paying for, and the default schedule view confused some people, so the team linked the grid view from the home page."
+  confidence: observed
+  status: active
+  disposition: "placed: scheduling#case-notes"
+  locator: Talks & Scheduling
+- ledger_id: L-3037
+  topic: cfp-and-selection
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: Use the same system for talk submission and scheduling. In 2011 submissions ran elsewhere and text had to be copied between systems; the organizer would use the schedule tool for submissions next time.
+  confidence: observed
+  status: active
+  disposition: "placed: cfp-and-selection#how-to"
+  locator: Talks & Scheduling
+- ledger_id: L-3038
+  topic: cfp-and-selection
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 a public poll for talk ideas was mistaken for the submission channel; people voted on it as if it were the talk vote, and the later real submission and vote confused them further. Keep interest polling clearly separate from submission.
+  confidence: observed
+  status: active
+  disposition: "placed: cfp-and-selection#case-notes"
+  locator: Talks & Scheduling
+- ledger_id: L-3039
+  topic: scheduling
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: Attendee interest data (votes or planned attendance per talk) helps assign rooms by size, but it keeps changing, so expect to move time slots.
+  confidence: observed
+  status: active
+  disposition: "placed: scheduling#how-to"
+  locator: Talks & Scheduling
+- ledger_id: L-3040
+  topic: print-and-merch
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S026
+  text_kind: paraphrase
+  quote_or_paraphrase: Printed schedules were very popular in 2011; do not drop them just because schedules are online.
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#principles-and-general-lessons"
+  locator: Talks & Scheduling
+- ledger_id: L-3041
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S027
+  text_kind: paraphrase
+  quote_or_paraphrase: Equipment bought with 2011 conference funds became Plone Foundation property, was put into storage and was offered for shipping to any later event, with a published inventory.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Physical Resources
+- ledger_id: L-3042
+  topic: t-minus-checklist
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S027
+  text_kind: paraphrase
+  quote_or_paraphrase: "The 2011 reusable kit: network cables, floor tape for cables and a small switch; easels and wall pads; power cords; sticky notes for open-space sign-up; pens; HD webcams; lanyards and badge holders; card stock, glue and a hole punch for last-minute signs; stickers and stamps."
+  confidence: observed
+  status: active
+  disposition: "placed: t-minus-checklist"
+  locator: Physical Resources
+- ledger_id: L-3043
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S027
+  text_kind: paraphrase
+  quote_or_paraphrase: Gold stars bought in 2011 for attendees to rate speakers were never used because time ran out.
+  confidence: observed
+  status: active
+  disposition: "dropped: an unrealized idea with no outcome; too minor to transfer"
+  locator: Physical Resources, Random/Design
+- ledger_id: L-3044
+  topic: signage-and-showtime
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S027
+  text_kind: paraphrase
+  quote_or_paraphrase: Small translucent Plone stickers are excellent for marking the conference's own equipment at a venue.
+  confidence: observed
+  status: active
+  disposition: "placed: signage-and-showtime#how-to"
+  locator: Physical Resources, Random/Design
+- ledger_id: L-3045
+  topic: handover-contract
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: Keep all account access information in one shared, team-owned place, so that transferring the conference's digital assets is just granting access to the new hosts.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#how-to"
+  locator: Virtual Resources
+- ledger_id: L-3046
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: "The 2011 handover inventory of digital assets: social media accounts, shared storage with all design files, conference-domain email with an FAQ folder, the domain itself, the code repositories, the IRC channel, the mailing-list service and the schedule service."
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Virtual Resources
+- ledger_id: L-3047
+  topic: web-comms-brand
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: A 2011 social-network account was suspended because it had been created with the year in its name. Name conference accounts so they can carry over from year to year.
+  confidence: observed
+  status: active
+  disposition: "placed: web-comms-brand#case-notes"
+  locator: Virtual Resources
+- ledger_id: L-3048
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 the conference email routing sat with one organizer's personal DNS setup and still had to be transferred to the Foundation at handover, a single-person dependency.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Virtual Resources
+- ledger_id: L-3049
+  topic: web-comms-brand
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 mailbox kept an FAQ folder to answer recurring questions before people asked.
+  confidence: observed
+  status: active
+  disposition: "dropped: duplicate of the FAQ-page row from the organizer interview (S034), which states the point with its effect"
+  locator: Virtual Resources
+- ledger_id: L-3050
+  topic: web-comms-brand
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 team kept carefully maintained mailing lists segmented into speakers, attendees and sponsors, and told successors to start announcements there.
+  confidence: observed
+  status: active
+  disposition: "placed: web-comms-brand#case-notes"
+  locator: Virtual Resources
+- ledger_id: L-3051
+  topic: scheduling
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S028
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 schedule service was good enough to recommend for the next year and offered a returning-customer discount.
+  confidence: observed
+  status: active
+  disposition: "dropped: duplicate of the paid-scheduling-tool row from the Talks & Scheduling page (S026)"
+  locator: Virtual Resources
+- ledger_id: L-3052
+  topic: print-and-merch
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: "Plan to print far more than you expect: leave room in the budget and bring a printer and paper on site."
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#principles-and-general-lessons"
+  locator: Print
+- ledger_id: L-3053
+  topic: print-and-merch
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: Large wall schedules are expensive and slow to produce; order them well in advance.
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#how-to"
+  locator: Print
+- ledger_id: L-3054
+  topic: print-and-merch
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 the pocket schedules were the largest print cost. The team produced them partly themselves, with advice from local paper suppliers, because commercial printing would have cost far more.
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#case-notes"
+  locator: Print
+- ledger_id: L-3055
+  topic: print-and-merch
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: "Include maps in the printed material: the parties, sponsored hotels, places to eat and the main transport routes."
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#how-to"
+  locator: Print
+- ledger_id: L-3056
+  topic: signage-and-showtime
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: Make quick wayfinding signs on the spot (a sticker, a sheet of paper and a marked arrow); the 2011 team used 25 or more. Put a schedule in front of every room door.
+  confidence: observed
+  status: active
+  disposition: "placed: signage-and-showtime#how-to"
+  locator: Print
+- ledger_id: L-3057
+  topic: signage-and-showtime
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: "Expect ad hoc printing requests on site: receipts for attendees who need them and boarding passes for people who do not want to leave early."
+  confidence: observed
+  status: active
+  disposition: "placed: signage-and-showtime#how-to"
+  locator: Print
+- ledger_id: L-3058
+  topic: print-and-merch
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S029
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 team kept Plone stickers, conference stickers and fun stickers on hand, plus rubber stamps to make signed documents look official without letterhead.
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#case-notes"
+  locator: Print
+- ledger_id: L-3059
+  topic: annex-us
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S030
+  text_kind: paraphrase
+  quote_or_paraphrase: "In the United States, running the conference with or under a nonprofit umbrella can bring venue discounts of up to 50 percent and exemption from sales tax, but only with diligence: ask aggressively for the discount and escalate when a vendor says there is none."
+  confidence: observed
+  status: active
+  disposition: "placed: annex-us"
+  locator: Non Profit Status, United States
+- ledger_id: L-3060
+  topic: venue
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S030
+  text_kind: paraphrase
+  quote_or_paraphrase: Renting the 2011 downtown university venue under nonprofit status saved more than USD 20K (as of 2011, per the 2011 wiki). It was laborious, but the organizers judged it worth it when the budget is tight.
+  confidence: observed
+  status: active
+  disposition: "placed: venue#case-notes"
+  locator: Non Profit Status, United States
+- ledger_id: L-3061
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S030
+  text_kind: quote
+  quote_or_paraphrase: This can be the difference of being in the red or actually breaking even or better.
+  confidence: observed
+  status: active
+  disposition: "placed: legal-entity-and-financial-agent#case-notes"
+  locator: Non Profit Status, United States
+- ledger_id: L-3062
+  topic: web-comms-brand
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S031
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 team planned to archive each year's site under a year subdomain and keep the current year on the main domain, but did not finish it and offered to help the next team.
+  confidence: observed
+  status: active
+  disposition: "placed: web-comms-brand#case-notes"
+  locator: Ploneconf.org
+- ledger_id: L-3063
+  topic: handover-contract
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S031
+  text_kind: paraphrase
+  quote_or_paraphrase: At the 2011 handover the conference domain's ownership and DNS still had to be transferred to the Plone Foundation.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#case-notes"
+  locator: Ploneconf.org
+- ledger_id: L-3064
+  topic: web-comms-brand
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S031
+  text_kind: paraphrase
+  quote_or_paraphrase: "The 2011 team published reusable site packages for successors: a content skeleton for a conference site, a sponsor add-on that showed logos above a donation threshold, and the site buildout, which they noted needed maintenance."
+  confidence: observed
+  status: active
+  disposition: "placed: web-comms-brand#case-notes"
+  locator: Ploneconf.org
+- ledger_id: L-3065
+  topic: community-and-speaker-expectations
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S032
+  text_kind: quote
+  quote_or_paraphrase: These are the things people flipped out about. Consider feedback from jedi masters before going forward.
+  confidence: observed
+  status: active
+  disposition: "placed: community-and-speaker-expectations#principles-and-general-lessons"
+  locator: Assuming Makes an ASS out of U and ME
+- ledger_id: L-3066
+  topic: community-and-speaker-expectations
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S032
+  text_kind: paraphrase
+  quote_or_paraphrase: It is a community tradition that a State of Plone talk is given as a keynote; there is no tradition about who gives it. Treat both points with care.
+  confidence: observed
+  status: active
+  disposition: "placed: community-and-speaker-expectations#principles-and-general-lessons"
+  locator: Assuming Makes an ASS out of U and ME
+- ledger_id: L-3067
+  topic: community-and-speaker-expectations
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S032
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 there was no open call for trainings, to raise quality and limit the risk and cost of cancelled rooms. Some community members felt shut out of the process, which mattered more because the Plone Foundation co-sponsored the conference.
+  confidence: observed
+  status: active
+  disposition: "placed: community-and-speaker-expectations#case-notes"
+  locator: Assuming Makes an ASS out of U and ME
+- ledger_id: L-3068
+  topic: trainings
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S032
+  text_kind: paraphrase
+  quote_or_paraphrase: Conferences co-sponsored by the Plone Foundation should run an open call for trainings, if only so people feel involved. Training is a big draw and good marketing, and bad training is bad for the community, so the call still needs quality control.
+  confidence: observed
+  status: active
+  disposition: "placed: trainings#principles-and-general-lessons"
+  locator: Assuming Makes an ASS out of U and ME
+- ledger_id: L-3069
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S032
+  text_kind: paraphrase
+  quote_or_paraphrase: Enough scheduled speakers cancelled in 2011 that the organizer offered the next team a list of them for scheduling. Such a list is personal data; the handbook records only that late speaker cancellation is a recurring risk.
+  confidence: observed
+  status: active
+  disposition: "placed: speakers-and-speaker-care#case-notes"
+  locator: Assuming Makes an ASS out of U and ME
+- ledger_id: L-3070
+  topic: t-minus-checklist
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S033
+  text_kind: paraphrase
+  quote_or_paraphrase: "Have on hand: sturdy archive boxes, a printer and paper, spare batteries of all kinds, pens, several markers, spare presentation adapters, one or two network switches, good floor tape for cables, and snacks for volunteers and anyone with low blood sugar."
+  confidence: observed
+  status: active
+  disposition: "placed: t-minus-checklist"
+  locator: Random Shit to Have On Hand
+- ledger_id: L-3071
+  topic: master-timeline
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 bid was accepted in early March and planning started the next day, for a conference in November, about eight months later.
+  confidence: observed
+  status: active
+  disposition: "placed: master-timeline#case-notes"
+  locator: Interview, preparations
+- ledger_id: L-3072
+  topic: team-and-governance
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Only two coordinators ran the 2011 conference, relying on two creative helpers for design and on the volunteer team during the event.
+  confidence: observed
+  status: active
+  disposition: "placed: team-and-governance#case-notes"
+  locator: Interview, team
+- ledger_id: L-3073
+  topic: master-timeline
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Month-themed milestone planning in the software style did not work for a conference, because the work depends on people who are not always reachable by email; some had no computer, and that communication took a lot of time.
+  confidence: observed
+  status: active
+  disposition: "placed: master-timeline#principles-and-general-lessons"
+  locator: Interview, roadmap
+- ledger_id: L-3074
+  topic: master-timeline
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 just about everything took five times longer than expected, and vendors needed pressure and many follow-ups.
+  confidence: observed
+  status: active
+  disposition: "placed: master-timeline#case-notes"
+  locator: Interview, unexpected things
+- ledger_id: L-3075
+  topic: av-recording-internet
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: The person responsible for the 2011 Wi-Fi was hospitalized two weeks before the conference and there was no backup plan.
+  confidence: observed
+  status: active
+  disposition: "placed: av-recording-internet#case-notes"
+  locator: Interview, unexpected things
+- ledger_id: L-3076
+  topic: social-events-and-party
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Three days before the 2011 party the party vendor could not get a fire permit for the location, and the party had to move at the last minute.
+  confidence: observed
+  status: active
+  disposition: "placed: social-events-and-party#case-notes"
+  locator: Interview, unexpected things
+- ledger_id: L-3077
+  topic: signage-and-showtime
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2011 the badges fell out of alphabetical order on the first day and caused long queues at registration. Think hard about first-day flow; small mistakes like this leave bad impressions.
+  confidence: observed
+  status: active
+  disposition: "placed: signage-and-showtime#case-notes"
+  locator: Interview, next organizers
+- ledger_id: L-3078
+  topic: handover-contract
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Work hand in hand with the previous year's organizers and build on what they did. Without reusable infrastructure such as the website and mailing lists, there is no room for creative work.
+  confidence: observed
+  status: active
+  disposition: "placed: handover-contract#principles-and-general-lessons"
+  locator: Interview, next organizers
+- ledger_id: L-3079
+  topic: web-comms-brand
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Put up an FAQ page early; the 2011 organizer estimated it could cut incoming email in half.
+  confidence: observed
+  status: active
+  disposition: "placed: web-comms-brand#how-to"
+  locator: Interview, next organizers
+- ledger_id: L-3080
+  topic: ticketing-and-registration
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Groups of more than six deserve a discount and come more motivated.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#how-to"
+  locator: Interview, next organizers
+- ledger_id: L-3081
+  topic: sponsors
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Think about how to turn groups of attendees from one organization into sponsors as well.
+  confidence: observed
+  status: active
+  disposition: "placed: sponsors#how-to"
+  locator: Interview, next organizers
+- ledger_id: L-3082
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Ticketing and marketing were not integrated in 2011, so the team only ever had a partial list of attendee emails, which made last-minute schedule changes hard to communicate.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Interview, next organizers
+- ledger_id: L-3083
+  topic: sponsors
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: Sponsor handling needed much more attention in 2011. Dedicate one person entirely to sponsors, so they feel they got their money's worth.
+  confidence: observed
+  status: active
+  disposition: "placed: sponsors#principles-and-general-lessons"
+  locator: Interview, next organizers
+- ledger_id: L-3084
+  topic: av-recording-internet
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 organizer judged that recording and streaming of talks could have been handled much better.
+  confidence: observed
+  status: active
+  disposition: "placed: av-recording-internet#case-notes"
+  locator: Interview, next organizers
+- ledger_id: L-3085
+  topic: venue
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: A good location is within walking distance of both expensive hotels and cheap lodging, including hostels, and has plenty of food and bar options.
+  confidence: observed
+  status: active
+  disposition: "placed: venue#principles-and-general-lessons"
+  locator: Interview, location
+- ledger_id: L-3086
+  topic: community-and-speaker-expectations
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: quote
+  quote_or_paraphrase: As long as you make decisions with the thought that people are giving up some or all of their vacation time to come to your conference, then the rest will resolve itself.
+  confidence: observed
+  status: active
+  disposition: "placed: community-and-speaker-expectations#principles-and-general-lessons"
+  locator: Interview, location
+- ledger_id: L-3087
+  topic: volunteers-and-roles
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: "Keeping volunteers happy was one of the things the 2011 team did right: a good radio system and a room where volunteers could disappear, regroup, sleep and eat made the conference run smoothly."
+  confidence: observed
+  status: active
+  disposition: "placed: volunteers-and-roles#case-notes"
+  locator: Interview, unexpected things
+- ledger_id: L-3088
+  topic: team-and-governance
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Conference 2011 organizing team
+  source_id: S034
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2011 lead organizer said she would organize the conference again if needed.
+  confidence: observed
+  status: active
+  disposition: "dropped: a personal sentiment of the organizer; no transferable lesson for the handbook"
+  locator: Interview, title and closing question
+- ledger_id: L-3089
+  topic: city-selection
+  scope: general
+  year: 2011
+  place: San Francisco
+  org: Plone Metrics (independent blog)
+  source_id: S035
+  text_kind: paraphrase
+  quote_or_paraphrase: An informal analysis of attendance at the six conferences from 2006 to 2011 found no statistically significant difference between European and North American attendance (p about 0.2). With only six data points this is weak evidence either way.
+  confidence: reported
+  status: active
+  disposition: "placed: city-selection#principles-and-general-lessons"
+  locator: December 2011 attendance post
+- ledger_id: L-3090
+  topic: city-selection
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Metrics (independent blog)
+  source_id: S035
+  text_kind: paraphrase
+  quote_or_paraphrase: An attendance-weighted average of past venues put the ideal next location in the middle of the North Atlantic.
+  confidence: reported
+  status: active
+  disposition: "dropped: a humorous exercise with no transferable recommendation"
+  locator: December 2011 attendance post
+- ledger_id: L-3091
+  topic: volunteers-and-roles
+  scope: specific
+  year: 2011
+  place: San Francisco
+  org: Plone Metrics (independent blog)
+  source_id: S035
+  text_kind: paraphrase
+  quote_or_paraphrase: A community observer noted that the 2011 conference thank-you page left out the lead organizer and probably other contributors. Check the thank-you page against the full list of helpers.
+  confidence: reported
+  status: active
+  disposition: "placed: volunteers-and-roles#case-notes"
+  locator: Person of the Year 2011 post
+- ledger_id: L-3092
+  topic: bid-and-selection
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: "PloneGov-BR first bid to host only the Plone Conference; the organizers later decided to merge it with PythonBrasil, the national Python conference, to cut costs. The combined event was run as one: PythonBrasil[9] / Plone Conference 2013."
+  confidence: observed
+  status: active
+  disposition: "placed: bid-and-selection#case-notes"
+  locator: Plone Conference 2013; Informações Gerais
+- ledger_id: L-3093
+  topic: sponsors
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: Because the event was two international nonprofit conferences, the organizers won support from the Federal District government, including a discount on the conference venue; other public bodies provided the training venue, translators and organizational help.
+  confidence: observed
+  status: active
+  disposition: "placed: sponsors#case-notes"
+  locator: Plone Conference 2013; Apoiadores
+- ledger_id: L-3094
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: Registration was meant to be free because the District tourism office would waive the venue rent, but that agreement could not be kept. Registration opened at a symbolic fee, with student and association-member rates, rising at each date tier.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Inscrições
+- ledger_id: L-3095
+  topic: annex-br
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: In Brazil, government organizations paid a higher registration fee, because public payment commitments are settled only after the event and involve taxes, extra costs for issuing a service invoice (nota fiscal) and work proving attendance for government participants.
+  confidence: observed
+  status: active
+  disposition: "placed: annex-br"
+  locator: Inscrições, Observação
+- ledger_id: L-3096
+  topic: finance
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The Brazilian Python association had no cash at the start of 2013. Loans from friends paid for the first publicity and emergency costs until the first sponsorship money arrived.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#case-notes"
+  locator: Receitas e Despesas
+- ledger_id: L-3097
+  topic: finance
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The lead organizer managed income and expenses with a cash-flow spreadsheet, checking it often against the bank and two payment-provider statements supplied by the association.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#case-notes"
+  locator: Receitas e Despesas
+- ledger_id: L-3098
+  topic: conference-data-table
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: "Per the published 2013 record (as of 2013): about BRL 215K income, of which about BRL 165K came from sponsorship and only about BRL 24K from conference and training registration; the surplus of about USD 10.4K was split, USD 5K to the Plone Foundation and the rest to the Brazilian Python association."
+  confidence: observed
+  status: active
+  disposition: "placed: conference-data-table"
+  locator: Receitas e Despesas
+- ledger_id: L-3099
+  topic: cost-benchmarks
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The largest 2013 expense lines in the published record (as of 2013) were conference infrastructure, then the internet link, print and structure, the conference venue and filming; power generators, the attendee kit and food were the next tier.
+  confidence: observed
+  status: active
+  disposition: "placed: cost-benchmarks"
+  locator: Receitas e Despesas, Detalhamento
+- ledger_id: L-3100
+  topic: catering
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: Lunch was free for attendees and staff in 2013 because there were no lunch places near the convention center and the program needed talks close to lunchtime. A barista served espresso in the open-space area and a snack bar sold food in the exhibition hall.
+  confidence: observed
+  status: active
+  disposition: "placed: catering#case-notes"
+  locator: Alimentação
+- ledger_id: L-3101
+  topic: social-events-and-party
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2013 party was paid for separately through individual party tickets; only the venue booking came from the conference budget.
+  confidence: observed
+  status: active
+  disposition: "placed: social-events-and-party#case-notes"
+  locator: Receitas e Despesas
+- ledger_id: L-3102
+  topic: code-of-conduct-operations
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: For the first time, acknowledging the code of conduct was mandatory for attendees, speakers and exhibitors. The Python Software Foundation required it as a condition of its sponsorship.
+  confidence: observed
+  status: active
+  disposition: "placed: code-of-conduct-operations#case-notes"
+  locator: Código de conduta
+- ledger_id: L-3103
+  topic: business-and-side-tracks
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: A planned business-matching round was cancelled because the partner organization expected to run it did not take part.
+  confidence: observed
+  status: active
+  disposition: "placed: business-and-side-tracks#case-notes"
+  locator: Resumo
+- ledger_id: L-3104
+  topic: conference-data-table
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: "Published 2013 figures: 584 registrants, more than 144 talks, more than 30 international speakers, 7 keynotes, 16 trainings with about 150 trainees, 21 Brazilian states, 19 countries, about 10 percent women, 15 sponsors and 18 supporters."
+  confidence: observed
+  status: active
+  disposition: "placed: conference-data-table"
+  locator: Números
+- ledger_id: L-3105
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2013 conference had simultaneous interpretation, supported by the Federal District's international affairs office.
+  confidence: observed
+  status: active
+  disposition: "placed: accessibility-and-inclusion#case-notes"
+  locator: Resumo; Agradecimentos
+- ledger_id: L-3106
+  topic: speakers-and-speaker-care
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: Invited speakers and several others were housed free of charge, in a hotel or in rooms at the government school that hosted the trainings.
+  confidence: observed
+  status: active
+  disposition: "placed: speakers-and-speaker-care#case-notes"
+  locator: Receitas e Despesas
+- ledger_id: L-3107
+  topic: venue
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: "The 2013 event used four venues: trainings at a government administration school, talks and job fair at the convention center, the party at a club, and the sprint at a trade-union headquarters."
+  confidence: observed
+  status: active
+  disposition: "placed: venue#case-notes"
+  locator: Informações Gerais
+- ledger_id: L-3108
+  topic: sprints
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: After the two-day sprint in Brasília, a second post-conference sprint ran for four days at a beach hotel in another city, João Pessoa.
+  confidence: observed
+  status: active
+  disposition: "placed: sprints#case-notes"
+  locator: Informações Gerais
+- ledger_id: L-3109
+  topic: contracts-legal-insurance
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2013 expense record includes a line for participant insurance.
+  confidence: observed
+  status: active
+  disposition: "placed: contracts-legal-insurance#case-notes"
+  locator: Receitas e Despesas, Detalhamento
+- ledger_id: L-3110
+  topic: av-recording-internet
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S093
+  text_kind: paraphrase
+  quote_or_paraphrase: In 2013 a dedicated internet link and power generators were each among the larger cost lines, alongside filming of all talks, which were published on the national Python association's video channel.
+  confidence: observed
+  status: active
+  disposition: "placed: av-recording-internet#case-notes"
+  locator: Receitas e Despesas; Resumo
+- ledger_id: L-3111
+  topic: bid-and-selection
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: "The Brasília bid followed this outline: city, organizers and track record, host organizations, why Brazil, Foundation fee, local case studies, travel and flights, hotels with distance to venue and reference rates, things to do, currency, visas, venue, registration, schedule, talks, pre- and post-conference events, marketing, students, budget, sponsorship packages and goal, attendance scenarios, and a government support letter."
+  confidence: observed
+  status: active
+  disposition: "placed: bid-and-selection#case-notes"
+  locator: Whole document
+- ledger_id: L-3112
+  topic: programme-portfolio
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: "The Brasília bid gave four reasons for running the Plone Conference side by side with PythonBrasil: introduce Plone to a broader audience, lower operating costs for both events, offer better sponsorship packages, and double the fun. It followed a 2011 regional Plone symposium held together with PythonBrasil."
+  confidence: observed
+  status: active
+  disposition: "placed: programme-portfolio#case-notes"
+  locator: Why Brazil
+- ledger_id: L-3113
+  topic: sponsors
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid offered bundled sponsorship packages for both conferences, to attract existing PythonBrasil sponsors that did not usually sponsor Plone events.
+  confidence: observed
+  status: active
+  disposition: "placed: sponsors#case-notes"
+  locator: Sponsoring
+- ledger_id: L-3114
+  topic: requirements-register
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: Because registration was planned to be free, the Brasília bid offered the Plone Foundation a fixed payment instead of the usual 15 percent share of registration fees.
+  confidence: observed
+  status: active
+  disposition: "placed: requirements-register"
+  locator: Plone Foundation; Registration
+- ledger_id: L-3115
+  topic: finance
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid pledged all conference profit to the Brazilian Python association for Python and Plone outreach in Brazil.
+  confidence: observed
+  status: superseded
+  disposition: "dropped: superseded by the published outcome, in which the surplus was split between the Plone Foundation and the association"
+  locator: Plone Foundation
+  by: L-3098
+- ledger_id: L-3116
+  topic: legal-entity-and-financial-agent
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The volunteer community group PloneGov-BR had no legal entity of its own; the national Python association, a nonprofit, provided financial and legal support in Brazil.
+  confidence: observed
+  status: active
+  disposition: "placed: legal-entity-and-financial-agent#case-notes"
+  locator: PloneGov-BR; APyB
+- ledger_id: L-3117
+  topic: finance
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid modeled results for 400 to 600 attendees. With free registration and fixed sponsorship income, the projected surplus shrank as attendance rose, because every extra attendee only added per-person cost.
+  confidence: observed
+  status: active
+  disposition: "placed: finance#case-notes"
+  locator: Conference P&L scenarios
+- ledger_id: L-3118
+  topic: budget-sheet-template
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid budget separated fixed costs (venue, keynote, network, office supplies, AV, video, translation, signage, transport, Foundation fee) from per-person costs (badge, t-shirt, bag, gift, food).
+  confidence: observed
+  status: active
+  disposition: "placed: budget-sheet-template"
+  locator: Estimated budget
+- ledger_id: L-3119
+  topic: sponsors
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid expected some government sponsors to pay in services rather than cash, which lowers real sponsorship income but also offsets expenses and taxes.
+  confidence: observed
+  status: active
+  disposition: "placed: sponsors#case-notes"
+  locator: Conference P&L scenarios
+- ledger_id: L-3120
+  topic: accessibility-and-inclusion
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: Most local developers were not fluent in English, so the bid planned a Portuguese-speaking assistant in every English-language training, one Portuguese-only track, and one English track with translation into Portuguese.
+  confidence: observed
+  status: active
+  disposition: "placed: accessibility-and-inclusion#case-notes"
+  locator: Conference talks; Training; Students
+- ledger_id: L-3121
+  topic: visas-and-travel
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid listed which nationalities needed a visa for Brazil and promised invitation letters to anyone who needed one for a visa application.
+  confidence: observed
+  status: active
+  disposition: "placed: visas-and-travel#case-notes"
+  locator: Visa
+- ledger_id: L-3122
+  topic: hotels-and-local-logistics
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid advised flying to a major Brazilian hub and connecting domestically, and listed hotels in four price tiers with distance to the venue and reference rates; the venue was in walking distance of the two main hotel clusters.
+  confidence: observed
+  status: active
+  disposition: "placed: hotels-and-local-logistics#case-notes"
+  locator: Travel; Hotels
+- ledger_id: L-3123
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The organizers planned to attend other conferences and sprints during the year to publicize the event and look for sponsors, and to reuse the established conference domain and social account as previous hosts had.
+  confidence: observed
+  status: active
+  disposition: "placed: marketing-and-outreach#case-notes"
+  locator: Marketing; Public Relations
+- ledger_id: L-3124
+  topic: marketing-and-outreach
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: In the months before the conference the organizers planned talks at local universities and other organizations to get students involved.
+  confidence: observed
+  status: active
+  disposition: "placed: marketing-and-outreach#case-notes"
+  locator: Students
+- ledger_id: L-3125
+  topic: social-events-and-party
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: An early-birds' dinner the evening before training gave people arriving early a first social occasion.
+  confidence: observed
+  status: active
+  disposition: "placed: social-events-and-party#case-notes"
+  locator: Schedule
+- ledger_id: L-3126
+  topic: programme-portfolio
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid committed to balancing open spaces with traditional talks and to giving lightning talks generous time, as low-barrier ways for people to get involved.
+  confidence: observed
+  status: active
+  disposition: "placed: programme-portfolio#case-notes"
+  locator: Open Spaces; Lightning Talks
+- ledger_id: L-3127
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S094
+  text_kind: paraphrase
+  quote_or_paraphrase: The bid promised free registration, covering talks, goodie bag, lunch and coffee and the sprint, as the counterpart of a partnership with the Federal District government; party, training and the beach sprint were to be charged separately.
+  confidence: observed
+  status: superseded
+  disposition: "dropped: superseded by the 2013 record, which reports that the free-registration agreement could not be kept"
+  locator: Registration
+  by: L-3094
+- ledger_id: L-3128
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S040
+  text_kind: paraphrase
+  quote_or_paraphrase: The official announcement stated that, thanks to the sponsors, registration was free and included all talks, lunch, coffee breaks and a bag of giveaways.
+  confidence: observed
+  status: superseded
+  disposition: "dropped: superseded by the 2013 record, which reports that registration was charged at a symbolic fee"
+  locator: What is included
+  by: L-3094
+- ledger_id: L-3129
+  topic: programme-portfolio
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S040
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2013 program included a Show Me How session where attendees brought their Plone problems and experts demonstrated solutions.
+  confidence: observed
+  status: active
+  disposition: "placed: programme-portfolio#case-notes"
+  locator: Program
+- ledger_id: L-3130
+  topic: sprints
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S040
+  text_kind: paraphrase
+  quote_or_paraphrase: The 2013 hosts aimed for record sprint attendance from both veterans and beginners, with special teams to help newcomers to sprinting feel at home.
+  confidence: observed
+  status: active
+  disposition: "placed: sprints#case-notes"
+  locator: Sprints
+- ledger_id: L-3131
+  topic: ticketing-and-registration
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S042
+  text_kind: paraphrase
+  quote_or_paraphrase: One registration was valid for both events, the Plone Conference and PythonBrasil.
+  confidence: observed
+  status: active
+  disposition: "placed: ticketing-and-registration#case-notes"
+  locator: Registration
+- ledger_id: L-3132
+  topic: print-and-merch
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S042
+  text_kind: paraphrase
+  quote_or_paraphrase: Every 2013 attendee received a kit with a shirt, a tote bag and other items, including cloud-service credit donated by a sponsor.
+  confidence: observed
+  status: active
+  disposition: "placed: print-and-merch#case-notes"
+  locator: Event summary
+- ledger_id: L-3133
+  topic: sprints
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S042
+  text_kind: paraphrase
+  quote_or_paraphrase: Less than three weeks before the event, the news item placed the sprint at a government legislative-support agency's headquarters.
+  confidence: observed
+  status: superseded
+  disposition: "dropped: superseded by the 2013 record, which places the sprint at a trade-union headquarters"
+  locator: Event summary
+  by: L-3107
+- ledger_id: L-3134
+  topic: conference-data-table
+  scope: specific
+  year: 2013
+  place: Brasília
+  org: PloneGov-BR and APyB
+  source_id: S039
+  text_kind: paraphrase
+  quote_or_paraphrase: "The lead organizer's 2014 slides give final participation: 16 trainings with 131 trainees, 584 people at the conference and job fair, 115 at the Brasília sprint and 32 at the beach sprint. The 2013 record gives about 150 trainees; prefer the counted 131."
+  confidence: observed
+  status: active
+  disposition: "placed: conference-data-table"
+  locator: Slides 15-16

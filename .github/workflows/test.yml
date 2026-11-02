@@ -1,0 +1,46 @@
+name: Test handbook
+
+on: [push, pull_request]
+jobs:
+  test:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -q -r requirements-initial.txt
+          pip install -q -r requirements.txt
+
+      - name: Build HTML
+        run: make html SPHINXOPTS="-W --keep-going"
+
+      - name: Run Vale
+        run: |
+          venv/bin/vale sync || vale sync
+          VALEFILES=$(find -L ./docs/ -type d -path "./docs/spec" -prune -false -o -type f -name "*.md" -print)
+          vale --no-exit $VALEFILES
+
+      - name: Check for broken links
+        run: make linkcheck
+
+      # Content gates G3-G11 (scripts/lint/, tests/). They run even when the link check
+      # fails, so a pull request sees every gate result at once. G11 reads _build/html
+      # from the "Build HTML" step; make html created venv/.
+      - name: Install test dependencies
+        if: ${{ !cancelled() }}
+        run: venv/bin/pip install -q -r requirements-test.txt
+
+      - name: Run content gates (pytest)
+        if: ${{ !cancelled() }}
+        run: venv/bin/python -m pytest
+
+      - name: Freshness report (G10, report-only)
+        if: ${{ !cancelled() }}
+        run: venv/bin/python scripts/lint/g10_freshness.py

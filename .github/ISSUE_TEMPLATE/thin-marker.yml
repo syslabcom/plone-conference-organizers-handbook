@@ -1,0 +1,68 @@
+name: Thin marker
+description: Report a gap, a single-source claim or stale content that the handbook does not yet mark.
+title: "Thin: "
+labels: ["thin", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A thin marker says in public where the handbook is weak.
+        It helps readers calibrate trust and helps contributors find where to help.
+        The list of markers is on the handbook page "About the thin registry".
+  - type: input
+    id: page
+    attributes:
+      label: Page id
+      description: The id of the page where the weak spot is.
+      placeholder: venue
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      description: Gap means no evidence was located. Single-source means one source or one conference supports the content. Stale means the evidence is old or outdated.
+      options:
+        - gap
+        - single-source
+        - stale
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: One of the ten predicted thin areas, or other.
+      options:
+        - other
+        - hybrid-online
+        - accessibility
+        - non-eu-legal-tax-visa
+        - sponsorship-down-market
+        - pricing-elasticity
+        - small-budget
+        - health-safety
+        - sustainability
+        - jurisdiction-annexes
+        - post-mortem-2026
+    validations:
+      required: true
+  - type: textarea
+    id: needs
+    attributes:
+      label: What would close the gap
+      description: One sentence naming the evidence or contribution that is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who might know
+      description: Roles, groups or public organizations. Never a private person's name or contact.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What you noticed
+      description: Say why you think the spot is thin. Link a source if you have one.

@@ -1,0 +1,4 @@
+allow:
+  - match: conf@plone.org
+    paths: ["docs/notes/*.md"]
+    reason: Public Conference Committee role address.

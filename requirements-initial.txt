@@ -1,0 +1,5 @@
+# requirements-initial.txt
+# Same pins as plone/documentation branch 6.0, minus pins for removed features.
+pip==26.2.1
+setuptools==81.0.0
+wheel==0.47.0

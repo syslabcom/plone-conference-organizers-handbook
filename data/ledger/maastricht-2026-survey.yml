@@ -1,0 +1,780 @@
+# T7f: Plone Conference 2026 attendee-survey analysis, extracted into the ledger.
+# Source: S110 = data/sources/internal-2026/survey-analysis.md (copy of
+#   aftermath/survey/ANALYSIS.md in syslabcom/ploneconference; anonymized, R1-R21).
+# The raw form submissions are private and were not read, copied or quoted.
+#
+# GROUP EXTENSION: docs/spec/ledger-schema.md defines groups 7a-7e only.
+# This file extends the scheme with group 7f, ID range L-6000 to L-6999,
+# for the 2026 attendee survey. Spec section 1 (group table), LD01 and the
+# GROUP_RANGES table in scripts/lint/g7_ledger.py must be extended in the
+# integration pass before gate G7 accepts this file.
+#
+# Confidence mapping:
+#   observed - survey method run by the organizing team, form properties,
+#              aggregate ratings and counts from the scripted extraction.
+#   reported - single- or few-respondent free text, and the analysis's
+#              "Interpretation" section (the analyst's own reading; locators
+#              name it as such).
+# All rows are paraphrases. Respondent R-numbers are anonymous and are not
+# needed by any row; none is mapped to a person.
+# The raw ticket total is generalized ("about one in five ticket holders").
+group: 7f
+rows:
+  # ---------------------------------------------------------------- method
+  - ledger_id: L-6001
+    topic: survey-template
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The attendee survey can run as a simple web form on the community site whose submissions arrive as individual emails. That is enough to collect structured ratings and free text, but it leaves every submission as a private message that must be extracted before analysis.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Header bullets (Source, Method); Appendix — method, reproducibility, privacy"
+
+  - ledger_id: L-6002
+    topic: defining-success
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Expect a post-conference survey to reach roughly one in five ticket holders; in 2026 it drew 21 responses over about three weeks. Plan the success metrics so that a response rate of that size can still answer them.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#how-to"
+    locator: "Header bullet: Response rate; ticket total generalized"
+
+  - ledger_id: L-6003
+    topic: survey-template
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Extract every submission into structured data with a deterministic script and compute all ratings and counts with a second script. Every number in the published analysis is then reproducible from the raw submissions, and a reviewer can rerun it instead of trusting a hand tally.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Header bullet: Method; Appendix — Reproduction (method scripts not copied, see S110 manifest note)"
+
+  - ledger_id: L-6004
+    topic: handover-contract
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Hand over the survey as an anonymized analysis with respondents numbered rather than named, while the raw submissions stay private, excluded from version control and never committed. Quoted free text can still re-identify respondents to insiders, so no sanitized raw dataset is published either.
+    confidence: observed
+    status: active
+    disposition: "placed: handover-contract#how-to"
+    locator: "Opening paragraph; Appendix — Raw data and Reproduction"
+
+  - ledger_id: L-6005
+    topic: defining-success
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Review your own reading of the survey adversarially before publishing it. Three red-team rounds found that the first draft's value-for-money and party-rating interpretations were contradicted by the data, and corrected several counts and attributions.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#how-to"
+    locator: "Appendix — last bullet (red-team review rounds)"
+
+  - ledger_id: L-6006
+    topic: survey-template
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Before interpreting a missing answer, check whether the form's skip logic ever showed the question to that respondent. In 2026 a question census confirmed that low answer counts on several questions were properties of the form, not extraction errors.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Appendix — Skip patterns bullet (question census)"
+
+  - ledger_id: L-6007
+    topic: defining-success
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 respondents skewed toward insiders. Of the 11 who answered the relationship-to-Plone question, 10 were already active in the community, and 14 of 20 had employer-paid tickets. The results are the voice of the engaged community, not of the new audiences the conference tried to reach.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Header bullet: Sample caveat"
+
+  # ---------------------------------------------------------- form redesign
+  - ledger_id: L-6008
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 form's free-text fields were too small to write in comfortably; a respondent reported this inside one of the answers.
+    confidence: reported
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Interpretation, point 7 (analyst's reading)"
+
+  - ledger_id: L-6009
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 form had no general open comment field at the end, so anything outside the fixed questions had nowhere to go.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Interpretation, point 7 (analyst's reading)"
+
+  - ledger_id: L-6010
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Because of the form's skip logic, the relationship-to-Plone question reached only 11 of 21 respondents, and 9 of those 11 were Business Track attendees. The one question that could profile the audience did not cover half the sample.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Header bullet: Sample caveat; Appendix — Skip patterns"
+
+  - ledger_id: L-6011
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 form asked for a value-for-money rating but had no direct question about price perception, so low value scores could not be explained.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Findings: Value for money; Interpretation, points 5 and 7 (analyst's reading)"
+
+  - ledger_id: L-6012
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 form did not ask what nearly stopped the respondent from coming, which left barriers to attendance unmeasured.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Interpretation, point 7 (analyst's reading)"
+
+  - ledger_id: L-6013
+    topic: survey-template
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 survey went only to attendees; no short version reached community members who did not attend.
+    confidence: observed
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Interpretation, points 1 and 7 (analyst's reading)"
+
+  - ledger_id: L-6014
+    topic: survey-template
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Design the survey to hear the people you failed to reach, not only the people who came. An attendee-only survey is a community pulse, not a market signal; add a non-attendee version and a question about what nearly stopped people from coming.
+    confidence: reported
+    status: active
+    disposition: "placed: survey-template"
+    locator: "Interpretation, points 1 and 7 (analyst's reading)"
+
+  # --------------------------------------------------------------- findings
+  - ledger_id: L-6015
+    topic: defining-success
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The overall rating averaged 4.57 of 5, with 15 of 21 respondents giving the top score. Across the whole dataset only two ratings fell below 3.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Ratings at a glance"
+
+  - ledger_id: L-6016
+    topic: catering
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Food and catering was the best-rated area at 4.81 of 5 on 21 ratings, with no rating below 4. The catering was part of the hotel venue.
+    confidence: observed
+    status: active
+    disposition: "placed: catering#case-notes"
+    locator: "Ratings at a glance; Findings: The venue bet worked"
+
+  - ledger_id: L-6017
+    topic: catering
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: One respondent called it the best catering of any Plone Conference they had attended; another praised the on-site lunches and the choices for dietary restrictions.
+    confidence: reported
+    status: active
+    disposition: "placed: catering#case-notes"
+    locator: "Findings: The venue bet worked (first paragraph)"
+
+  - ledger_id: L-6018
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Organizing and logistics averaged 4.62 of 5, with fourteen top scores and a single 3 among 21 ratings.
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Ratings at a glance; Findings: Organisation and accessibility landed"
+
+  - ledger_id: L-6019
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent's keep-doing item was organizer approachability, noting that the organizers were only an email away.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: "Findings: Organisation and accessibility landed"
+
+  - ledger_id: L-6020
+    topic: trainings
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Seventeen respondents attended trainings and 13 rated them, averaging 4.31 with eight top scores. The same ratings hold the only 1 in the entire dataset.
+    confidence: observed
+    status: active
+    disposition: "placed: trainings#case-notes"
+    locator: "Ratings at a glance; Findings: Trainings — high average, one sharp failure"
+
+  - ledger_id: L-6021
+    topic: trainings
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: One attendee expected hands-on work in the trainings, reported learning nothing, and listed stopping trainings that do not actually train as their stop-doing item. No respondent defended specific sessions in return.
+    confidence: reported
+    status: active
+    disposition: "placed: trainings#case-notes"
+    locator: "Findings: Trainings — high average, one sharp failure"
+
+  - ledger_id: L-6022
+    topic: trainings
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The analyst proposes a quality floor for trainings as a simple trainer contract — hands-on exercises, stated prerequisites and stated outcomes. One respondent is not a trend, but the fix costs little and none of the 13 training ratings contradicts it.
+    confidence: reported
+    status: active
+    disposition: "placed: trainings#decisions-you-must-make"
+    locator: "Interpretation, point 4 (analyst's reading)"
+
+  - ledger_id: L-6023
+    topic: community-and-speaker-expectations
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Attendees expect a training to train. The 2026 survey suggests stating that expectation to trainers up front as hands-on exercises, prerequisites and outcomes, rather than leaving it implicit; see the trainings quality-floor row L-6022.
+    confidence: reported
+    status: active
+    disposition: "placed: community-and-speaker-expectations#case-notes"
+    locator: "Interpretation, point 4 (analyst's reading); cross-link to L-6022"
+
+  - ledger_id: L-6024
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The Business Track averaged 4.12 of 5 on only 8 ratings. All 9 respondents who attended it want it back in 2027, and 5 of them prefer a format shorter than a full day.
+    confidence: observed
+    status: active
+    disposition: "placed: business-and-side-tracks#case-notes"
+    locator: "Ratings at a glance; Findings: Business Track"
+
+  - ledger_id: L-6025
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Seven of the nine Business Track attendees in the survey earn their living providing Plone services, and six came because they were attending the conference anyway. The survey-visible audience was mostly providers talking to providers, on a track designed to reach customers; seniority was not measured.
+    confidence: observed
+    status: active
+    disposition: "placed: business-and-side-tracks#case-notes"
+    locator: "Findings: Business Track (second paragraph)"
+
+  - ledger_id: L-6026
+    topic: business-and-side-tracks
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: In the analyst's reading, the track produced provider confidence rather than demonstrated market access. The recommendation is to keep it, shorten it, and judge the 2027 edition by an observable metric — registrations from outside the community — rather than by stated intent.
+    confidence: reported
+    status: active
+    disposition: "placed: business-and-side-tracks#case-notes"
+    locator: "Interpretation, point 2 (analyst's reading)"
+
+  - ledger_id: L-6027
+    topic: scheduling
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Speakers could not attend roundtables and panel discussions because those overlapped with other slots, including on the Business Track. Two respondents raised this independently, and fixing the overlap leads the consolidated start list.
+    confidence: reported
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Findings: Business Track (second paragraph); Consolidated start / keep / stop"
+
+  - ledger_id: L-6028
+    topic: social-events-and-party
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Party and socializing averaged 4.11 of 5 on 19 ratings, joint-lowest with the Business Track. Evidence on why is thin and mixed, and because the party was off-site the survey cannot separate venue effects from the evening itself.
+    confidence: observed
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Ratings at a glance; Findings: The venue bet worked (third paragraph)"
+
+  - ledger_id: L-6029
+    topic: venue
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The hotel-integrated venue was the strongest free-text theme, with eleven respondents writing about it. Most praised having sessions, rooms and catering in one building, citing saved time, being better rested and a concentrated community bubble.
+    confidence: reported
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Findings: The venue bet worked (first paragraph); Interpretation, point 3"
+
+  - ledger_id: L-6030
+    topic: venue
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: One respondent compared the venue favorably with earlier Plone Conference venues on Wi-Fi, room temperature and seating.
+    confidence: reported
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Findings: The venue bet worked (first paragraph)"
+
+  - ledger_id: L-6031
+    topic: hotels-and-local-logistics
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Only 5 of 20 respondents stayed at the venue hotel, and all five would stay there again. Several named the hotel price as high, and one stayed elsewhere because of it.
+    confidence: observed
+    status: active
+    disposition: "placed: hotels-and-local-logistics#case-notes"
+    locator: "Findings: The venue bet worked (second paragraph); Appendix — Skip patterns (hotel follow-up)"
+
+  - ledger_id: L-6032
+    topic: venue
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The cost of the venue bet was social rather than operational. The venue sat far from the town center and other hotels, and for the two respondents who wrote about it this made socializing after the conference harder; one found the center equally easy to reach.
+    confidence: reported
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Findings: The venue bet worked (second paragraph)"
+
+  - ledger_id: L-6033
+    topic: venue
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The analyst's recommendation for the next edition is to pick a venue reachable from where people actually sleep and to treat evening programming as an organized deliverable rather than a self-organizing afterthought.
+    confidence: reported
+    status: active
+    disposition: "placed: venue#case-notes"
+    locator: "Interpretation, point 3 (analyst's reading)"
+
+  - ledger_id: L-6034
+    topic: social-events-and-party
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Three respondents independently asked for engineered evenings — organized dinners on training and sprint days, a suggested area for each evening, and planned social activities with a restaurant list. The analyst calls this the cheapest large satisfaction gain available.
+    confidence: reported
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Findings: Small operational wishes; Interpretation, point 3 (analyst's reading)"
+
+  - ledger_id: L-6035
+    topic: social-events-and-party
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The 2026 request for engineered evenings converges with Seattle 2006, whose organizers recommended at least one structured evening and whose attendees valued daily neighborhood and restaurant suggestions (L-1109, L-1112). Recorded as an independent convergence, not merged.
+    confidence: reported
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Interpretation, point 3 (analyst's reading); cross-note to L-1109 and L-1112"
+
+  - ledger_id: L-6036
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Value for money averaged 4.30 on 20 ratings, with four 3s that carry no stated reason. The three self-paid respondents were at least as satisfied as average, hotel-cost critics still rated value highly, and nobody mentioned the ticket price.
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Ratings at a glance; Findings: Value for money"
+
+  - ledger_id: L-6037
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The analyst first read the low value scores as venue-cost driven, and the data contradicted it. Price perception is a blind spot, not a confirmed problem; ask about it directly in the next survey instead of guessing.
+    confidence: reported
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Interpretation, point 5 (analyst's reading)"
+
+  - ledger_id: L-6038
+    topic: programme-portfolio
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Of 18 respondents profiling why they attend, 9 come technology-first but appreciate context and business talks, 6 come equally for both, 2 want deep technical content only and 1 came mainly for business and strategy.
+    confidence: observed
+    status: active
+    disposition: "placed: programme-portfolio#case-notes"
+    locator: "Findings: Content balance"
+
+  - ledger_id: L-6039
+    topic: keynotes-and-invited-talks
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: The content mix drew an unresolved disagreement. One respondent asked to keep mind-broadening keynotes, another to stop keynotes unrelated to IT, and a third to stop talks involving AI; the majority profile wants the mix.
+    confidence: reported
+    status: active
+    disposition: "placed: keynotes-and-invited-talks#case-notes"
+    locator: "Findings: Content balance; Interpretation, point 6"
+
+  - ledger_id: L-6040
+    topic: programme-portfolio
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Opinion, not a data finding — the analyst recommends keeping the broadening keynotes and practical AI content, making the technical core unmistakably strong, and treating AI as one topic among many rather than the conference's identity.
+    confidence: reported
+    status: active
+    disposition: "placed: programme-portfolio#case-notes"
+    locator: "Interpretation, point 6, last sentences (explicitly the analyst's opinion)"
+
+  - ledger_id: L-6041
+    topic: defining-success
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Asked about attending the 2027 conference in Bucharest, 16 respondents said yes, 2 perhaps and 3 probably not.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Ratings at a glance (paragraph below the table)"
+
+  - ledger_id: L-6042
+    topic: defining-success
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Return intent is survivor-biased. The three respondents who skipped the why-attend profile are exactly the three probably-nots for 2027, and one of them rated the conference 5 overall, so intent measures more than satisfaction and the happiest-looking profile excludes those drifting away.
+    confidence: reported
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: "Interpretation, point 6 (analyst's reading)"
+
+  - ledger_id: L-6043
+    topic: print-and-merch
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Two respondents independently asked for badges printed on both sides instead of one.
+    confidence: reported
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Findings: Small operational wishes; Consolidated stop list"
+
+  - ledger_id: L-6044
+    topic: speakers-and-speaker-care
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked for speaker introductions that include some background, not just a name.
+    confidence: reported
+    status: active
+    disposition: "placed: speakers-and-speaker-care#how-to"
+    locator: "Findings: Small operational wishes"
+
+  - ledger_id: L-6045
+    topic: speakers-and-speaker-care
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked for a feedback form for each talk, so speakers get feedback on their own session.
+    confidence: reported
+    status: active
+    disposition: "placed: speakers-and-speaker-care#how-to"
+    locator: "Findings: Small operational wishes"
+
+  - ledger_id: L-6046
+    topic: scheduling
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked for 3-minute lightning talks instead of 5. This converges with the Arnhem 2012 advice that lightning talks work better at 3 to 4 minutes (L-2099).
+    confidence: reported
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Findings: Small operational wishes; cross-note to L-2099"
+
+  - ledger_id: L-6047
+    topic: scheduling
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: Respondents' keep-doing list included the two-room parallel structure, the pace, the open spaces and the buffers between talks.
+    confidence: reported
+    status: active
+    disposition: "placed: scheduling#case-notes"
+    locator: "Consolidated start / keep / stop — Keep"
+
+  - ledger_id: L-6048
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked that the next edition open its website, advertising and ticket sales earlier.
+    confidence: reported
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: "Findings: Small operational wishes"
+
+  - ledger_id: L-6049
+    topic: social-events-and-party
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked specifically for organized evening socializing on the training and sprint days, which sit outside the main conference evenings and the party.
+    confidence: reported
+    status: active
+    disposition: "placed: social-events-and-party#case-notes"
+    locator: "Findings: Small operational wishes; Consolidated start list"
+
+  - ledger_id: L-6050
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked to invite students and younger developers to the training days. This corroborates the planned 2026 university and audience outreach that was dropped before execution (L-5036, L-5037).
+    confidence: reported
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: "Findings: Small operational wishes; cross-note to L-5036 and L-5037"
+
+  - ledger_id: L-6051
+    topic: print-and-merch
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent asked for t-shirts with less conspicuous lettering and a more artistic design that gets worn for years, naming the Seattle and Budapest shirts as the ones they wore most. Belongs in the 2027 print brief.
+    confidence: reported
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Findings: T-shirts drew two specific criticisms"
+
+  - ledger_id: L-6052
+    topic: print-and-merch
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: A respondent listed female-cut t-shirts under stop-doing; the analysis records no reason. The 2027 print brief should weigh this single request against offering more than one fit.
+    confidence: reported
+    status: active
+    disposition: "placed: print-and-merch#case-notes"
+    locator: "Findings: T-shirts drew two specific criticisms; Consolidated stop list"
+
+  - ledger_id: L-6053
+    topic: programme-portfolio
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: One respondent suggested a co-located PyCon day as a start item.
+    confidence: reported
+    status: active
+    disposition: "placed: programme-portfolio#case-notes"
+    locator: "Consolidated start / keep / stop — Start (one vote)"
+
+  - ledger_id: L-6054
+    topic: sprints
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S110
+    text_kind: paraphrase
+    quote_or_paraphrase: One respondent's stop-doing item was spreading developer efforts.
+    confidence: reported
+    status: active
+    disposition: "dropped: too vague to act on; the analysis records a single unexplained stop item without context"
+    locator: "Consolidated start / keep / stop — Stop"

@@ -1,0 +1,669 @@
+# Plone Conference Organizers Handbook: master chapter list.
+#
+# Machine-readable source of truth for every page the handbook will contain.
+# Specified in docs/spec/README.md; schema in docs/spec/chapter-template.md ("Master chapter list").
+# Source: section 4.1 of the handbook plan.
+#
+# Entry keys (all required):
+#   id          unique slug, lowercase letters, digits and hyphens; used in anchors, ledger dispositions, scenarios
+#   title       human title; sentence case
+#   part        "0".."5" or "appendices"
+#   workstream  grouping slug (a Part 2 group, or the part's own slug for other parts)
+#   kind        chapter | page | playbook | annex | appendix | generated
+#   path        repo-relative path of the Markdown file, always under docs/
+#   status      planned | written
+# A planned entry is an expected failure (xfail strict) in the chapter contract test.
+# The commit that writes the page flips status to written and removes the xfail in the same commit.
+
+entries:
+  - id: about
+    title: "About and purpose"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/about.md
+    status: written
+  - id: problem-history
+    title: "The problem history"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/problem-history.md
+    status: written
+  - id: honesty-statement
+    title: "Honesty statement"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/honesty-statement.md
+    status: written
+  - id: choose-your-path
+    title: "Choose your path"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/choose-your-path.md
+    status: written
+  - id: how-to-read-lessons
+    title: "How to read lessons"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/how-to-read-lessons.md
+    status: written
+  - id: context-dimensions
+    title: "Context dimensions"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/context-dimensions.md
+    status: written
+  - id: use
+    title: "Use: your first 90 days"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/use.md
+    status: written
+  - id: tailor
+    title: "Tailor"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/tailor.md
+    status: written
+  - id: license-and-contribute
+    title: "License and contribute"
+    part: "0"
+    workstream: start-here
+    kind: page
+    path: docs/start/license-and-contribute.md
+    status: written
+  - id: coverage-map
+    title: "Coverage map"
+    part: "0"
+    workstream: start-here
+    kind: generated
+    path: docs/generated/coverage-map.md
+    status: written
+  - id: decision-register
+    title: "Decision register"
+    part: "0"
+    workstream: start-here
+    kind: generated
+    path: docs/generated/decision-register.md
+    status: written
+  - id: stakeholder-map
+    title: "Stakeholder map"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/stakeholder-map.md
+    status: written
+  - id: bid-and-selection
+    title: "Bid and selection"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/bid-and-selection.md
+    status: written
+  - id: defining-success
+    title: "Defining success"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/defining-success.md
+    status: written
+  - id: community-and-speaker-expectations
+    title: "Community and speaker expectations"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/community-and-speaker-expectations.md
+    status: written
+  - id: team-and-governance
+    title: "Team and governance"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/team-and-governance.md
+    status: written
+  - id: master-timeline
+    title: "Master timeline"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/master-timeline.md
+    status: written
+  - id: handover-contract
+    title: "Handover contract"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/handover-contract.md
+    status: written
+  - id: legal-entity-and-financial-agent
+    title: "Legal entity and financial agent"
+    part: "1"
+    workstream: organizers-job
+    kind: chapter
+    path: docs/job/legal-entity-and-financial-agent.md
+    status: written
+  - id: finance
+    title: "Finance"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/money-and-law/finance.md
+    status: written
+  - id: sponsors
+    title: "Sponsors"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/money-and-law/sponsors.md
+    status: written
+  - id: ticketing-and-registration
+    title: "Ticketing and registration"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/money-and-law/ticketing-and-registration.md
+    status: written
+  - id: contracts-legal-insurance
+    title: "Contracts, legal and insurance"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/money-and-law/contracts-legal-insurance.md
+    status: written
+  - id: privacy-gdpr
+    title: "Privacy and GDPR"
+    part: "2"
+    workstream: money-and-law
+    kind: chapter
+    path: docs/workstreams/money-and-law/privacy-gdpr.md
+    status: written
+  - id: programme-portfolio
+    title: "Programme portfolio"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/programme-portfolio.md
+    status: written
+  - id: cfp-and-selection
+    title: "CFP and selection"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/cfp-and-selection.md
+    status: written
+  - id: scheduling
+    title: "Scheduling"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/scheduling.md
+    status: written
+  - id: keynotes-and-invited-talks
+    title: "Keynotes and invited talks"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/keynotes-and-invited-talks.md
+    status: written
+  - id: speakers-and-speaker-care
+    title: "Speakers and speaker care"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/speakers-and-speaker-care.md
+    status: written
+  - id: trainings
+    title: "Trainings"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/trainings.md
+    status: written
+  - id: business-and-side-tracks
+    title: "Business and side tracks"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/business-and-side-tracks.md
+    status: written
+  - id: sprints
+    title: "Sprints"
+    part: "2"
+    workstream: programme
+    kind: chapter
+    path: docs/workstreams/programme/sprints.md
+    status: written
+  - id: volunteers-and-roles
+    title: "Volunteers and roles"
+    part: "2"
+    workstream: people
+    kind: chapter
+    path: docs/workstreams/people/volunteers-and-roles.md
+    status: written
+  - id: code-of-conduct-operations
+    title: "Code of Conduct operations"
+    part: "2"
+    workstream: people
+    kind: chapter
+    path: docs/workstreams/people/code-of-conduct-operations.md
+    status: written
+  - id: accessibility-and-inclusion
+    title: "Accessibility and inclusion"
+    part: "2"
+    workstream: people
+    kind: chapter
+    path: docs/workstreams/people/accessibility-and-inclusion.md
+    status: written
+  - id: health-safety-emergencies
+    title: "Health, safety and emergencies"
+    part: "2"
+    workstream: people
+    kind: chapter
+    path: docs/workstreams/people/health-safety-emergencies.md
+    status: written
+  - id: visas-and-travel
+    title: "Visas and travel"
+    part: "2"
+    workstream: people
+    kind: chapter
+    path: docs/workstreams/people/visas-and-travel.md
+    status: written
+  - id: marketing-and-outreach
+    title: "Marketing and outreach"
+    part: "2"
+    workstream: marketing
+    kind: chapter
+    path: docs/workstreams/marketing/marketing-and-outreach.md
+    status: written
+  - id: web-comms-brand
+    title: "Web, comms and brand"
+    part: "2"
+    workstream: marketing
+    kind: chapter
+    path: docs/workstreams/marketing/web-comms-brand.md
+    status: written
+  - id: venue
+    title: "Venue"
+    part: "2"
+    workstream: venue-and-logistics
+    kind: chapter
+    path: docs/workstreams/venue-and-logistics/venue.md
+    status: written
+  - id: catering
+    title: "Catering"
+    part: "2"
+    workstream: venue-and-logistics
+    kind: chapter
+    path: docs/workstreams/venue-and-logistics/catering.md
+    status: written
+  - id: hotels-and-local-logistics
+    title: "Hotels and local logistics"
+    part: "2"
+    workstream: venue-and-logistics
+    kind: chapter
+    path: docs/workstreams/venue-and-logistics/hotels-and-local-logistics.md
+    status: written
+  - id: city-selection
+    title: "City selection"
+    part: "2"
+    workstream: venue-and-logistics
+    kind: chapter
+    path: docs/workstreams/venue-and-logistics/city-selection.md
+    status: written
+  - id: av-recording-internet
+    title: "AV, recording and internet"
+    part: "2"
+    workstream: on-site-production
+    kind: chapter
+    path: docs/workstreams/on-site-production/av-recording-internet.md
+    status: written
+  - id: print-and-merch
+    title: "Print and merch"
+    part: "2"
+    workstream: on-site-production
+    kind: chapter
+    path: docs/workstreams/on-site-production/print-and-merch.md
+    status: written
+  - id: signage-and-showtime
+    title: "Signage and showtime"
+    part: "2"
+    workstream: on-site-production
+    kind: chapter
+    path: docs/workstreams/on-site-production/signage-and-showtime.md
+    status: written
+  - id: social-events-and-party
+    title: "Social events and party"
+    part: "2"
+    workstream: social
+    kind: chapter
+    path: docs/workstreams/social/social-events-and-party.md
+    status: written
+  - id: hybrid-online
+    title: "Hybrid and online"
+    part: "2"
+    workstream: formats-and-values
+    kind: chapter
+    path: docs/workstreams/formats-and-values/hybrid-online.md
+    status: written
+  - id: sustainability
+    title: "Sustainability"
+    part: "2"
+    workstream: formats-and-values
+    kind: chapter
+    path: docs/workstreams/formats-and-values/sustainability.md
+    status: written
+  - id: risk-method
+    title: "The risk register method"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: page
+    path: docs/risk/risk-method.md
+    status: written
+  - id: cross-cutting-risks
+    title: "Cross-cutting risks"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: page
+    path: docs/risk/cross-cutting-risks.md
+    status: written
+  - id: wifi-failure
+    title: "Playbook: Wi-Fi failure"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/wifi-failure.md
+    status: written
+  - id: cash-flow-crunch
+    title: "Playbook: cash-flow crunch"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/cash-flow-crunch.md
+    status: written
+  - id: low-ticket-sales
+    title: "Playbook: low ticket sales"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/low-ticket-sales.md
+    status: written
+  - id: speaker-dropout
+    title: "Playbook: speaker dropout"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/speaker-dropout.md
+    status: written
+  - id: venue-loss
+    title: "Playbook: venue loss"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/venue-loss.md
+    status: written
+  - id: force-majeure
+    title: "Playbook: force majeure"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/force-majeure.md
+    status: written
+  - id: coc-incident
+    title: "Playbook: Code of Conduct incident"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/coc-incident.md
+    status: written
+  - id: key-person-loss
+    title: "Playbook: key-person loss"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: playbook
+    path: docs/risk/playbooks/key-person-loss.md
+    status: written
+  - id: risk-register
+    title: "Risk register"
+    part: "3"
+    workstream: risk-and-incidents
+    kind: generated
+    path: docs/generated/risk-register.md
+    status: written
+  - id: governance
+    title: "Governance"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/governance.md
+    status: written
+  - id: annual-ritual
+    title: "The annual ritual"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/annual-ritual.md
+    status: written
+  - id: update
+    title: "Update"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/update.md
+    status: written
+  - id: extend
+    title: "Extend"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/extend.md
+    status: written
+  - id: lesson-authoring-rules
+    title: "Lesson authoring rules"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/lesson-authoring-rules.md
+    status: written
+  - id: thin-registry-about
+    title: "About the thin registry"
+    part: "4"
+    workstream: running-the-handbook
+    kind: page
+    path: docs/running/thin-registry-about.md
+    status: written
+  - id: thin-registry
+    title: "Thin registry"
+    part: "4"
+    workstream: running-the-handbook
+    kind: generated
+    path: docs/generated/thin-registry.md
+    status: written
+  - id: conference-data-table
+    title: "Conference data table"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: page
+    path: docs/evidence/conference-data-table.md
+    status: written
+  - id: cost-benchmarks
+    title: "Dated cost benchmarks"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: page
+    path: docs/evidence/cost-benchmarks.md
+    status: written
+  - id: requirements-register
+    title: "Foundation requirements register"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: page
+    path: docs/evidence/requirements-register.md
+    status: written
+  - id: conference-index
+    title: "Conference index"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: generated
+    path: docs/evidence/conference-index.md
+    status: written
+  - id: source-bibliography
+    title: "Source bibliography"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: generated
+    path: docs/evidence/source-bibliography.md
+    status: written
+  - id: lessons-ledger
+    title: "Lessons ledger"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: generated
+    path: docs/evidence/lessons-ledger.md
+    status: written
+  - id: lesson-index
+    title: "Lesson index"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: generated
+    path: docs/generated/lesson-index.md
+    status: written
+  - id: conference-2026-maastricht
+    title: "Plone Conference 2026, Maastricht: case file"
+    part: "5"
+    workstream: evidence-and-archive
+    kind: page
+    path: docs/conferences/2026-maastricht/conference-2026-maastricht.md
+    status: written
+  - id: budget-sheet-template
+    title: "Template: budget sheet"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/budget-sheet-template.md
+    status: written
+  - id: cfp-template
+    title: "Template: call for proposals"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/cfp-template.md
+    status: written
+  - id: survey-template
+    title: "Template: attendee survey"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/survey-template.md
+    status: written
+  - id: post-mortem-template
+    title: "Template: post-mortem"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/post-mortem-template.md
+    status: written
+  - id: sponsor-prospectus-template
+    title: "Template: sponsor prospectus"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/sponsor-prospectus-template.md
+    status: written
+  - id: role-descriptions-template
+    title: "Template: role descriptions"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/role-descriptions-template.md
+    status: written
+  - id: tailoring-record-template
+    title: "Template: Tailoring Record"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/tailoring-record-template.md
+    status: written
+  - id: hledger-accounting-setup
+    title: "Template: hledger accounting setup"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/hledger-accounting-setup.md
+    status: written
+  - id: ticket-purchase-prediction-model
+    title: "Ticket-purchase prediction model"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/ticket-purchase-prediction-model.md
+    status: written
+  - id: global-south-grant-argumentation
+    title: "Global south grant argumentation"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/global-south-grant-argumentation.md
+    status: written
+  - id: t-minus-checklist
+    title: "T-minus checklist"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/t-minus-checklist.md
+    status: written
+  - id: seattle-2006-digest
+    title: "Annotated Seattle 2006 digest"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/seattle-2006-digest.md
+    status: written
+  - id: glossary
+    title: "Glossary"
+    part: "appendices"
+    workstream: appendices
+    kind: appendix
+    path: docs/appendices/glossary.md
+    status: written
+  - id: annex-nl
+    title: "Annex: Netherlands"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/jurisdictions/nl.md
+    status: written
+  - id: annex-de
+    title: "Annex: Germany"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/jurisdictions/de.md
+    status: written
+  - id: annex-us
+    title: "Annex: United States"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/jurisdictions/us.md
+    status: written
+  - id: annex-br
+    title: "Annex: Brazil"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/jurisdictions/br.md
+    status: written
+  - id: annex-small-budget
+    title: "Annex: small-budget variant"
+    part: "appendices"
+    workstream: annexes
+    kind: annex
+    path: docs/annexes/variants/small-budget.md
+    status: written

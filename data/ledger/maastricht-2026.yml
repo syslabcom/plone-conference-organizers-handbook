@@ -1,0 +1,1096 @@
+# T7e: generalized extraction through D7; internal source registry is adjacent.
+# INT-## to S### mapping (INT IDs are superseded; see internal-sources-2026.md for provenance):
+#   INT-01 -> S098
+#   INT-02 -> S099
+#   INT-03 -> S100
+#   INT-04 -> S101
+#   INT-05 -> S102
+#   INT-06 -> S103
+#   INT-07 -> S104
+#   INT-08 -> S105
+#   INT-09 -> S106
+#   INT-10 -> S107
+#   INT-11 -> S108
+#   INT-12 -> S109
+# General is the source's claimed scope, not proof of handbook promotion.
+# Verification gaps are qualified in text/locator; they do not create policy.
+group: 7e
+rows:
+  - ledger_id: L-5000
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Resolve the applicable VAT regime before setting ticket prices, especially when the organizer and event are in different countries. Have a qualified tax adviser verify place-of-supply and refund rules before publishing guidance.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#decisions-you-must-make"
+    locator: F1; decision framing only, exact tax rules remain unverified
+
+  - ledger_id: L-5001
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Cross-border VAT questions became a major organizing challenge in Maastricht. Buyer support required published refund instructions during the ticket campaign.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: F1; issue 65; experience does not establish a general tax rule
+
+  - ledger_id: L-5002
+    topic: ticketing-and-registration
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Compare ticket-selling entities using the final price paid by participants who cannot recover VAT. The debrief's reported university exemption and Foundation ticket-selling assumptions require jurisdiction-specific confirmation through the existing requirements register.
+    confidence: reported
+    status: active
+    disposition: "placed: ticketing-and-registration#decisions-you-must-make"
+    locator: F2; R35 and R36 in S106 retain the unresolved candidates; no exemption asserted
+
+  - ledger_id: L-5003
+    topic: ticketing-and-registration
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Include an explicitly funded reduced-price route for Global South participation when designing ticket tiers. A global community's pricing needs an access budget.
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#principles-and-general-lessons"
+    locator: F3; general principle stated by the debrief
+
+  - ledger_id: L-5004
+    topic: accessibility-and-inclusion
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Maastricht introduced Global South pricing and pursued dedicated grant support for it. The pricing initiative and the funding application were separate tasks.
+    confidence: observed
+    status: active
+    disposition: "placed: accessibility-and-inclusion#case-notes"
+    locator: F3; issues 85 and 87; no recipient or ticket-user data extracted
+
+  - ledger_id: L-5005
+    topic: global-south-grant-argumentation
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The debrief identified the EuroPython ticket-access application as reusable grant argumentation but had not located its text. Issue 87 supplies the application trail; the final countdown plan records that the application was abandoned after no response.
+    confidence: observed
+    status: active
+    disposition: "placed: global-south-grant-argumentation"
+    locator: F4; application located in S109; outcome corroborated by S100, Decisions that changed the plan
+
+  - ledger_id: L-5006
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Keep unconfirmed grant applications outside committed income. An unanswered request cannot fund contractual obligations.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#risks"
+    locator: F5; funding risk; R37 in S106 separately retains the seed-finance question
+
+  - ledger_id: L-5007
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: A community grant request remained open without a recorded response after the event. Its presence in the tracker did not establish available funding.
+    confidence: reported
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: Cluster B, issue 83; F5 in S098; no requested amount or funding terms reproduced
+
+  - ledger_id: L-5008
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Plan cash flow for a community that purchases tickets late. Use sales evidence to distinguish normal purchasing behavior from a revenue shortfall before increasing commitments.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#principles-and-general-lessons"
+    locator: F6; source claims multi-year observation; promotion still requires independent conference evidence
+
+  - ledger_id: L-5009
+    topic: low-ticket-sales
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Assess a low-sales warning against the expected late-purchase pattern and a dated forecast. Organizer anxiety alone is insufficient evidence of a demand collapse.
+    confidence: observed
+    status: active
+    disposition: "placed: low-ticket-sales#triggers"
+    locator: F6 with F14; playbook trigger framing, distinct from the cash-flow planning lesson
+
+  - ledger_id: L-5010
+    topic: defining-success
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Define attendance goals using separate estimates for the established community and additional local audiences. Attendance added by a partner event or reduced local tickets does not establish the recurring community's size.
+    confidence: observed
+    status: active
+    disposition: "placed: defining-success#principles-and-general-lessons"
+    locator: F7; general planning principle; per-edition totals need independent verification
+
+  - ledger_id: L-5011
+    topic: defining-success
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The debrief described the recurring in-person community as roughly a hundred people and potentially shrinking. This is an approximate planning hypothesis awaiting comparable per-edition evidence.
+    confidence: hearsay
+    status: active
+    disposition: "placed: defining-success#case-notes"
+    locator: F7; needs verification; generalized scale only, no ticket-export totals
+
+  - ledger_id: L-5012
+    topic: conference-data-table
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The debrief attributed additional audiences at earlier editions to a joint Python event and reduced-price local attendance. Comparable conference records need to distinguish these routes before treating total attendance as community growth.
+    confidence: hearsay
+    status: active
+    disposition: "placed: conference-data-table"
+    locator: F7; 2025 joint-event and 2023 local-ticket claims need verification; year identifies the debrief evidence
+
+  - ledger_id: L-5013
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Use a plain-text budget and import rules to keep the forecast aligned with actual transactions throughout the campaign. Treat accounting as a maintained operating instrument.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#principles-and-general-lessons"
+    locator: F8; generalized accounting pattern
+
+  - ledger_id: L-5014
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S104
+    text_kind: paraphrase
+    quote_or_paraphrase: Maastricht paired a periodic-transaction hledger budget with a shadow double-entry ledger independent of the parent company's accounts. The setup supported budget-to-actual comparison and accountant-facing VAT reporting.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: Two coupled needs; F8 implementation evidence; no journals or source transactions copied
+
+  - ledger_id: L-5015
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Publish accounting patterns as sanitized templates with synthetic examples. Rewrite private design rationale and adapt platform, bank, and jurisdiction rules before reuse.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#how-to"
+    locator: F8 caveats; generic template target hledger-accounting-setup; private design document not accessed
+
+  - ledger_id: L-5016
+    topic: ticketing-and-registration
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Include ticket-platform fees when comparing registration systems and payment methods. Evaluate their effect on net revenue before selecting the platform.
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#decisions-you-must-make"
+    locator: F9; general platform decision framing
+
+  - ledger_id: L-5017
+    topic: ticketing-and-registration
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: "The debrief identified the ticket platform's fee as a material cost. Verified by the organizer on 2026-11-02: the conference paid 2.89 EUR per ticket that was paid via Stripe."
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#case-notes"
+    locator: F9; needs verification; no public tariff fetched and no private fee amount extracted
+
+  - ledger_id: L-5018
+    topic: ticketing-and-registration
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Consider self-hosted pretix with invoice or bank-transfer payment for a community-centered event. Compare operating effort and payment accessibility before assuming the lower-fee approach is suitable.
+    confidence: observed
+    status: active
+    disposition: "placed: ticketing-and-registration#decisions-you-must-make"
+    locator: F9; proposed alternative, not an evaluated deployment
+
+  - ledger_id: L-5019
+    topic: community-and-speaker-expectations
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Document community and speaker expectations at the beginning of planning. Unwritten assumptions can create obligations that first-time organizers have never budgeted for.
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#principles-and-general-lessons"
+    locator: F10; expectations framing, not Foundation policy
+
+  - ledger_id: L-5020
+    topic: community-and-speaker-expectations
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The debrief identifies conference-funded trainer accommodation on site or nearby as an implicit expectation and the largest financial risk. Establish the accommodation commitment before confirming the training offer.
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#risks"
+    locator: F10, trainer hotel rooms; risk ranking is the debrief's judgment, not a cross-conference cost benchmark
+
+  - ledger_id: L-5021
+    topic: community-and-speaker-expectations
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Confirm trainer compensation explicitly, including how commitments relate to training length. The debrief describes compensation as unregulated and costs as arising regardless of session duration.
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#decisions-you-must-make"
+    locator: F10, compensation; unregulated describes the reported organizing practice, not employment or tax law
+
+  - ledger_id: L-5022
+    topic: community-and-speaker-expectations
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Treat the party as a valued community choice whose scope the organizers decide. The debrief describes no entitlement to a party.
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#decisions-you-must-make"
+    locator: F10, party; no venue, contract, or guest details retained
+
+  - ledger_id: L-5023
+    topic: community-and-speaker-expectations
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Include expected speaker discounts in the pricing model from the start. A contributor-heavy audience can make the discounted tier a substantial share of registrations.
+    confidence: observed
+    status: active
+    disposition: "placed: community-and-speaker-expectations#principles-and-general-lessons"
+    locator: F10, speaker discounts; financial model input, no individual ticket terms
+
+  - ledger_id: L-5024
+    topic: community-and-speaker-expectations
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The debrief estimated that speakers formed a large minority of participants. The ratio needs verification before use as a numerical pricing assumption.
+    confidence: hearsay
+    status: active
+    disposition: "placed: community-and-speaker-expectations#case-notes"
+    locator: F10; needs verification; percentage generalized and ticket exports not accessed
+
+  - ledger_id: L-5025
+    topic: av-recording-internet
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Give session recording its own workstream and accountable owner. Its community value does not reduce the effort required to record and publish sessions.
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#principles-and-general-lessons"
+    locator: F11; issues 10 and 28 remained open despite recordings being made
+
+  - ledger_id: L-5026
+    topic: scheduling
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S106
+    text_kind: paraphrase
+    quote_or_paraphrase: Resolve the annual meeting's duration and remote-access expectations through the existing Foundation confirmation process before freezing the schedule. The requirements register retains the debrief candidate without verifying it as a binding rule.
+    confidence: reported
+    status: active
+    disposition: "placed: scheduling#decisions-you-must-make"
+    locator: R34, based on F12 in S098; pointer only, no duplicate duration or streaming requirement
+
+  - ledger_id: L-5027
+    topic: av-recording-internet
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: The Maastricht debrief described PeerTube as working well for live access by people outside the venue. It supplies a tooling case note rather than a tested setup recipe.
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#case-notes"
+    locator: F13; no operational configuration or audience data extracted
+
+  - ledger_id: L-5028
+    topic: hybrid-online
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Decide explicitly how streaming supports remote access and might affect in-person participation. The debrief raises attendance substitution as a possibility; it supplies no measured causal effect.
+    confidence: hearsay
+    status: active
+    disposition: "placed: hybrid-online#decisions-you-must-make"
+    locator: F13; possible substitution needs verification; do not infer that streaming reduces sales
+
+  - ledger_id: L-5029
+    topic: ticket-purchase-prediction-model
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Preserve ticket-purchase prediction research as a rerunnable method with synthetic inputs. Future organizers should supply their own protected sales data.
+    confidence: observed
+    status: active
+    disposition: "placed: ticket-purchase-prediction-model"
+    locator: F14; publish methodology only; actuals and personal ticket data excluded
+
+  - ledger_id: L-5030
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Maastricht produced attendance-prediction research intended to support decisions during late sales. A reusable version needs a separate, sanitized model description before publication.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: F14; implementation located as S108; neither dataset contents nor final ticket totals retained
+
+  - ledger_id: L-5031
+    topic: team-and-governance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S098
+    text_kind: paraphrase
+    quote_or_paraphrase: Keep all conference work visible on one issue board. A partial board cannot serve as the team's operational source of truth.
+    confidence: observed
+    status: active
+    disposition: "placed: team-and-governance#principles-and-general-lessons"
+    locator: F15; board completeness precondition; closure and gates extracted separately from S099
+
+  - ledger_id: L-5032
+    topic: team-and-governance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Close completed work as it happens and triage the queue weekly through the final planning phase. Reserve capacity for tracker maintenance when on-site preparation accelerates.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#how-to"
+    locator: L1, Cluster A; recommendation from a retrospective tracker analysis
+
+  - ledger_id: L-5033
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Completed on-site work remained recorded as open after Maastricht. Issue state therefore could not distinguish unfinished work from missing closure.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: L1, Cluster A; includes recording issues 10 and 28
+
+  - ledger_id: L-5034
+    topic: contracts-legal-insurance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: The review identifies the venue-insurance due-diligence task as never completed. Keeping a legal-risk issue open did not provide a decision gate before the event.
+    confidence: reported
+    status: active
+    disposition: "placed: contracts-legal-insurance#case-notes"
+    locator: L2, Cluster B, issue 22; requirement authority remains in the requirements register
+
+  - ledger_id: L-5035
+    topic: accessibility-and-inclusion
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: The venue-accessibility coordination task was dropped and the planned website accessibility information was not produced. The review identifies a delivery gap, without establishing the venue's actual accessibility.
+    confidence: reported
+    status: active
+    disposition: "placed: accessibility-and-inclusion#case-notes"
+    locator: L2, Cluster B, issue 23; no unsupported claim of legal noncompliance
+
+  - ledger_id: L-5036
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Planned university outreach for local audience development was never executed. Its anticipated audience contribution therefore remained unsupported.
+    confidence: reported
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: L2, Cluster B, issues 14 and 66; F7 in S098; institutions and contact routes omitted
+
+  - ledger_id: L-5037
+    topic: marketing-and-outreach
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: A decision-maker research program reached written scripts but was not executed. Preparing interview and survey materials did not demonstrate audience validation.
+    confidence: reported
+    status: active
+    disposition: "placed: marketing-and-outreach#case-notes"
+    locator: L2, Cluster B; research cluster 42–52, specifically 42, 48, 50, 51, 52
+
+  - ledger_id: L-5038
+    topic: team-and-governance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Track required checks as explicit completion gates. Give optional local activation and research an owner and a drop-by date in the Tailoring Record so capacity decisions remain visible.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#how-to"
+    locator: L2; a review recommendation, not authority to label an item MUST without a verified requirement
+
+  - ledger_id: L-5039
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: The proposed docToolchain documentation effort never started. A folder of Markdown files became the working organizing archive instead.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: L2, Cluster B, issue 17
+
+  - ledger_id: L-5040
+    topic: update
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Match documentation maintenance to the team's daily working habits. Tooling ambitions that exceed available capacity can prevent the handover record from being written.
+    confidence: reported
+    status: active
+    disposition: "placed: update"
+    locator: Cluster B, issue 17, and Handbook mapping; general tooling lesson
+
+  - ledger_id: L-5041
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: The team abandoned maintenance of the epic layer while continuing work in small focused issues. The hierarchy added a coordination layer that this team did not sustain.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#case-notes"
+    locator: L3, Cluster C; no reliance on the review's inconsistent epic count
+
+  - ledger_id: L-5042
+    topic: team-and-governance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: For a small organizing team, consider a flat task list with clear titles and regular triage. Add hierarchy only when the team can maintain it.
+    confidence: reported
+    status: active
+    disposition: "placed: team-and-governance#decisions-you-must-make"
+    locator: L3; context-dependent recommendation from one conference
+
+  - ledger_id: L-5043
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: "The shared-budget and invoicing-setup issues closed shortly before the conference. Correction by the organizer on 2026-11-02: budgeting and accounting were in place earlier; the issues were simply closed late, and closure dates misled the first pass of the review. Closure dates alone cannot establish when work happened."
+    confidence: reported
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: L4, Cluster D, issues 19 and 21; closed 2026-09-10, eleven days before the event; F8 timing caveat
+
+  - ledger_id: L-5044
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Establish shared budgeting and accounting when ticket sales begin. Late financial tooling leaves earlier commitments without a maintained budget-to-actual view.
+    confidence: reported
+    status: active
+    disposition: "placed: finance#how-to"
+    locator: L4; operational timing recommendation, distinct from the accounting architecture
+
+  - ledger_id: L-5045
+    topic: web-comms-brand
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: A critical schedule-search defect was reported the day before the conference. Search did not find speaker names or provide day filtering, leaving discovery of a core attendee task until the final preparation window.
+    confidence: reported
+    status: active
+    disposition: "placed: web-comms-brand#case-notes"
+    locator: L4, Cluster D, issue 111; filed 2026-09-20; no speaker names extracted
+
+  - ledger_id: L-5046
+    topic: web-comms-brand
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S099
+    text_kind: paraphrase
+    quote_or_paraphrase: Put a website quality-assurance gate several weeks before the event. Test core attendee tasks while time remains to fix defects.
+    confidence: reported
+    status: active
+    disposition: "placed: web-comms-brand#how-to"
+    locator: L4; freeze-date pattern drawn from S100
+
+  - ledger_id: L-5047
+    topic: master-timeline
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S100
+    text_kind: paraphrase
+    quote_or_paraphrase: Use separate program, headcount, and print-and-order freezes before the final operational rehearsal. Tie each freeze to downstream commitments so late changes have a visible cost and owner.
+    confidence: observed
+    status: active
+    disposition: "placed: master-timeline#how-to"
+    locator: Opening status and weekly gate; historical freezes 2026-09-04, 2026-09-07, 2026-09-11; relative timing requires local adaptation
+
+  - ledger_id: L-5048
+    topic: signage-and-showtime
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S100
+    text_kind: paraphrase
+    quote_or_paraphrase: Run a short daily operations meeting and an end-of-day readiness check. Confirm the next roster and verify that recordings and catering updates have reached their owners.
+    confidence: observed
+    status: active
+    disposition: "placed: signage-and-showtime#how-to"
+    locator: Conference week; documented operating method, not proof every check occurred
+
+  - ledger_id: L-5049
+    topic: av-recording-internet
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S100
+    text_kind: paraphrase
+    quote_or_paraphrase: Rehearse recording with the actual hardware through capture and playback before setup day. Document file destinations and the upload handoff as part of operational readiness.
+    confidence: observed
+    status: active
+    disposition: "placed: av-recording-internet#how-to"
+    locator: Final-week AV test and recording-workflow checklist; planned controls, completion not inferred
+
+  - ledger_id: L-5050
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Write day-in-the-life role narratives and review them alongside adjacent roles. This makes handoffs and unowned tasks visible before people arrive on site.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#how-to"
+    locator: Opening role-map method; role assignments and personal names omitted
+
+  - ledger_id: L-5051
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Separate the responsible manager's coordination work from routine helper execution. A room-wide lead needs enough free attention to handle gaps across the operation.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#principles-and-general-lessons"
+    locator: These names are responsibles, not workers
+
+  - ledger_id: L-5052
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Rotate helper shifts so volunteers can attend the conference they helped support. Where technical continuity requires stable operators, agree on that exception explicitly.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#how-to"
+    locator: Half-day shifts, rotated; no individual volunteer arrangements retained
+
+  - ledger_id: L-5053
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Confirm each helper assignment directly before the next day's shift. A published roster alone does not demonstrate that a person has accepted the handoff.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#how-to"
+    locator: Confirmed by name the evening before; no actual roster copied
+
+  - ledger_id: L-5054
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Check the combined workload when one person owns daytime operations and a late social event. Delegate a complete operational responsibility to a deputy where recovery time would otherwise disappear.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#risks"
+    locator: One thing this roster still does not solve; concentration risk generalized without identities or working hours
+
+  - ledger_id: L-5055
+    topic: volunteers-and-roles
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S101
+    text_kind: paraphrase
+    quote_or_paraphrase: Assign the smaller operational mandates as well as the major management roles. Include venue liaison, materials, on-site money, newcomer welcome, and post-event wrap-up in the responsibility map.
+    confidence: observed
+    status: active
+    disposition: "placed: volunteers-and-roles#how-to"
+    locator: Mandates that need a named owner but not a full role; no commercial deliverables or contact details copied
+
+  - ledger_id: L-5056
+    topic: marketing-and-outreach
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S102
+    text_kind: paraphrase
+    quote_or_paraphrase: Use permission-first outreach and record objections or suppression in the operating tracker. Public availability of a contact route does not itself establish permission to send a campaign.
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#how-to"
+    locator: Boundaries; generalized consent method only, jurisdiction exceptions need legal review
+
+  - ledger_id: L-5057
+    topic: marketing-and-outreach
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S102
+    text_kind: paraphrase
+    quote_or_paraphrase: Verify an organization's current work and contact route before preparing one relevant offer and one request. Recheck the matching program and ticket facts before sharing follow-up material.
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#how-to"
+    locator: The process, steps 2–7; no outreach targets or organization-specific records extracted
+
+  - ledger_id: L-5058
+    topic: marketing-and-outreach
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S103
+    text_kind: paraphrase
+    quote_or_paraphrase: Treat introductions, forwarding, and access to another organization's audience as separate permissions. A relationship or directory entry grants none of them automatically.
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#principles-and-general-lessons"
+    locator: Non-negotiable boundary; no member lists, personal routes, or implied endorsements retained
+
+  - ledger_id: L-5059
+    topic: marketing-and-outreach
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S102
+    text_kind: paraphrase
+    quote_or_paraphrase: Maintain one authoritative outreach dataset and regenerate operator views from it. Record the result and next action there after each permitted contact.
+    confidence: observed
+    status: active
+    disposition: "placed: marketing-and-outreach#how-to"
+    locator: Opening source-of-truth rule and step 8; dataset itself not accessed or copied
+
+  - ledger_id: L-5060
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S105
+    text_kind: paraphrase
+    quote_or_paraphrase: Make repeated cumulative imports idempotent and synchronize import state with the ledger. Reconcile balances after each import cycle.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#how-to"
+    locator: Regular import cycle; pattern only, no exports, cursors, account balances, or transaction identifiers copied
+
+  - ledger_id: L-5061
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S105
+    text_kind: paraphrase
+    quote_or_paraphrase: Include contracted but uninvoiced obligations in a separate management view of committed spend. Keep that report-only overlay distinct from statutory balances and VAT reports.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#how-to"
+    locator: Reports, committed-spend overlay; no contract amounts or supplier details retained
+
+  - ledger_id: L-5062
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S105
+    text_kind: paraphrase
+    quote_or_paraphrase: Test the assumptions behind a committed-spend overlay. If other postings break the equivalence between the tracked commitment account and its reserve, retire or redesign the overlay before relying on its totals.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#risks"
+    locator: Reports, overlay validity and smoke-test warning; no specific account values extracted
+
+  - ledger_id: L-5063
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S105
+    text_kind: paraphrase
+    quote_or_paraphrase: The accounting runbook automated ticket-platform and payment-provider imports while retaining assisted bank entry and manual refund handling. Reuse requires identifying those manual boundaries rather than assuming every transaction is imported automatically.
+    confidence: observed
+    status: active
+    disposition: "placed: finance#case-notes"
+    locator: Regular import cycle, bank step, and Manual entries; F8 adaptation caveat; private design document not accessed
+
+  - ledger_id: L-5064
+    topic: web-comms-brand
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S107
+    text_kind: paraphrase
+    quote_or_paraphrase: Keep each email campaign's MJML source, generated HTML, and matching plain-text fallback together. Recompile after source changes instead of editing generated HTML.
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#how-to"
+    locator: Layout and Create a new email; pattern only, no recipient data extracted
+
+  - ledger_id: L-5065
+    topic: web-comms-brand
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S107
+    text_kind: paraphrase
+    quote_or_paraphrase: Preview campaigns with a credential-free dry run and supply sending credentials through the environment. A real send should fail clearly when required credentials are absent.
+    confidence: observed
+    status: active
+    disposition: "placed: web-comms-brand#how-to"
+    locator: Send an email and SMTP credentials; no mailbox, endpoint, credential example, or recipient copied
+
+  - ledger_id: L-5066
+    topic: ticket-purchase-prediction-model
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S108
+    text_kind: paraphrase
+    quote_or_paraphrase: The forecast implementation separates daytime attendance from other ticket categories and compares scenario estimates using sales velocity and reviewed judgment inputs. Its embedded edition-specific configuration and identity-bearing output require replacement before publication as a reusable model.
+    confidence: observed
+    status: active
+    disposition: "placed: ticket-purchase-prediction-model"
+    locator: F14 implementation located; module description, load_tickets, and scenario calculation; no execution or data extraction
+
+  - ledger_id: L-5067
+    topic: global-south-grant-argumentation
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S109
+    text_kind: paraphrase
+    quote_or_paraphrase: The grant application made participation access its central purpose and explained the subsidy per place so funders could see the effect of partial funding. This argument structure can be reused with synthetic economics and each event's own eligibility policy.
+    confidence: observed
+    status: active
+    disposition: "placed: global-south-grant-argumentation"
+    locator: Issue 87, updated application comment dated 2026-07-02, section 3; all real amounts, headcounts, contacts, and funding terms withheld
+
+  - ledger_id: L-5068
+    topic: global-south-grant-argumentation
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S109
+    text_kind: paraphrase
+    quote_or_paraphrase: The application described eligibility and independent review before allocating access support. A reusable template should expose selection and disagreement handling without reproducing applicant records or assuming another body's agreement to adjudicate.
+    confidence: observed
+    status: active
+    disposition: "placed: global-south-grant-argumentation"
+    locator: Issue 87, updated application comment dated 2026-07-02, eligibility and fair scoring; proposed process only, implementation not verified
+
+  # L-5069 to L-5076: organizer corrections and additions to the case file, 2026-11-02 (S111).
+  - ledger_id: L-5069
+    topic: web-comms-brand
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: Reuse of the conference website tooling and of content that recurs every edition can be increased. Dependency on external deployments was a factor in delays.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, L4 addition
+
+  - ledger_id: L-5070
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: Many participants and sponsors decide on their attendance only weeks or days before the conference. This is a major source of planning risk, because it also gates the production of material.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, planning-risk addition
+
+  - ledger_id: L-5071
+    topic: finance
+    scope: general
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: Knowing whether the budget holds gates a chain of decisions, such as how much money is available to cross-finance global south tickets, what extra equipment can be hired, and which keynote speakers can be afforded.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, budget-certainty addition
+
+  - ledger_id: L-5072
+    topic: av-recording-internet
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: Recording equipment was purchased for the conference and is likely not being reused afterwards.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, F11 addition
+
+  - ledger_id: L-5073
+    topic: team-and-governance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: Started initiatives such as university outreach, decision-maker research and contact to local industry drowned in a large number of surprises that a manual like this handbook could have prevented. The improvisation the surprises forced made planning obsolete.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, framing addition
+
+  - ledger_id: L-5074
+    topic: finance
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: The consequences of organizing a conference in another country were underestimated, and unexpected tax issues cost a lot of time.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, F1 strengthening
+
+  - ledger_id: L-5075
+    topic: community-and-speaker-expectations
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: The conference website listed 56 presenters against 117 tickets, about 48 percent, counted on 2026-11-02. Speakers forming roughly half of attendees confirms the large-minority shape that pricing must assume.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, F10 verification
+
+  - ledger_id: L-5076
+    topic: scheduling
+    scope: specific
+    year: 2026
+    place: Maastricht
+    org: Plone Conference 2026 organizing team
+    source_id: S111
+    text_kind: paraphrase
+    quote_or_paraphrase: The organizer confirmed on 2026-11-02 that the Foundation annual meeting needed more than a 25-minute slot and should be streamed. The general rule still awaits Foundation confirmation as register row R-034.
+    confidence: observed
+    status: active
+    disposition: "placed: conference-2026-maastricht"
+    locator: Organizer corrections 2026-11-02, F12 confirmation
